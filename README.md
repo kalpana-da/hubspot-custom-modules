@@ -1,5 +1,4 @@
-# hubspot-custom-modules
-Custom HubSpot CMS modules built with HubL, HTML, CSS, and dynamic fields, including Hero Banner and Team Members modules.
+
 # HubSpot Custom Modules
 
 A collection of custom HubSpot CMS modules built using HubL, HTML, CSS, and HubSpot CMS best practices. These modules were developed as part of hands-on learning and demonstrate reusable, responsive, and editor-friendly components.
