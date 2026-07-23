@@ -4,20 +4,14 @@
 A collection of custom HubSpot CMS modules built using HubL, HTML, CSS, and HubSpot CMS best practices. These modules were developed as part of hands-on learning and demonstrate reusable, responsive, and editor-friendly components.
 
 HubSpot Custom Modules
-A collection of reusable HubSpot CMS custom modules built with
-HubL, HTML5, and CSS3.
 These modules were developed while learning HubSpot CMS and demonstrate
 best practices for creating responsive, reusable, and editor-friendly
 components.
 
 ---
-
 🚀 Modules Included
-
 ---
-
 Module                Description                    Status
-
 ---
 
 Hero Banner Module    Responsive hero section with   ✅ Complete
