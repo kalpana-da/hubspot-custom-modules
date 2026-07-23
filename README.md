@@ -45,14 +45,15 @@ hubspot-custom-modules/
 ```
 ---
 
-📚 Skills Demonstrated
-Custom HubSpot Module Development
-HubL Templating
-Repeater Fields
-Dynamic Content
-Responsive Layouts
-Image Optimization using `resize_image_url()`
-Clean Module Structure
+## 📚 Skills Demonstrated
+
+- Custom HubSpot Module Development
+- HubL Templating
+- Repeater Fields
+- Dynamic Content
+- Responsive Layouts
+- Image Optimization using `resize_image_url()`
+- Clean Module Structure
 
 ---
 
