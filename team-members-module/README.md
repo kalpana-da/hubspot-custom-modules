@@ -160,4 +160,4 @@ This module is suitable for:
 
 ---
 
-## ⭐ If you found this project helpful, consider giving it a star on GitHub!
+
