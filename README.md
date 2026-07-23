@@ -11,10 +11,13 @@ best practices for creating responsive, reusable, and editor-friendly
 components.
 
 ---
+
 🚀 Modules Included
+
 ---
 
 Module                Description                    Status
+
 ---
 
 Hero Banner Module    Responsive hero section with   ✅ Complete
@@ -23,6 +26,7 @@ Team Members Module   Dynamic team section using     ✅ Complete
 HubSpot Repeater Fields
 
 ---
+
 🛠 Technologies Used
 HubSpot CMS
 HubL
@@ -50,6 +54,7 @@ hubspot-custom-modules/
     └── fields.json
 ```
 ---
+
 📚 Skills Demonstrated
 Custom HubSpot Module Development
 HubL Templating
@@ -58,6 +63,7 @@ Dynamic Content
 Responsive Layouts
 Image Optimization using `resize_image_url()`
 Clean Module Structure
+
 ---
 
 👩‍💻 Author
