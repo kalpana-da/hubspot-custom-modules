@@ -4,26 +4,25 @@
 A collection of custom HubSpot CMS modules built using HubL, HTML, CSS, and HubSpot CMS best practices. These modules were developed as part of hands-on learning and demonstrate reusable, responsive, and editor-friendly components.
 
 ---
-🚀 Modules Included
----
-Module                Description                    Status
----
 
-Hero Banner Module    Responsive hero section with   ✅ Complete
+## 🚀 Modules Included
 
-CTA and image support
-Team Members Module   Dynamic team section using     ✅ Complete
-
-HubSpot Repeater Fields  ✅ Complete
+| Module | Description | Status |
+|---------|-------------|--------|
+| Hero Banner Module | Responsive hero section with CTA and image support | ✅ Complete |
+| Team Members Module | Dynamic team section using HubSpot Repeater Fields | ✅ Complete |
 
 ---
 
-🛠 Technologies Used
-HubSpot CMS
-HubL
-HTML5
-CSS3
-Responsive Design
+## 🛠 Technologies Used
+
+- HubSpot CMS
+- HubL
+- HTML5
+- CSS3
+- Responsive Design
+
+---
 
 ---
 📂 Repository Structure
