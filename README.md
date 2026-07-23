@@ -13,12 +13,15 @@ components.
 ---
 🚀 Modules Included
 ---
+
 Module                Description                    Status
 ---
+
 Hero Banner Module    Responsive hero section with   ✅ Complete
 CTA and image support
 Team Members Module   Dynamic team section using     ✅ Complete
 HubSpot Repeater Fields
+
 ---
 🛠 Technologies Used
 HubSpot CMS
@@ -26,6 +29,7 @@ HubL
 HTML5
 CSS3
 Responsive Design
+
 ---
 📂 Repository Structure
 ``` text
