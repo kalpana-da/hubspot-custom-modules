@@ -1,0 +1,23 @@
+{% require_css %}
+<style>
+{% scope_css %}
+.hero-banner{display:flex;align-items:center;gap:40px;padding:60px 20px}
+.hero-content{flex:1}.hero-image{flex:1;text-align:center}
+.hero-image img{max-width:100%;height:auto}
+.hero-btn{display:inline-block;padding:12px 24px;text-decoration:none;border-radius:6px}
+@media(max-width:768px){.hero-banner{flex-direction:column;text-align:center}}
+{% end_scope_css %}
+</style>
+{% end_require_css %}
+<section class="hero-banner">
+<div class="hero-content">
+<h1>{{ module.heading }}</h1>
+<div>{{ module.description }}</div>
+<a class="hero-btn" href="{{ module.button_link.url.href }}" style="background:{{ module.button_color.color }};color:#fff">{{ module.button_text }}</a>
+</div>
+<div class="hero-image">
+{% if module.image.src %}
+<img src="{{ resize_image_url(module.image.src,700,500) }}" alt="{{ module.image.alt }}">
+{% endif %}
+</div>
+</section>

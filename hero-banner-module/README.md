@@ -1,27 +1,12 @@
 # Hero Banner Module
 
-A custom Hero Banner module built for HubSpot CMS using HubL.
+Custom HubSpot CMS Hero Banner module built with HubL.
 
 ## Features
-
-- Editable Heading
-- Editable Description
-- CTA Button
-- Responsive Design
-- Image Upload
-- Dynamic Style Fields
-- Optimized Images using `resize_image_url()`
-
-## Technologies
-
-- HubSpot CMS
-- HubL
-- HTML5
-- CSS3
-
-## Skills Demonstrated
-
-- Custom Module Development
-- Dynamic Fields
-- Responsive Design
-- HubL Templating
+- Editable heading
+- Rich text description
+- CTA button
+- Image field
+- Responsive layout
+- Uses resize_image_url()
+- Uses require_css and scope_css
