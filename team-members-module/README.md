@@ -1,30 +1,33 @@
 # Team Members Module
 
-A reusable **Team Members Module** built for **HubSpot CMS** using **HubL, HTML5, and CSS3**. This module allows content editors to easily add and manage unlimited team members using a **Repeater Field**, making it ideal for About Us, Leadership, and Team pages.
+A reusable **Team Members Module** built for **HubSpot CMS** using **HubL, HTML5, and CSS3**.
+
+This module allows content editors to add and manage unlimited team members using a **Repeater Field**, making it ideal for About Us, Leadership, and Company Team pages.
 
 ---
 
 ## 📸 Preview
 
+> Add a screenshot here after uploading your module preview.
+
 ![Team Members Preview](team_members_preview.png)
 
 ---
 
-# ✨ Features
+## ✨ Features
 
 - Responsive Team Members Grid
 - Repeater Field for Unlimited Team Members
 - Team Member Photo
 - Name
 - Designation
-- Description
-- Responsive Card Layout
-- Beginner Friendly
+- Rich Text Description
+- Mobile Responsive
 - Easy to Customize
 
 ---
 
-# 📂 Folder Structure
+## 📂 Folder Structure
 
 ```text
 team-members-module/
@@ -32,36 +35,40 @@ team-members-module/
 ├── README.md
 ├── module.html
 ├── module.css
-├── fields.json
-└── team_members_preview.png
+└── fields.json
 ```
 
+### File Description
+
+| File | Description |
+|------|-------------|
+| `README.md` | Project documentation and setup guide |
+| `module.html` | HubL template containing the module markup and dynamic content |
+| `module.css` | Styling for the Team Members module |
+| `fields.json` | Defines all editable fields available in the HubSpot page editor |
+
 ---
 
-# 🚀 Getting Started
-
-Follow these steps to create this module in HubSpot CMS.
-
----
+# 🚀 Installation & Setup
 
 ## Step 1 – Create a Custom Module
 
-1. Login to your HubSpot Account.
+1. Log in to your HubSpot account.
 2. Navigate to **Content → Design Manager**.
 3. Click **File → New File**.
 4. Select **Module**.
 5. Choose **Custom Module**.
-6. Name it **Team Members Module**.
+6. Name the module **Team Members Module**.
 7. Click **Create**.
 
 ---
 
 ## Step 2 – Create Module Fields
 
-Create the following fields in the Module Editor.
+Create the following fields inside the Module Editor.
 
-| Field Name | Field Type |
-|------------|------------|
+| Field Name | Type |
+|------------|------|
 | Section Title | Text |
 | Team Members | Repeater (Group) |
 | Photo | Image |
@@ -69,23 +76,23 @@ Create the following fields in the Module Editor.
 | Designation | Text |
 | Description | Rich Text |
 
-> **Tip:** The Repeater field allows editors to add unlimited team members without changing the module code.
+> **Tip:** The Repeater field allows editors to add unlimited team members without modifying the code.
 
 ---
 
-## Step 3 – Add the Module Code
+## Step 3 – Add the Code
 
-Replace the default generated files with the files from this repository.
+Replace the generated files with the code from this repository.
 
-- module.html
-- module.css
-- fields.json
+- `module.html`
+- `module.css`
+- `fields.json`
 
-Save the module.
+Save and publish the module.
 
 ---
 
-## Step 4 – Add the Module to a Page
+## Step 4 – Use the Module
 
 1. Open a HubSpot Page or Template.
 2. Drag the **Team Members Module** onto the page.
@@ -96,25 +103,25 @@ Save the module.
    - Name
    - Designation
    - Description
-7. Repeat the process for additional team members.
+7. Repeat for additional team members.
 8. Publish the page.
 
 ---
 
-# 📋 Expected Output
+## 📋 Expected Output
 
-The module displays a responsive Team Members section containing:
+The module displays:
 
+- Responsive Team Members Grid
 - Team Member Photo
 - Name
 - Designation
 - Description
-- Responsive Card Layout
 - Unlimited Team Members using a Repeater Field
 
 ---
 
-# 💼 Use Cases
+## 💼 Use Cases
 
 This module is suitable for:
 
@@ -128,7 +135,7 @@ This module is suitable for:
 
 ---
 
-# 🛠 Technologies Used
+## 🛠 Technologies Used
 
 - HubSpot CMS
 - HubL
@@ -138,26 +145,32 @@ This module is suitable for:
 
 ---
 
-# 📚 Skills Demonstrated
+## 📚 Skills Demonstrated
 
 - HubSpot CMS Module Development
 - HubL Templating
 - Repeater Fields
 - Dynamic Content
-- Responsive Grid Layout
-- Conditional Rendering
+- HubL `for` Loop
+- Conditional Rendering (`if`)
 - `resize_image_url()`
+- Responsive Grid Layout
 - Clean Module Structure
 
 ---
 
-# 👩‍💻 Author
+## 👩‍💻 Author
 
 **Kalpana Sharma**
 
-- **LinkedIn:** https://www.linkedin.com/in/skalpana/
-- **Portfolio:** https://go1digital.com/startup-portfolio/
+**LinkedIn:**  
+https://www.linkedin.com/in/skalpana/
+
+**Portfolio:**  
+https://go1digital.com/startup-portfolio/
 
 ---
 
+## ⭐ Support
 
+If you found this project useful, consider giving this repository a ⭐ on GitHub.
