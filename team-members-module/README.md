@@ -31,7 +31,6 @@ team-members-module/
 ├── module.html
 ├── module.css
 ├── fields.json
-├── meta.json
 ├── team_members_preview.png
 └── README.md
 ```
