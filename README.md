@@ -9,6 +9,7 @@ HubL, HTML5, and CSS3.
 These modules were developed while learning HubSpot CMS and demonstrate
 best practices for creating responsive, reusable, and editor-friendly
 components.
+
 ---
 🚀 Modules Included
 ---
@@ -63,5 +64,6 @@ https://www.linkedin.com/in/skalpana/
 
 Portfolio  
 https://go1digital.com/startup-portfolio/
+
 ---
 ⭐ If you found this repository helpful, consider giving it a star.
