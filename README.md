@@ -54,10 +54,13 @@ Responsive Layouts
 Image Optimization using `resize_image_url()`
 Clean Module Structure
 ---
+
 👩‍💻 Author
 Kalpana Sharma
+
 LinkedIn  
 https://www.linkedin.com/in/skalpana/
+
 Portfolio  
 https://go1digital.com/startup-portfolio/
 ---
