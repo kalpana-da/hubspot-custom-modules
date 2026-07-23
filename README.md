@@ -14,7 +14,7 @@ Hero Banner Module    Responsive hero section with   ✅ Complete
 CTA and image support
 Team Members Module   Dynamic team section using     ✅ Complete
 
-HubSpot Repeater Fields
+HubSpot Repeater Fields  ✅ Complete
 
 ---
 
