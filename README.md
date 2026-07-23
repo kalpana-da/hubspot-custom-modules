@@ -23,8 +23,6 @@ A collection of custom HubSpot CMS modules built using HubL, HTML, CSS, and HubS
 - Responsive Design
 
 ---
-
----
 📂 Repository Structure
 ``` text
 hubspot-custom-modules/
