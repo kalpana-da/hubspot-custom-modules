@@ -1,0 +1,16 @@
+{
+  "label": "Testimonial Slider",
+  "type": "module",
+  "is_available_for_new_content": true,
+  "host_template_types": [
+    "PAGE",
+    "LANDING_PAGE",
+    "BLOG_POST",
+    "BLOG_LISTING"
+  ],
+  "smart_type": "NOT_SMART",
+  "css_assets": [],
+  "js_assets": [],
+  "other_assets": [],
+  "categories": []
+}
