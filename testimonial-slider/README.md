@@ -1,28 +1,29 @@
 # Responsive Testimonial Slider | HubSpot CMS Custom Module
 
-A fully responsive **HubSpot CMS Custom Module** built using **HubL, HTML5, CSS3, and JavaScript**. This module allows content editors to easily manage testimonials while providing complete styling control through the HubSpot **Style** tab.
+A fully responsive **HubSpot CMS Custom Module** built using **HubL, HTML5, CSS3, and JavaScript**. This reusable module allows content editors to manage testimonials while giving marketers complete control over the design using the HubSpot **Style** tab.
 
 ---
 
 # Module Preview
 
-![Responsive Testimonial Slider](https://github.com/kalpana-da/hubspot-custom-modules/blob/main/testimonial-slider/screenshot/testimonial_slider.png)
+![Responsive Testimonial Slider](screenshot/testimonial_slider.png)
 
 ---
 
 # Features
 
-- Responsive Testimonial Slider
-- Desktop, Tablet & Mobile Support
-- Dynamic HubSpot Style Controls
+- Fully Responsive Testimonial Slider
+- Built with HubSpot CMS & HubL
+- Dynamic Style Tab Controls
 - Client Image
 - Client Name
 - Client Designation
 - Star Rating
-- Testimonial Text
-- Previous / Next Navigation
-- Fully Reusable HubSpot Custom Module
+- Rich Text Testimonials
+- Previous & Next Navigation
+- Reusable Custom Module
 - Easy Content Management using Repeater Fields
+- Mobile Friendly
 - No External Libraries Required
 
 ---
@@ -40,7 +41,7 @@ testimonial-slider/
 ├── meta.json
 ├── module.json
 │
-└── screenshots/
+└── screenshot/
     ├── testimonial_slider.png
     ├── fields.png
     ├── style_group_1.png
@@ -50,21 +51,38 @@ testimonial-slider/
 
 ---
 
+# Module Files
+
+| File | Description |
+|------|-------------|
+| module.html | HubL markup and dynamic CSS |
+| module.css | Layout and responsive styling |
+| module.js | Testimonial slider functionality |
+| fields.json | Module field configuration |
+| meta.json | Module metadata |
+| module.json | HubSpot module configuration |
+
+---
+
 # Content Fields
 
-The module uses the following content fields.
+The module contains the following content fields.
 
 ## Content Configuration
 
-![Content Fields](https://github.com/kalpana-da/hubspot-custom-modules/blob/main/testimonial-slider/screenshot/fields.png)
+![Content Fields](screenshot/fields.png)
+
+### Main Fields
 
 | Field | Type | Description |
 |--------|------|-------------|
-| Section Title | Text | Displays the main section heading |
-| Section Description | Rich Text | Displays the introductory description |
-| Testimonials | Repeater | Stores testimonial items |
+| Section Title | Text | Displays the section heading |
+| Section Description | Rich Text | Displays the section description |
+| Testimonials | Repeater | Stores all testimonials |
 
 ### Repeater Fields
+
+Each testimonial includes:
 
 | Field | Type |
 |--------|------|
@@ -78,20 +96,20 @@ The module uses the following content fields.
 
 # Style Configuration
 
-The module provides complete styling control using HubSpot Style Groups.
+The module provides complete design customization through the HubSpot **Style** tab.
 
 ---
 
 ## Section, Heading & Description
 
-![Style Group 1](https://github.com/kalpana-da/hubspot-custom-modules/blob/main/testimonial-slider/screenshot/style_group_1.png)
+![Style Group 1](screenshot/style_group_1.png)
 
 ### Section
 
 - Background Color
 - Top Padding
 - Bottom Padding
-- Full Width
+- Full Width Option
 
 ### Heading
 
@@ -115,7 +133,7 @@ The module provides complete styling control using HubSpot Style Groups.
 
 ## Card & Client Name
 
-![Style Group 2](https://github.com/kalpana-da/hubspot-custom-modules/blob/main/testimonial-slider/screenshot/style_group_2.png)
+![Style Group 2](screenshot/style_group_2.png)
 
 ### Card
 
@@ -137,9 +155,9 @@ The module provides complete styling control using HubSpot Style Groups.
 
 ---
 
-## Designation, Testimonial, Stars & Arrows
+## Designation, Testimonial, Stars & Navigation
 
-![Style Group 3](https://github.com/kalpana-da/hubspot-custom-modules/blob/main/testimonial-slider/screenshot/style_group_3.png)
+![Style Group 3](screenshot/style_group_3.png)
 
 ### Designation
 
@@ -179,58 +197,11 @@ The module provides complete styling control using HubSpot Style Groups.
 
 # Responsive Layout
 
-| Device | Layout |
-|----------|---------|
-| Desktop | 4 Cards |
-| Tablet | 2 Cards |
-| Mobile | 1 Card |
-
----
-
-# Installation Guide
-
-## Step 1
-
-Open **HubSpot Design Manager**
-
-```
-Marketing
-    ↓
-Files and Templates
-    ↓
-Design Manager
-```
-
----
-
-## Step 2
-
-Create a **Custom Module**.
-
----
-
-## Step 3
-
-Import or create the following files.
-
-```
-module.html
-module.css
-module.js
-fields.json
-```
-
----
-
-## Step 4
-
-Publish the module.
-
----
-
-## Step 5
-
-Drag the module into any HubSpot page.
+| Device | Cards Displayed |
+|---------|-----------------|
+| Desktop | 4 |
+| Tablet | 2 |
+| Mobile | 1 |
 
 ---
 
@@ -245,32 +216,98 @@ Drag the module into any HubSpot page.
 
 ---
 
-# Browser Support
+# Installation
 
-- Google Chrome
-- Microsoft Edge
-- Firefox
-- Safari
+### Step 1
+
+Open **HubSpot Design Manager**
+
+```
+Marketing
+   ↓
+Files and Templates
+   ↓
+Design Manager
+```
+
+---
+
+### Step 2
+
+Create a new **Custom Module**.
+
+---
+
+### Step 3
+
+Add the following files.
+
+```
+module.html
+module.css
+module.js
+```
+
+---
+
+### Step 4
+
+Import or recreate the fields shown in **Content Fields** and **Style Configuration** using the screenshots above.
+
+---
+
+### Step 5
+
+Publish the module.
+
+---
+
+### Step 6
+
+Drag the module into any HubSpot page or template.
 
 ---
 
 # Customization
 
-Using the HubSpot Style tab, editors can customize:
+Using the **Style** tab, editors can customize:
 
 - Section Background
 - Section Padding
-- Typography
-- Card Styling
-- Card Border Radius
+- Heading Typography
+- Description Typography
+- Card Background
 - Card Gap
-- Client Name
-- Designation
-- Testimonial Text
+- Card Padding
+- Card Border Radius
+- Card Text Alignment
+- Client Name Typography
+- Designation Typography
+- Testimonial Typography
 - Star Styling
 - Navigation Arrow Styling
 
 No code changes are required.
+
+---
+
+# Browser Support
+
+- Google Chrome
+- Microsoft Edge
+- Mozilla Firefox
+- Safari
+
+---
+
+# Future Improvements
+
+- Autoplay Option
+- Infinite Loop
+- Touch Swipe Support
+- Pagination Dots
+- Animation Speed Control
+- Multiple Slider Layouts
 
 ---
 
@@ -280,14 +317,11 @@ No code changes are required.
 
 HubSpot CMS Developer
 
-GitHub:
-https://github.com/kalpana-da
-
-LinkedIn:
-https://www.linkedin.com/in/skalpana
+- GitHub: https://github.com/kalpana-da
+- LinkedIn: https://www.linkedin.com/in/skalpana
 
 ---
 
 # License
 
-This project is available for learning and portfolio purposes.
+This project is shared for learning, demonstration, and portfolio purposes.
