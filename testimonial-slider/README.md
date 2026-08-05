@@ -56,7 +56,7 @@ The module uses the following content fields.
 
 ## Content Configuration
 
-![Content Fields]([https://github.com/kalpana-da/hubspot-custom-modules/blob/main/testimonial-slider/screenshot/fields.png](https://github.com/kalpana-da/hubspot-custom-modules/blob/main/testimonial-slider/screenshot/fields.png))
+![Content Fields](https://github.com/kalpana-da/hubspot-custom-modules/blob/main/testimonial-slider/screenshot/fields.png)
 
 | Field | Type | Description |
 |--------|------|-------------|
@@ -84,7 +84,7 @@ The module provides complete styling control using HubSpot Style Groups.
 
 ## Section, Heading & Description
 
-![Style Group 1](screenshots/style_group_1.png)
+![Style Group 1](https://github.com/kalpana-da/hubspot-custom-modules/blob/main/testimonial-slider/screenshot/style_group_1.png)
 
 ### Section
 
@@ -115,7 +115,7 @@ The module provides complete styling control using HubSpot Style Groups.
 
 ## Card & Client Name
 
-![Style Group 2](screenshots/style_group_2.png)
+![Style Group 2](https://github.com/kalpana-da/hubspot-custom-modules/blob/main/testimonial-slider/screenshot/style_group_2.png)
 
 ### Card
 
@@ -139,7 +139,7 @@ The module provides complete styling control using HubSpot Style Groups.
 
 ## Designation, Testimonial, Stars & Arrows
 
-![Style Group 3](screenshots/style_group_3.png)
+![Style Group 3](https://github.com/kalpana-da/hubspot-custom-modules/blob/main/testimonial-slider/screenshot/style_group_3.png)
 
 ### Designation
 
