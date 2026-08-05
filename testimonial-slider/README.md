@@ -37,7 +37,6 @@ testimonial-slider/
 ├── module.html
 ├── module.css
 ├── module.js
-├── fields.json
 ├── meta.json
 ├── module.json
 │
@@ -58,7 +57,6 @@ testimonial-slider/
 | module.html | HubL markup and dynamic CSS |
 | module.css | Layout and responsive styling |
 | module.js | Testimonial slider functionality |
-| fields.json | Module field configuration |
 | meta.json | Module metadata |
 | module.json | HubSpot module configuration |
 
