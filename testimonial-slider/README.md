@@ -6,7 +6,7 @@ A fully responsive **HubSpot CMS Custom Module** built using **HubL, HTML5, CSS3
 
 # Module Preview
 
-![Responsive Testimonial Slider](screenshots/testimonial_slider.png)
+![Responsive Testimonial Slider](https://github.com/kalpana-da/hubspot-custom-modules/blob/main/testimonial-slider/screenshot/testimonial_slider.png)
 
 ---
 
@@ -56,7 +56,7 @@ The module uses the following content fields.
 
 ## Content Configuration
 
-![Content Fields](screenshots/fields.png)
+![Content Fields]([https://github.com/kalpana-da/hubspot-custom-modules/blob/main/testimonial-slider/screenshot/fields.png](https://github.com/kalpana-da/hubspot-custom-modules/blob/main/testimonial-slider/screenshot/fields.png))
 
 | Field | Type | Description |
 |--------|------|-------------|
