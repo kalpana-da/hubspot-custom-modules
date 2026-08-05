@@ -69,7 +69,6 @@ hubspot-custom-modules/
     ├── module.html
     ├── module.css
     ├── module.js
-    ├── fields.json
     ├── meta.json
     └── screenshot/
 ```
