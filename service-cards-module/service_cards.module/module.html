@@ -1,0 +1,186 @@
+<div class="wwd-section">
+  <div class="wwd-container">
+
+    {% if module.content.subheading %}
+      <div class="wwd-eyebrow">
+        {{ module.content.subheading }}
+      </div>
+    {% endif %}
+
+    {% if module.content.main_heading %}
+      <h2 class="wwd-heading">
+        {{ module.content.main_heading }}
+      </h2>
+    {% endif %}
+
+    {% if module.content.description %}
+      <div class="wwd-section-desc">
+        {{ module.content.description }}
+      </div>
+    {% endif %}
+
+    <div class="wwd-grid {% if module.content.desktop_columns == '2' %}wwd-grid--2col{% endif %}">
+
+      {% for item in module.service_card %}
+
+      <div class="wwd-card">
+        <div class="wwd-card-inner">
+{% if item.service_svg_icon.name %}
+  <div class="wwd-icon is-svg">
+    {% icon
+      name=item.service_svg_icon.name
+      style=item.service_svg_icon.type
+      unicode=item.service_svg_icon.unicode
+    %}
+  </div>
+
+{% elif item.service_icon.src %}
+  <div class="wwd-icon">
+    <img src="{{ item.service_icon.src }}"
+         alt="{{ item.service_icon.alt|escape }}"
+         loading="lazy">
+  </div>
+{% endif %}
+
+          <h3 class="wwd-card-title">
+            {{ item.service_title }}
+          </h3>
+
+          <div class="wwd-card-desc">
+            {{ item.description }}
+          </div>
+
+          <div class="wwd-tags">
+
+            {% if item.tag_1 %}
+              <a class="wwd-tag"
+                 href="{{ item.tag_1_link.url.href if item.tag_1_link.url.href else '#' }}">
+                {{ item.tag_1 }}
+              </a>
+            {% endif %}
+
+            {% if item.tag_2 %}
+              <a class="wwd-tag"
+                 href="{{ item.tag_2_link.url.href if item.tag_2_link.url.href else '#' }}">
+                {{ item.tag_2 }}
+              </a>
+            {% endif %}
+
+          </div>
+
+        </div>
+      </div>
+
+      {% endfor %}
+
+    </div>
+
+  </div>
+</div>
+
+{% require_css %}
+<style>
+{% scope_css %}
+
+/* SECTION */
+
+.wwd-section{
+  background:rgba({{ module.style.section_style.section_bg.color|convert_rgb }},{{ module.style.section_style.section_bg.opacity/100 }});
+}
+
+/* Heading */
+
+/* ==========================================================
+   TYPOGRAPHY (Dynamic)
+========================================================== */
+
+/* Top Label */
+.wwd-eyebrow{
+  
+  color: rgba({{ module.style.section_style.eyebrow_color.color|convert_rgb }},{{ module.style.section_style.eyebrow_color.opacity/100 }});
+  font-family: "{{module.typography.font_family.font|default('Geologica') }}", sans-serif;
+  font-size: {{module.typography.sub_heading }}px;
+}
+
+/* Main Heading */
+.wwd-heading{
+  color: rgba({{module.style.section_style.heading_color.color|convert_rgb }},{{module.style.section_style.heading_color.opacity/100 }});
+  font-family: "{{ module.typography.font_family.font|default('Geologica') }}", sans-serif;
+  font-size: {{ module.typography.heading_size}}px;
+}
+
+/* Section Description */
+.wwd-section-desc{
+  color: rgba({{ module.style.section_style.desc_color.color|convert_rgb }},{{ module.style.section_style.desc_color.opacity/100 }});
+  font-family: "{{ module.typography.font_family.font|default('Geologica') }}", sans-serif;
+  font-size: {{module.typography.description_size}}px;
+}
+
+/* Card Title */
+.wwd-card-title{
+  color: rgba({{ module.style.card_style.title_color.color|convert_rgb }},{{ module.style.card_style.title_color.opacity/100 }});
+  font-family: "{{ module.typography.font_family.font|default('Geologica') }}", sans-serif;
+  font-size: {{ module.typography.card_title_size }}px;
+}
+/* CARD */
+
+.wwd-card{
+  border-color:rgba({{ module.style.card_style.card_border.color|convert_rgb }},{{ module.style.card_style.card_border.opacity/100 }});
+}
+
+.wwd-card-inner{
+  background:rgba({{ module.style.card_style.card_bg.color|convert_rgb }},{{ module.style.card_style.card_bg.opacity/100 }});
+}
+
+.wwd-card:hover .wwd-card-inner{
+  background:rgba({{ module.style.card_style.card_hover_bg.color|convert_rgb }},{{ module.style.card_style.card_hover_bg.opacity/100 }});
+}
+
+/* TITLE */
+
+.wwd-card-title{
+  color:rgba({{ module.style.card_style.title_color.color|convert_rgb }},{{ module.style.card_style.title_color.opacity/100 }});
+  font-family: "{{ module.typography.font_family.font|default('Geologica') }}", sans-serif;
+  font-size:{{ module.style.typography.card_title_size }}px;
+}
+
+.wwd-card:hover .wwd-card-title{
+  color:rgba({{ module.style.card_style.title_hover_color.color|convert_rgb }},
+    {{ module.style.card_style.title_hover_color.opacity/100 }});
+}
+
+/* DESCRIPTION */
+
+.wwd-card-desc{
+  font-family: "{{ module.typography.font_family.font|default('Geologica') }}", sans-serif;
+  font-size:{{module.typography.card_text_size }}px;
+  color:rgba({{ module.style.card_style.card_description.color|convert_rgb }},{{module.style.card_style.card_description.opacity/100 }});
+  
+}
+
+.wwd-card:hover .wwd-card-desc{
+  color:rgba({{ module.style.card_style.card_description_hover_color.color|convert_rgb }},
+    {{ module.style.card_style.card_description_hover_color.opacity/100 }});
+}
+
+/* SVG HOVER */
+
+
+/* TAGS */
+
+.wwd-tag{
+  background:rgba({{ module.style.tag_style.tag_bg.color|convert_rgb }},{{ module.style.tag_style.tag_bg.opacity/100 }});
+  color:rgba({{ module.style.tag_style.tag_text.color|convert_rgb }},{{ module.style.tag_style.tag_text.opacity/100 }});
+  font-size:{{ module.style.typography.tag_size }}px;
+  font-family: "{{ module.typography.font_family.font|default('Geologica') }}", sans-serif;
+}
+
+.wwd-tag:hover,
+.wwd-card:hover .wwd-tag{
+  background:rgba({{ module.style.tag_style.tag_hover_bg.color|convert_rgb }},{{ module.style.tag_style.tag_hover_bg.opacity/100 }});
+  color:rgba({{ module.style.tag_style.tag_hover_text.color|convert_rgb }},{{ module.style.tag_style.tag_hover_text.opacity/100 }});
+}
+
+{% end_scope_css %}
+</style>
+{% end_require_css %}

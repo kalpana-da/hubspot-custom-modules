@@ -1,0 +1,843 @@
+[ {
+  "id" : "aa27a337-c7ca-f70e-d3d6-9c246c8a6bfb",
+  "name" : "style",
+  "label" : "Section Style",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "f7e31945-813c-d9dd-9d57-f99d9247ff0f",
+    "name" : "section_style",
+    "label" : "Section Style",
+    "required" : false,
+    "locked" : false,
+    "children" : [ {
+      "id" : "940ee3d1-86a7-c2ba-93e0-62e6f965df53",
+      "name" : "heading_color",
+      "label" : "Heading Color",
+      "required" : false,
+      "locked" : false,
+      "type" : "color",
+      "display_width" : null,
+      "default" : {
+        "color" : "#173B6C",
+        "opacity" : 100
+      }
+    }, {
+      "id" : "65599610-2eb4-ac9e-9f59-f5f9d06853d4",
+      "name" : "eyebrow_color",
+      "label" : "Top Label Color",
+      "required" : false,
+      "locked" : false,
+      "type" : "color",
+      "display_width" : null,
+      "default" : {
+        "color" : "#E53935",
+        "opacity" : 100
+      }
+    }, {
+      "id" : "e1fe753a-8a26-64d2-3cff-afbb2733ae2e",
+      "name" : "desc_color",
+      "label" : "Description Color",
+      "required" : false,
+      "locked" : false,
+      "type" : "color",
+      "display_width" : null,
+      "default" : {
+        "color" : "#667085",
+        "opacity" : 100
+      }
+    }, {
+      "id" : "245d7f36-7657-4530-8e1a-9c93a0381d96",
+      "name" : "section_bg",
+      "label" : "Section Background",
+      "required" : false,
+      "locked" : false,
+      "type" : "color",
+      "display_width" : null,
+      "default" : {
+        "color" : "#F5FAFF",
+        "opacity" : 100
+      }
+    } ],
+    "tab" : "STYLE",
+    "expanded" : false,
+    "group_occurrence_meta" : null,
+    "type" : "group",
+    "display_width" : null,
+    "default" : {
+      "heading_color" : {
+        "color" : "#173B6C",
+        "opacity" : 100
+      },
+      "eyebrow_color" : {
+        "color" : "#E53935",
+        "opacity" : 100
+      },
+      "desc_color" : {
+        "color" : "#667085",
+        "opacity" : 100
+      },
+      "section_bg" : {
+        "color" : "#F5FAFF",
+        "opacity" : 100
+      }
+    }
+  }, {
+    "id" : "fe36acba-e819-6de6-3b68-06ccc0c630c3",
+    "name" : "card_style",
+    "label" : "Card Style",
+    "required" : false,
+    "locked" : false,
+    "children" : [ {
+      "id" : "d5d18b34-8968-d9e8-74e9-e15049284a09",
+      "name" : "card_bg",
+      "label" : "Card Background",
+      "required" : false,
+      "locked" : false,
+      "type" : "color",
+      "display_width" : null,
+      "default" : {
+        "color" : "#F5FAFF",
+        "opacity" : 100
+      }
+    }, {
+      "id" : "35773df7-3279-4fa1-8352-64e7eac068d4",
+      "name" : "card_hover_bg",
+      "label" : "Card Hover Background",
+      "required" : false,
+      "locked" : false,
+      "type" : "color",
+      "display_width" : null,
+      "default" : {
+        "color" : "#143B6E",
+        "opacity" : 100
+      }
+    }, {
+      "id" : "20eab5f1-f0a1-0c99-192f-687fc918e818",
+      "name" : "card_border",
+      "label" : "Card Border",
+      "required" : false,
+      "locked" : false,
+      "type" : "color",
+      "display_width" : null,
+      "default" : {
+        "color" : "#D9E5F6",
+        "opacity" : 100
+      }
+    }, {
+      "id" : "79c0cfa8-c16b-3dda-03e7-fdeb83949dc6",
+      "name" : "title_color",
+      "label" : "Title Color",
+      "required" : false,
+      "locked" : false,
+      "type" : "color",
+      "display_width" : null,
+      "default" : {
+        "color" : "#173B6C",
+        "opacity" : 100
+      }
+    }, {
+      "id" : "c4ef07b6-a003-3ef4-e377-2676528f2334",
+      "name" : "title_hover_color",
+      "label" : "Title Hover Color",
+      "required" : false,
+      "locked" : false,
+      "type" : "color",
+      "display_width" : null,
+      "default" : {
+        "color" : "#FFFFFF",
+        "opacity" : 100
+      }
+    }, {
+      "id" : "1d114343-c2b7-2f82-94ba-34f19ae427a0",
+      "name" : "card_description",
+      "label" : "Card Description",
+      "required" : false,
+      "locked" : false,
+      "type" : "color",
+      "display_width" : null,
+      "default" : {
+        "color" : "#DCE7F7",
+        "opacity" : 100
+      }
+    }, {
+      "id" : "08b65940-69cd-e007-8826-472587dfba96",
+      "name" : "card_description_hover_color",
+      "label" : "Card Description Hover Color",
+      "required" : false,
+      "locked" : false,
+      "type" : "color",
+      "display_width" : null,
+      "default" : {
+        "color" : "#DCE7F7",
+        "opacity" : 100
+      }
+    } ],
+    "tab" : "STYLE",
+    "expanded" : false,
+    "group_occurrence_meta" : null,
+    "type" : "group",
+    "display_width" : null,
+    "default" : {
+      "card_bg" : {
+        "color" : "#F5FAFF",
+        "opacity" : 100
+      },
+      "card_hover_bg" : {
+        "color" : "#143B6E",
+        "opacity" : 100
+      },
+      "card_border" : {
+        "color" : "#D9E5F6",
+        "opacity" : 100
+      },
+      "title_color" : {
+        "color" : "#173B6C",
+        "opacity" : 100
+      },
+      "title_hover_color" : {
+        "color" : "#FFFFFF",
+        "opacity" : 100
+      },
+      "card_description" : {
+        "color" : "#DCE7F7",
+        "opacity" : 100
+      },
+      "card_description_hover_color" : {
+        "color" : "#DCE7F7",
+        "opacity" : 100
+      }
+    }
+  }, {
+    "id" : "d32feb57-72ed-f264-392a-f830a8d3cac0",
+    "name" : "tag_style",
+    "label" : "Tag Style",
+    "required" : false,
+    "locked" : false,
+    "children" : [ {
+      "id" : "c833fc7e-591f-614d-aa69-3d9ab0dbdc7c",
+      "name" : "tag_bg",
+      "label" : "Tag Background",
+      "required" : false,
+      "locked" : false,
+      "type" : "color",
+      "display_width" : null,
+      "default" : {
+        "color" : "#E8F1FD",
+        "opacity" : 100
+      }
+    }, {
+      "id" : "bc5d2486-ec49-5580-42db-f9ccb28ce490",
+      "name" : "tag_text",
+      "label" : "Tag Text Color",
+      "required" : false,
+      "locked" : false,
+      "type" : "color",
+      "display_width" : null,
+      "default" : {
+        "color" : "#2F69C9",
+        "opacity" : 100
+      }
+    }, {
+      "id" : "a5e781a2-6d76-e9c8-a6a2-99963cecde8e",
+      "name" : "tag_hover_bg",
+      "label" : "Tag Hover Background",
+      "required" : false,
+      "locked" : false,
+      "type" : "color",
+      "display_width" : null,
+      "default" : {
+        "color" : "#2F80FF",
+        "opacity" : 100
+      }
+    }, {
+      "id" : "e600e7f7-a665-33c4-1c87-3147fe2267bb",
+      "name" : "tag_hover_text",
+      "label" : "Tag Hover Text",
+      "required" : false,
+      "locked" : false,
+      "type" : "color",
+      "display_width" : null,
+      "default" : {
+        "color" : "#fff",
+        "opacity" : 100
+      }
+    } ],
+    "tab" : "STYLE",
+    "expanded" : false,
+    "group_occurrence_meta" : null,
+    "type" : "group",
+    "display_width" : null,
+    "default" : {
+      "tag_bg" : {
+        "color" : "#E8F1FD",
+        "opacity" : 100
+      },
+      "tag_text" : {
+        "color" : "#2F69C9",
+        "opacity" : 100
+      },
+      "tag_hover_bg" : {
+        "color" : "#2F80FF",
+        "opacity" : 100
+      },
+      "tag_hover_text" : {
+        "color" : "#fff",
+        "opacity" : 100
+      }
+    }
+  } ],
+  "tab" : "STYLE",
+  "expanded" : false,
+  "group_occurrence_meta" : null,
+  "type" : "group",
+  "display_width" : null,
+  "default" : {
+    "section_style" : {
+      "heading_color" : {
+        "color" : "#173B6C",
+        "opacity" : 100
+      },
+      "eyebrow_color" : {
+        "color" : "#E53935",
+        "opacity" : 100
+      },
+      "desc_color" : {
+        "color" : "#667085",
+        "opacity" : 100
+      },
+      "section_bg" : {
+        "color" : "#F5FAFF",
+        "opacity" : 100
+      }
+    },
+    "card_style" : {
+      "card_bg" : {
+        "color" : "#F5FAFF",
+        "opacity" : 100
+      },
+      "card_hover_bg" : {
+        "color" : "#143B6E",
+        "opacity" : 100
+      },
+      "card_border" : {
+        "color" : "#D9E5F6",
+        "opacity" : 100
+      },
+      "title_color" : {
+        "color" : "#173B6C",
+        "opacity" : 100
+      },
+      "title_hover_color" : {
+        "color" : "#FFFFFF",
+        "opacity" : 100
+      },
+      "card_description" : {
+        "color" : "#DCE7F7",
+        "opacity" : 100
+      },
+      "card_description_hover_color" : {
+        "color" : "#DCE7F7",
+        "opacity" : 100
+      }
+    },
+    "tag_style" : {
+      "tag_bg" : {
+        "color" : "#E8F1FD",
+        "opacity" : 100
+      },
+      "tag_text" : {
+        "color" : "#2F69C9",
+        "opacity" : 100
+      },
+      "tag_hover_bg" : {
+        "color" : "#2F80FF",
+        "opacity" : 100
+      },
+      "tag_hover_text" : {
+        "color" : "#fff",
+        "opacity" : 100
+      }
+    }
+  }
+}, {
+  "id" : "1c4affce-dda8-4179-6b18-386bd112d50f",
+  "name" : "content",
+  "label" : "Main Section",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "fc911d45-e53b-1bc0-f974-47b36db41776",
+    "name" : "main_heading",
+    "label" : "Main Heading",
+    "required" : false,
+    "locked" : false,
+    "allow_new_line" : false,
+    "type" : "text",
+    "display_width" : null,
+    "default" : "What We Provides"
+  }, {
+    "id" : "1574776e-2721-3fa5-4c5b-5353498a454c",
+    "name" : "subheading",
+    "label" : "Sub Heading",
+    "required" : false,
+    "locked" : false,
+    "allow_new_line" : false,
+    "type" : "text",
+    "display_width" : null,
+    "default" : "What is Lorem Ipsum?"
+  }, {
+    "id" : "0195ae9f-10a3-b49e-1e74-152fba9e8489",
+    "name" : "description",
+    "label" : "Description",
+    "required" : false,
+    "locked" : false,
+    "type" : "richtext",
+    "display_width" : null,
+    "default" : "\"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...\""
+  }, {
+    "id" : "fab43da1-ae75-b493-99f5-a95bac105f64",
+    "name" : "desktop_columns",
+    "label" : "Desktop Columns",
+    "required" : false,
+    "locked" : false,
+    "display" : "radio",
+    "choices" : [ [ "2", "2 Columns" ], [ "3", "3 Columns" ] ],
+    "multiple" : false,
+    "reordering_enabled" : true,
+    "preset" : null,
+    "type" : "choice",
+    "display_width" : null,
+    "default" : "3"
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "group_occurrence_meta" : null,
+  "type" : "group",
+  "display_width" : null,
+  "default" : {
+    "main_heading" : "What We Provides",
+    "subheading" : "What is Lorem Ipsum?",
+    "description" : "\"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...\"",
+    "desktop_columns" : "3"
+  }
+}, {
+  "id" : "86a0fbb8-acfe-36f3-cd1b-019130b8a7ea",
+  "name" : "service_card",
+  "label" : "Service card",
+  "required" : false,
+  "locked" : false,
+  "occurrence" : {
+    "min" : 1,
+    "max" : null,
+    "sorting_label_field" : null,
+    "default" : 6
+  },
+  "children" : [ {
+    "id" : "73b3009f-b6d7-1dcb-b951-e0bf9684bb34",
+    "name" : "service_icon",
+    "label" : "Service Icon",
+    "required" : false,
+    "locked" : false,
+    "responsive" : true,
+    "resizable" : true,
+    "show_loading" : false,
+    "type" : "image",
+    "display_width" : null,
+    "default" : {
+      "size_type" : "auto",
+      "src" : "https://246197183.fs1.hubspotusercontent-na2.net/hubfs/246197183/patient%20(1).webp",
+      "alt" : "patient (1)",
+      "loading" : "lazy",
+      "width" : 48,
+      "height" : 44,
+      "max_width" : 48,
+      "max_height" : 44
+    }
+  }, {
+    "id" : "93f431df-7b1d-1e11-298d-6933eae44480",
+    "name" : "service_title",
+    "label" : "Service Title",
+    "required" : false,
+    "locked" : false,
+    "allow_new_line" : false,
+    "type" : "text",
+    "display_width" : null,
+    "default" : "Monthly Bookkeeping"
+  }, {
+    "id" : "5eaf3171-100a-2428-abb4-859f3b469e9e",
+    "name" : "description",
+    "label" : "Service Description",
+    "required" : false,
+    "locked" : false,
+    "type" : "richtext",
+    "display_width" : null,
+    "default" : "&nbsp;Recurring bookkeeping, month-end close support, transaction processing, account maintenance, and catch-up bookkeeping services delivered under your firm's standards.&nbsp;"
+  }, {
+    "id" : "0add0f35-88c4-1ba5-2e18-de5e57d57af3",
+    "name" : "tag_1",
+    "label" : "Tag 1",
+    "required" : false,
+    "locked" : false,
+    "allow_new_line" : false,
+    "type" : "text",
+    "display_width" : null,
+    "default" : "Monthly Bookkeeping"
+  }, {
+    "id" : "e9091843-a8b4-ce40-d952-45c4056c79a7",
+    "name" : "tag_1_link",
+    "label" : "tag_1_link",
+    "required" : false,
+    "locked" : false,
+    "supported_types" : [ "EXTERNAL", "CONTENT", "FILE", "EMAIL_ADDRESS", "BLOG", "PHONE_NUMBER", "PAYMENT" ],
+    "show_advanced_rel_options" : false,
+    "type" : "link",
+    "display_width" : null,
+    "default" : {
+      "url" : {
+        "content_id" : null,
+        "href" : "https://go1digital.com",
+        "type" : "EXTERNAL"
+      },
+      "open_in_new_tab" : true,
+      "no_follow" : false
+    }
+  }, {
+    "id" : "635855b9-5a98-1060-d3fd-a9e6c9a269dc",
+    "name" : "tag_2",
+    "label" : "Tag 2",
+    "required" : false,
+    "locked" : false,
+    "allow_new_line" : false,
+    "type" : "text",
+    "display_width" : null,
+    "default" : "Catch-Up Services"
+  }, {
+    "id" : "656b7b62-c77c-0ce5-9c7c-510f818fab4b",
+    "name" : "tag_2_link",
+    "label" : "Tag 2 Link",
+    "required" : false,
+    "locked" : false,
+    "supported_types" : [ "EXTERNAL", "CONTENT", "FILE", "EMAIL_ADDRESS", "BLOG", "PHONE_NUMBER", "PAYMENT" ],
+    "show_advanced_rel_options" : false,
+    "type" : "link",
+    "display_width" : null,
+    "default" : {
+      "url" : {
+        "content_id" : null,
+        "href" : "https://go1digital.com",
+        "type" : "EXTERNAL"
+      },
+      "open_in_new_tab" : true,
+      "no_follow" : false
+    }
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "group_occurrence_meta" : null,
+  "type" : "group",
+  "display_width" : null,
+  "default" : [ {
+    "service_icon" : {
+      "size_type" : "auto",
+      "src" : "https://246197183.fs1.hubspotusercontent-na2.net/hubfs/246197183/patient%20(1).webp",
+      "alt" : "patient (1)",
+      "loading" : "lazy",
+      "width" : 48,
+      "height" : 44,
+      "max_width" : 48,
+      "max_height" : 44
+    },
+    "service_title" : "Monthly Bookkeeping",
+    "description" : "&nbsp;Recurring bookkeeping, month-end close support, transaction processing, account maintenance, and catch-up bookkeeping services delivered under your firm's standards.&nbsp;",
+    "tag_1" : "Monthly Bookkeeping",
+    "tag_1_link" : {
+      "url" : {
+        "content_id" : null,
+        "href" : "https://go1digital.com",
+        "type" : "EXTERNAL"
+      },
+      "open_in_new_tab" : true,
+      "no_follow" : false
+    },
+    "tag_2" : "Catch-Up Services",
+    "tag_2_link" : {
+      "url" : {
+        "content_id" : null,
+        "href" : "https://go1digital.com",
+        "type" : "EXTERNAL"
+      },
+      "open_in_new_tab" : true,
+      "no_follow" : false
+    }
+  }, {
+    "service_icon" : {
+      "size_type" : "auto",
+      "src" : "https://246197183.fs1.hubspotusercontent-na2.net/hubfs/246197183/patient%20(1).webp",
+      "alt" : "patient (1)",
+      "loading" : "lazy",
+      "width" : 48,
+      "height" : 44,
+      "max_width" : 48,
+      "max_height" : 44
+    },
+    "service_title" : "Monthly Bookkeeping",
+    "description" : "&nbsp;Recurring bookkeeping, month-end close support, transaction processing, account maintenance, and catch-up bookkeeping services delivered under your firm's standards.&nbsp;",
+    "tag_1" : "Monthly Bookkeeping",
+    "tag_1_link" : {
+      "url" : {
+        "content_id" : null,
+        "href" : "https://go1digital.com",
+        "type" : "EXTERNAL"
+      },
+      "open_in_new_tab" : true,
+      "no_follow" : false
+    },
+    "tag_2" : "Catch-Up Services",
+    "tag_2_link" : {
+      "url" : {
+        "content_id" : null,
+        "href" : "https://go1digital.com",
+        "type" : "EXTERNAL"
+      },
+      "open_in_new_tab" : true,
+      "no_follow" : false
+    }
+  }, {
+    "service_icon" : {
+      "size_type" : "auto",
+      "src" : "https://246197183.fs1.hubspotusercontent-na2.net/hubfs/246197183/patient%20(1).webp",
+      "alt" : "patient (1)",
+      "loading" : "lazy",
+      "width" : 48,
+      "height" : 44,
+      "max_width" : 48,
+      "max_height" : 44
+    },
+    "service_title" : "Monthly Bookkeeping",
+    "description" : "&nbsp;Recurring bookkeeping, month-end close support, transaction processing, account maintenance, and catch-up bookkeeping services delivered under your firm's standards.&nbsp;",
+    "tag_1" : "Monthly Bookkeeping",
+    "tag_1_link" : {
+      "url" : {
+        "content_id" : null,
+        "href" : "https://go1digital.com",
+        "type" : "EXTERNAL"
+      },
+      "open_in_new_tab" : true,
+      "no_follow" : false
+    },
+    "tag_2" : "Catch-Up Services",
+    "tag_2_link" : {
+      "url" : {
+        "content_id" : null,
+        "href" : "https://go1digital.com",
+        "type" : "EXTERNAL"
+      },
+      "open_in_new_tab" : true,
+      "no_follow" : false
+    }
+  }, {
+    "service_icon" : {
+      "size_type" : "auto",
+      "src" : "https://246197183.fs1.hubspotusercontent-na2.net/hubfs/246197183/patient%20(1).webp",
+      "alt" : "patient (1)",
+      "loading" : "lazy",
+      "width" : 48,
+      "height" : 44,
+      "max_width" : 48,
+      "max_height" : 44
+    },
+    "service_title" : "Monthly Bookkeeping",
+    "description" : "&nbsp;Recurring bookkeeping, month-end close support, transaction processing, account maintenance, and catch-up bookkeeping services delivered under your firm's standards.&nbsp;",
+    "tag_1" : "Monthly Bookkeeping",
+    "tag_1_link" : {
+      "url" : {
+        "content_id" : null,
+        "href" : "https://go1digital.com",
+        "type" : "EXTERNAL"
+      },
+      "open_in_new_tab" : true,
+      "no_follow" : false
+    },
+    "tag_2" : "Catch-Up Services",
+    "tag_2_link" : {
+      "url" : {
+        "content_id" : null,
+        "href" : "https://go1digital.com",
+        "type" : "EXTERNAL"
+      },
+      "open_in_new_tab" : true,
+      "no_follow" : false
+    }
+  }, {
+    "service_icon" : {
+      "size_type" : "auto",
+      "src" : "https://246197183.fs1.hubspotusercontent-na2.net/hubfs/246197183/patient%20(1).webp",
+      "alt" : "patient (1)",
+      "loading" : "lazy",
+      "width" : 48,
+      "height" : 44,
+      "max_width" : 48,
+      "max_height" : 44
+    },
+    "service_title" : "Monthly Bookkeeping",
+    "description" : "&nbsp;Recurring bookkeeping, month-end close support, transaction processing, account maintenance, and catch-up bookkeeping services delivered under your firm's standards.&nbsp;",
+    "tag_1" : "Monthly Bookkeeping",
+    "tag_1_link" : {
+      "url" : {
+        "content_id" : null,
+        "href" : "https://go1digital.com",
+        "type" : "EXTERNAL"
+      },
+      "open_in_new_tab" : true,
+      "no_follow" : false
+    },
+    "tag_2" : "Catch-Up Services",
+    "tag_2_link" : {
+      "url" : {
+        "content_id" : null,
+        "href" : "https://go1digital.com",
+        "type" : "EXTERNAL"
+      },
+      "open_in_new_tab" : true,
+      "no_follow" : false
+    }
+  }, {
+    "service_icon" : {
+      "size_type" : "auto",
+      "src" : "https://246197183.fs1.hubspotusercontent-na2.net/hubfs/246197183/patient%20(1).webp",
+      "alt" : "patient (1)",
+      "loading" : "lazy",
+      "width" : 48,
+      "height" : 44,
+      "max_width" : 48,
+      "max_height" : 44
+    },
+    "service_title" : "Monthly Bookkeeping",
+    "description" : "&nbsp;Recurring bookkeeping, month-end close support, transaction processing, account maintenance, and catch-up bookkeeping services delivered under your firm's standards.&nbsp;",
+    "tag_1" : "Monthly Bookkeeping",
+    "tag_1_link" : {
+      "url" : {
+        "content_id" : null,
+        "href" : "https://go1digital.com",
+        "type" : "EXTERNAL"
+      },
+      "open_in_new_tab" : true,
+      "no_follow" : false
+    },
+    "tag_2" : "Catch-Up Services",
+    "tag_2_link" : {
+      "url" : {
+        "content_id" : null,
+        "href" : "https://go1digital.com",
+        "type" : "EXTERNAL"
+      },
+      "open_in_new_tab" : true,
+      "no_follow" : false
+    }
+  } ]
+}, {
+  "id" : "3eba00e3-eb09-6d43-dfd5-3eb4f2eece57",
+  "name" : "typography",
+  "label" : "Typography",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "4c9fc1cc-1cf8-11b7-c7ea-7916e419f4bf",
+    "name" : "font_family",
+    "label" : "Font Family",
+    "required" : false,
+    "locked" : false,
+    "load_external_fonts" : true,
+    "type" : "font",
+    "display_width" : null,
+    "default" : {
+      "styles" : { },
+      "variant" : "regular",
+      "font" : "Geologica",
+      "fallback" : "sans-serif",
+      "font_set" : "GOOGLE",
+      "size" : 16
+    }
+  }, {
+    "id" : "edbd67b1-77f5-7397-3c09-2f4b3441a0db",
+    "name" : "heading_size",
+    "label" : "Heading Size",
+    "required" : false,
+    "locked" : false,
+    "display" : "text",
+    "step" : 1,
+    "suffix" : "px",
+    "type" : "number",
+    "display_width" : null,
+    "default" : 36
+  }, {
+    "id" : "750b257c-33d3-e48d-456f-b826f48a7e61",
+    "name" : "sub_heading",
+    "label" : "Sub Heading",
+    "required" : false,
+    "locked" : false,
+    "display" : "text",
+    "step" : 1,
+    "suffix" : "px",
+    "type" : "number",
+    "display_width" : null,
+    "default" : 26
+  }, {
+    "id" : "fc7a60c9-8ce0-e378-c8ff-9c019da84a81",
+    "name" : "description_size",
+    "label" : "Description Size",
+    "required" : false,
+    "locked" : false,
+    "display" : "text",
+    "step" : 1,
+    "suffix" : "px",
+    "type" : "number",
+    "display_width" : null,
+    "default" : 16
+  }, {
+    "id" : "f8b175eb-5e7c-331a-09b4-dbf8456a5422",
+    "name" : "card_title_size",
+    "label" : "Card Title Size",
+    "required" : false,
+    "locked" : false,
+    "display" : "text",
+    "step" : 1,
+    "suffix" : "px",
+    "type" : "number",
+    "display_width" : null,
+    "default" : 22
+  }, {
+    "id" : "0f0ab568-833a-7c97-ad52-9e3d2b44f5b4",
+    "name" : "card_text_size",
+    "label" : "Card Text Size ",
+    "required" : false,
+    "locked" : false,
+    "display" : "text",
+    "step" : 1,
+    "suffix" : "px",
+    "type" : "number",
+    "display_width" : null,
+    "default" : 16
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "group_occurrence_meta" : null,
+  "type" : "group",
+  "display_width" : null,
+  "default" : {
+    "font_family" : {
+      "styles" : { },
+      "variant" : "regular",
+      "font" : "Geologica",
+      "fallback" : "sans-serif",
+      "font_set" : "GOOGLE",
+      "size" : 16
+    },
+    "heading_size" : 36,
+    "sub_heading" : 26,
+    "description_size" : 16,
+    "card_title_size" : 22,
+    "card_text_size" : 16
+  }
+} ]
