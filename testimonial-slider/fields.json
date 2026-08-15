@@ -1,0 +1,409 @@
+[
+  {
+    "name": "testimonials",
+    "label": "Testimonials",
+    "type": "group",
+    "occurrence": {
+      "min": 1,
+      "default": 4,
+      "sorting_label_field": "client_name"
+    },
+    "children": [
+      {
+        "name": "client_image",
+        "label": "Client Image",
+        "type": "image"
+      },
+      {
+        "name": "client_name",
+        "label": "Client Name",
+        "type": "text"
+      },
+      {
+        "name": "client_designation",
+        "label": "Client Designation",
+        "type": "text"
+      },
+      {
+        "name": "star_rating",
+        "label": "Star Rating",
+        "type": "choice",
+        "display": "select",
+        "choices": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "2",
+            "2"
+          ],
+          [
+            "3",
+            "3"
+          ],
+          [
+            "4",
+            "4"
+          ],
+          [
+            "5",
+            "5"
+          ]
+        ],
+        "default": "5"
+      },
+      {
+        "name": "testimonial",
+        "label": "Testimonial",
+        "type": "richtext"
+      }
+    ]
+  },
+  {
+    "name": "section_description",
+    "label": "Section Description",
+    "type": "richtext",
+    "default": "<p>Trusted by our happy clients worldwide.</p>"
+  },
+  {
+    "name": "section_title",
+    "label": "Section Title",
+    "type": "text",
+    "default": "Testimonials"
+  },
+  {
+    "name": "Section",
+    "label": "Style",
+    "type": "group",
+    "children": [
+      {
+        "name": "sections",
+        "label": "Sections",
+        "type": "group",
+        "children": [
+          {
+            "name": "section_bg",
+            "label": "Section Background",
+            "type": "color",
+            "default": {
+              "color": "#2F2442",
+              "opacity": 100
+            }
+          },
+          {
+            "name": "padding_top",
+            "label": "Top Padding",
+            "type": "number",
+            "default": 60
+          },
+          {
+            "name": "padding_bottom",
+            "label": "Bottom Padding",
+            "type": "number",
+            "default": 60
+          },
+          {
+            "name": "full_width",
+            "label": "Full Width",
+            "type": "boolean",
+            "default": true
+          }
+        ]
+      },
+      {
+        "name": "heading",
+        "label": "Heading",
+        "type": "group",
+        "children": [
+          {
+            "name": "heading_font",
+            "label": "Heading Font",
+            "type": "font",
+            "default": {
+              "font": "Arial",
+              "size": 42,
+              "size_unit": "px",
+              "color": "#FFFFFF"
+            }
+          },
+          {
+            "name": "heading_align",
+            "label": "Heading Alignment",
+            "type": "alignment",
+            "default": {
+              "text_align": "CENTER"
+            }
+          }
+        ]
+      },
+      {
+        "name": "description",
+        "label": "Description",
+        "type": "group",
+        "children": [
+          {
+            "name": "description_font",
+            "label": "Description Font",
+            "type": "font",
+            "default": {
+              "font": "Arial",
+              "size": 18,
+              "size_unit": "px",
+              "color": "#D7D7D7"
+            }
+          },
+          {
+            "name": "description_alignment",
+            "label": "Description Alignment",
+            "type": "alignment",
+            "default": {
+              "text_align": "CENTER"
+            }
+          }
+        ]
+      },
+      {
+        "name": "card",
+        "label": "Card",
+        "type": "group",
+        "children": [
+          {
+            "name": "card_bg",
+            "label": "Card Background",
+            "type": "color",
+            "default": {
+              "color": "#FFFFFF",
+              "opacity": 100
+            }
+          },
+          {
+            "name": "card_gap",
+            "label": "Card Gap",
+            "type": "number",
+            "default": 20
+          },
+          {
+            "name": "card_shadow",
+            "label": "Card Shadow",
+            "type": "choice",
+            "display": "select",
+            "choices": [
+              [
+                "none",
+                "None"
+              ],
+              [
+                "small",
+                "Small"
+              ],
+              [
+                "medium",
+                "Medium"
+              ],
+              [
+                "large",
+                "Large"
+              ]
+            ],
+            "default": "medium"
+          },
+          {
+            "name": "card_padding",
+            "label": "Card Padding",
+            "type": "number",
+            "default": 30
+          },
+          {
+            "name": "card_radius",
+            "label": "Card Border Radius",
+            "type": "number",
+            "default": 18
+          },
+          {
+            "name": "card_text_alignment",
+            "label": "Card Text Alignment",
+            "type": "alignment",
+            "default": {
+              "text_align": "CENTER"
+            }
+          }
+        ]
+      },
+      {
+        "name": "client_name",
+        "label": "Client Name",
+        "type": "group",
+        "children": [
+          {
+            "name": "client_name_font",
+            "label": "Client Name Font",
+            "type": "font",
+            "default": {
+              "font": "Arial",
+              "size": 22,
+              "size_unit": "px",
+              "color": "#000000"
+            }
+          },
+          {
+            "name": "client_name_alignment",
+            "label": "Client Name Alignment",
+            "type": "alignment",
+            "default": {
+              "text_align": "CENTER"
+            }
+          }
+        ]
+      },
+      {
+        "name": "designation",
+        "label": "Designation",
+        "type": "group",
+        "children": [
+          {
+            "name": "designation_font",
+            "label": "Designation Font",
+            "type": "font",
+            "default": {
+              "font": "Arial",
+              "size": 15,
+              "size_unit": "px",
+              "color": "#666666"
+            }
+          },
+          {
+            "name": "designation_alignment",
+            "label": "Designation Alignment",
+            "type": "alignment",
+            "default": {
+              "text_align": "CENTER"
+            }
+          }
+        ]
+      },
+      {
+        "name": "testimonial",
+        "label": "Testimonial",
+        "type": "group",
+        "children": [
+          {
+            "name": "testimonial_font",
+            "label": "Testimonial Font",
+            "type": "font",
+            "default": {
+              "font": "Arial",
+              "size": 16,
+              "size_unit": "px",
+              "color": "#333333"
+            }
+          },
+          {
+            "name": "testimonial_alignment",
+            "label": "Testimonial Alignment",
+            "type": "alignment",
+            "default": {
+              "text_align": "CENTER"
+            }
+          },
+          {
+            "name": "testimonial_line_height",
+            "label": "Testimonial Line Height",
+            "type": "number",
+            "default": 1.7
+          }
+        ]
+      },
+      {
+        "name": "stars",
+        "label": "Stars",
+        "type": "group",
+        "children": [
+          {
+            "name": "star_color",
+            "label": "Star Color",
+            "type": "color",
+            "default": {
+              "color": "#F4B400",
+              "opacity": 100
+            }
+          },
+          {
+            "name": "star_gap",
+            "label": "Star Gap",
+            "type": "number",
+            "default": 5
+          },
+          {
+            "name": "star_alignment",
+            "label": "Star Alignment",
+            "type": "alignment",
+            "default": {
+              "text_align": "CENTER"
+            }
+          },
+          {
+            "name": "star_size",
+            "label": "Star Size",
+            "type": "number",
+            "default": 24
+          }
+        ]
+      },
+      {
+        "name": "arrows",
+        "label": "Arrows",
+        "type": "group",
+        "children": [
+          {
+            "name": "arrow_bg",
+            "label": "Arrow Background",
+            "type": "color",
+            "default": {
+              "color": "#FFFFFF",
+              "opacity": 100
+            }
+          },
+          {
+            "name": "arrow_color",
+            "label": "Arrow Color",
+            "type": "color",
+            "default": {
+              "color": "#000000",
+              "opacity": 100
+            }
+          },
+          {
+            "name": "arrow_size",
+            "label": "Arrow Size",
+            "type": "number",
+            "default": 50
+          },
+          {
+            "name": "arrow_radius",
+            "label": "Arrow Radius",
+            "type": "number",
+            "default": 50
+          },
+          {
+            "name": "arrow_position",
+            "label": "Arrow Position",
+            "type": "choice",
+            "display": "select",
+            "choices": [
+              [
+                "inside",
+                "Inside"
+              ],
+              [
+                "outside",
+                "Outside"
+              ]
+            ],
+            "default": "outside"
+          }
+        ]
+      }
+    ]
+  }
+]
