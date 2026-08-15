@@ -1,0 +1,211 @@
+<section class="about-us-section">
+    <div class="about-us">
+        <!-- Header -->
+        <div class="about-us__header">
+            {% if module.content.sub_heading %}
+            <span class="about-us__tag">
+                {{ module.content.sub_heading }}
+            </span>
+            {% endif %}
+
+            {% if module.content.section_header %}
+            <h2 class="about-us__heading">
+                {{ module.content.section_header }}
+            </h2>
+            {% endif %}
+
+            {% if module.content.section_description %}
+            <div class="about-us__description">
+                {{ module.content.section_description }}
+            </div>
+            {% endif %}
+
+        </div>
+
+        <!-- Content -->
+
+        <div class="about-us__content">
+
+            <!-- Left Image -->
+
+            <div class="about-us__image-wrapper">
+
+                <span class="about-us__circle"></span>
+
+                {% if module.content.section_image.src %}
+
+                    {% set sizeAttrs = 'width="' ~ module.content.section_image.width ~ '" height="' ~ module.content.section_image.height ~ '"' %}
+                    {% if module.content.section_image.size_type == 'auto' %}
+                        {% set sizeAttrs = 'style="max-width:100%;height:auto;"' %}
+                    {% elif module.content.section_image.size_type == 'auto_custom_max' %}
+                        {% set sizeAttrs = 'width="' ~ module.content.section_image.max_width ~ '" height="' ~ module.content.section_image.max_height ~ '" style="max-width:100%;height:auto;"' %}
+                    {% endif %}
+                    {% set loadingAttr = module.content.section_image.loading != 'disabled' ? 'loading="' ~ module.content.section_image.loading ~ '"' : '' %}
+                    <img class="about-us__image"
+                         src="{{ module.content.section_image.src|escape_url }}"
+                         alt="{{ module.content.section_image.alt|escape_attr }}"
+                         {{ loadingAttr }}
+                         {{ sizeAttrs }}>
+
+                {% endif %}
+
+                <span class="about-us__dots"></span>
+
+            </div>
+
+            <!-- Right Cards -->
+
+            <div class="about-us__services">
+
+                {% for item in module.serve_items %}
+
+                <div class="about-us__service">
+
+                    <div class="about-us__service-icon">
+
+                        {% if item.icon.src %}
+
+                            <img
+                                src="{{ item.icon.src|escape_url }}"
+                                alt="{{ item.icon.alt|escape_attr }}"
+                                loading="lazy">
+
+                        {% endif %}
+                    </div>
+                    <div class="about-us__service-content">
+
+                        {% if item.title %}
+                        <h3 class="about-us__service-title">
+                            {{ item.title }}
+                        </h3>
+                        {% endif %}
+
+                        {% if item.description %}
+                        <div class="about-us__service-description">
+                            {{ item.description }}
+                        </div>
+                        {% endif %}
+
+                    </div>
+
+                </div>
+
+                {% endfor %}
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+{% require_css %}
+<style>
+{% scope_css %}
+
+/* ===========================
+   Section
+=========================== */
+
+.about-us-section{
+    background: {{ module.style.section.background_color.color }};
+    padding-top: {{ module.style.section.padding_top }}px;
+    padding-bottom: {{ module.style.section.padding_bottom }}px;
+}
+
+.about-us{
+    {% if module.style.section.max_width %}
+        max-width: {{ module.style.section.max_width }}px;
+    {% else %}
+        max-width: 1200px;
+    {% endif %}
+    margin:0 auto;
+    padding:0 20px;
+
+}
+
+/* ===========================
+   Header
+=========================== */
+
+
+/* ===========================
+   Sub Heading
+=========================== */
+
+.about-us__tag{
+    {{ module.style.sub_heading.font_sh.css }}
+}
+
+/* ===========================
+   Heading
+=========================== */
+
+.about-us__heading{
+
+font-family: {{ module.style.Heading.font_field.font }};
+  {{ module.style.Heading.font_field.style}}; 
+  color: {{ module.style.Heading.font_field.color}};
+font-size: {{ module.style.Heading.font_field.size }}{{ module.style.Heading.font_field.size_unit }};
+  {{ module.style.Heading.alignment.css }}
+    
+}
+
+/* ===========================
+   Description
+=========================== */
+
+.about-us__description{
+    {{ module.style.description.font.css }}
+}
+
+/* ===========================
+   Cards
+=========================== */
+
+.about-us__services{
+    gap:{{ module.style.cards.gap }}px;
+}
+
+.about-us__service{
+    background:{{ module.style.cards.color_field_cards.color }};
+    border-radius:{{ module.style.cards.border_radius_card }}px;
+
+}
+
+/* ===========================
+   Icon
+=========================== */
+.about-us__service-icon{
+    width: {{ module.style.cards.icon_box_size }}px;
+    height: {{ module.style.cards.icon_box_size }}px;
+    min-width: {{ module.style.cards.icon_box_size }}px;
+}
+
+.about-us__service-icon img{
+    max-width: {{ module.style.cards.icon_size }}px;
+    max-height: {{ module.style.cards.icon_size }}px;
+    width:auto;
+    height:auto;
+    object-fit:contain;
+}
+
+/* ===========================
+   Card Heading
+=========================== */
+
+.about-us__service-title{
+    {{ module.style.card_heading.font.css }}
+}
+
+/* ===========================
+   Card Description
+=========================== */
+
+.about-us__service-description{
+    {{ module.style.card_description.font.css }}
+}
+
+{% end_scope_css %}
+</style>
+{% end_require_css %}
