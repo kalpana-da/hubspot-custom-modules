@@ -13,7 +13,7 @@ The repository is intended as both a learning resource and a portfolio showcasin
 | [Hero Banner Module](hero-banner-module/) | Responsive hero banner with CTA, image support and dynamic styling | ✅ Complete |
 | [Team Members Module](team-members-module/) | Dynamic team section using HubSpot Repeater Fields | ✅ Complete |
 | [Responsive Testimonial Slider](testimonial-slider/) | Responsive testimonial slider with repeater fields, dynamic styling and navigation | ✅ Complete |
-
+| [HubSpot Service Cards Module](service-cards-module/) | Reusable responsive HubSpot Service Cards module with dynamic styling, SVG icon hover support, equal-height cards, and editor-friendly customization. | ✅ Complete |
 ---
 
 ## ✨ Features
@@ -64,13 +64,22 @@ hubspot-custom-modules/
 │   ├── fields.json
 │   └── screenshot/
 │
-└── testimonial-slider/
-    ├── README.md
-    ├── module.html
-    ├── module.css
-    ├── module.js
-    ├── meta.json
-    └── screenshot/
+|── testimonial-slider/
+|   ├── README.md
+|   ├── module.html
+|   ├── module.css
+|   ├── module.js
+|   ├── meta.json
+|   |── screenshot/
+|
+├── Service-card-module/
+│   ├── README.md
+│   ├── module.html
+│   ├── module.css
+│   ├── module.js
+│   ├── fields.json
+│   └── screenshot/
+
 ```
 
 ---
