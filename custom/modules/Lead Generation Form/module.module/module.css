@@ -1,0 +1,519 @@
+/* =========================================================
+   HUBSPOT FORM SPACING
+   MODULE ONLY
+========================================================= */
+
+.lead-form-module {
+  --hsf-default-background__padding: 5px;
+  --hsf-default-row__vertical-spacing: 5px;
+}
+
+
+/* =========================================================
+   CARD / MAIN MODULE
+========================================================= */
+
+.lead-form-module {
+  width: 100%;
+  max-width: 100%;
+
+  box-sizing: border-box;
+
+  overflow: hidden;
+
+  padding: 22px 24px 24px;
+}
+
+
+/* =========================================================
+   BADGE
+========================================================= */
+
+.lead-form-module__badge {
+  display: inline-block;
+
+  margin: 0 0 10px 0;
+
+  padding: 6px 12px;
+
+  box-sizing: border-box;
+}
+
+
+/* =========================================================
+   HEADING
+========================================================= */
+
+.lead-form-module__heading {
+  width: 100%;
+
+  margin: 0 0 6px 0 !important;
+
+  padding: 0 !important;
+
+  box-sizing: border-box;
+
+  line-height: 1.12;
+
+  overflow-wrap: break-word;
+}
+
+
+/* =========================================================
+   DESCRIPTION
+========================================================= */
+
+.lead-form-module__description {
+  width: 100%;
+
+  margin: 0 0 14px 0 !important;
+
+  padding: 0 !important;
+
+  box-sizing: border-box;
+
+  line-height: 1.25;
+
+  overflow-wrap: break-word;
+}
+
+
+/* =========================================================
+   FORM CONTAINER
+========================================================= */
+
+.lead-form-module__form {
+  width: 100%;
+  max-width: 100%;
+
+  margin: 0 !important;
+
+  padding: 0 !important;
+
+  box-sizing: border-box;
+}
+
+
+/* =========================================================
+   HUBSPOT FORM
+========================================================= */
+
+.lead-form-module__form form {
+  width: 100% !important;
+
+  max-width: 100% !important;
+
+  margin: 0 !important;
+
+  padding: 0 !important;
+
+  box-sizing: border-box;
+}
+
+
+/* =========================================================
+   HUBSPOT ROW
+========================================================= */
+
+.lead-form-module__form .hsfc-row {
+
+  width: 100% !important;
+
+  margin-top: 0 !important;
+
+  margin-bottom: 8px !important;
+
+  padding: 0 !important;
+
+  box-sizing: border-box;
+
+  display: flex !important;
+
+  gap: 16px !important;
+}
+
+
+/* =========================================================
+   FIELD
+========================================================= */
+
+.lead-form-module__form .hsfc-field {
+
+  margin-top: 0 !important;
+
+  margin-bottom: 0 !important;
+
+  padding: 0 !important;
+
+  box-sizing: border-box;
+}
+
+
+/* =========================================================
+   TWO COLUMN FIELDS
+========================================================= */
+
+.lead-form-module__form
+.hsfc-row > .hsfc-field {
+
+  flex: 1 1 0 !important;
+
+  min-width: 0 !important;
+}
+
+
+/* =========================================================
+   INPUT WRAPPER
+========================================================= */
+
+.lead-form-module__form .input,
+.lead-form-module__form .hsfc-input {
+
+  width: 100% !important;
+
+  margin: 0 !important;
+
+  padding: 0 !important;
+
+  box-sizing: border-box;
+}
+
+
+/* =========================================================
+   INPUTS
+========================================================= */
+
+.lead-form-module__form input,
+.lead-form-module__form select,
+.lead-form-module__form textarea {
+
+  width: 100%;
+
+  max-width: 100%;
+
+  margin-top: 0 !important;
+
+  margin-bottom: 0 !important;
+
+  box-sizing: border-box;
+}
+
+
+/* =========================================================
+   PHONE
+========================================================= */
+
+.lead-form-module__form .hsfc-PhoneInput {
+
+  width: 100% !important;
+
+  max-width: 100% !important;
+
+  margin: 0 !important;
+
+  box-sizing: border-box;
+}
+
+
+/* =========================================================
+   PHONE INNER
+========================================================= */
+
+.lead-form-module__form
+.hs_phone .input {
+
+  width: 100% !important;
+
+  margin: 0 !important;
+
+  padding: 0 !important;
+
+  box-sizing: border-box;
+}
+
+
+/* =========================================================
+   SELECT
+========================================================= */
+
+.lead-form-module__form .hsfc-select {
+
+  width: 100% !important;
+
+  max-width: 100% !important;
+
+  margin: 0 !important;
+
+  box-sizing: border-box;
+}
+
+
+/* =========================================================
+   HUBSPOT SUBMIT AREA
+========================================================= */
+
+.lead-form-module__form .hs_submit,
+.lead-form-module__form .hsfc-submit {
+
+  width: 100% !important;
+
+  margin-top: 4px !important;
+
+  margin-bottom: 0 !important;
+
+  padding: 0 !important;
+
+  box-sizing: border-box;
+}
+
+
+/* =========================================================
+   BUTTON
+========================================================= */
+
+.lead-form-module__form
+input[type="submit"],
+.lead-form-module__form
+button[type="submit"],
+.lead-form-module__form
+.hs-button,
+.lead-form-module__form
+.hsfc-button {
+
+  max-width: 100%;
+
+  box-sizing: border-box;
+
+  margin-top: 0 !important;
+
+}
+
+
+/* =========================================================
+   PRIVACY
+========================================================= */
+
+.lead-form-module__privacy {
+
+  width: 100% !important;
+
+  max-width: 100% !important;
+
+  margin: 6px 0 8px 0 !important;
+
+  padding: 0 !important;
+
+  box-sizing: border-box;
+
+  text-align: center;
+
+  line-height: 1.3;
+
+  overflow-wrap: break-word;
+}
+
+
+/* =========================================================
+   REMOVE COMMON HUBSPOT GAPS
+========================================================= */
+
+.lead-form-module__form .hs-form-field {
+
+  margin-top: 0 !important;
+
+  margin-bottom: 8px !important;
+}
+
+
+.lead-form-module__form
+.hs-form-field:last-child {
+
+  margin-bottom: 0 !important;
+}
+
+
+.lead-form-module__form ul,
+.lead-form-module__form ol {
+
+  margin-top: 0 !important;
+
+  margin-bottom: 0 !important;
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 767px) {
+
+  .lead-form-module {
+
+    padding: 20px 18px 22px;
+
+  }
+
+
+  .lead-form-module__badge {
+
+    margin-bottom: 8px;
+
+  }
+
+
+  .lead-form-module__heading {
+
+    margin-bottom: 6px !important;
+
+  }
+
+
+  .lead-form-module__description {
+
+    margin-bottom: 12px !important;
+
+  }
+
+
+  /* Stack First Name + Last Name */
+
+  .lead-form-module__form
+  .hsfc-row {
+
+    display: block !important;
+
+    margin-bottom: 8px !important;
+
+  }
+
+
+  .lead-form-module__form
+  .hsfc-row > .hsfc-field {
+
+    width: 100% !important;
+
+    margin-bottom: 8px !important;
+
+  }
+
+
+  .lead-form-module__form
+  .hsfc-row > .hsfc-field:last-child {
+
+    margin-bottom: 0 !important;
+
+  }
+
+
+  .lead-form-module__privacy {
+
+    margin-top: 5px !important;
+
+    margin-bottom: 7px !important;
+
+    text-align: center;
+
+  }
+
+}
+
+
+/* =========================================================
+   SMALL MOBILE
+========================================================= */
+
+@media (max-width: 480px) {
+
+  .lead-form-module {
+
+    padding: 18px 16px 20px;
+
+  }
+
+
+  .lead-form-module__badge {
+
+    margin-bottom: 7px;
+
+  }
+
+
+  .lead-form-module__heading {
+
+    margin-bottom: 6px !important;
+
+  }
+
+
+  .lead-form-module__description {
+
+    margin-bottom: 10px !important;
+
+  }
+
+
+  .lead-form-module__form
+  .hsfc-row {
+
+    margin-bottom: 7px !important;
+
+  }
+
+
+  .lead-form-module__form
+  .hsfc-row > .hsfc-field {
+
+    margin-bottom: 7px !important;
+
+  }
+
+
+  .lead-form-module__privacy {
+
+    margin-top: 4px !important;
+
+    margin-bottom: 6px !important;
+
+    text-align: center;
+
+  }
+
+}
+
+
+/* =========================================================
+   VERY SMALL MOBILE
+========================================================= */
+
+@media (max-width: 360px) {
+
+  .lead-form-module {
+
+    padding: 16px 14px 18px;
+
+  }
+
+
+  .lead-form-module__description {
+
+    margin-bottom: 9px !important;
+
+  }
+
+
+  .lead-form-module__form
+  .hsfc-row {
+
+    margin-bottom: 6px !important;
+
+  }
+
+
+  .lead-form-module__form
+  .hsfc-row > .hsfc-field {
+
+    margin-bottom: 6px !important;
+
+  }
+
+}

@@ -1,0 +1,392 @@
+<section class="lead-form-module">
+
+  <!-- =========================================================
+       BADGE
+  ========================================================== -->
+  {% if module.content.badge_text %}
+    <div class="lead-form-module__badge">
+      {{ module.content.badge_text }}
+    </div>
+  {% endif %}
+
+
+  <!-- =========================================================
+       HEADING
+  ========================================================== -->
+  {% if module.content.heading %}
+    <h2 class="lead-form-module__heading">
+      {{ module.content.heading }}
+    </h2>
+  {% endif %}
+
+
+  <!-- =========================================================
+       DESCRIPTION
+  ========================================================== -->
+  {% if module.content.description %}
+    <div class="lead-form-module__description">
+      {{ module.content.description }}
+    </div>
+  {% endif %}
+
+
+  <!-- =========================================================
+       HUBSPOT FORM
+  ========================================================== -->
+
+  <div class="lead-form-module__form">
+
+    {% if module.content.form.form_id %}
+      {% form
+        form_to_use="{{ module.content.form.form_id }}"
+        response_response_type="{{ module.content.form.response_type }}"
+        response_message="{{ module.content.form.message }}"
+        response_redirect_id="{{ module.content.form.redirect_id }}"
+        response_redirect_url="{{ module.content.form.redirect_url }}"
+        gotowebinar_webinar_key="{{ module.content.form.gotowebinar_webinar_key }}"
+      %}
+    {% endif %}
+
+  </div>
+
+
+  <!-- =========================================================
+       PRIVACY
+  ========================================================== -->
+
+  {% if module.content.privacy_text %}
+    <p class="lead-form-module__privacy">
+      {{ module.content.privacy_text }}
+    </p>
+  {% endif %}
+
+</section>
+
+
+<style>
+
+{% scope_css %}
+
+/* =========================================================
+   CARD STYLE - DYNAMIC
+========================================================= */
+
+.lead-form-module {
+
+  background-color:
+    {{ module.form_style.card_style.card_background.color }}
+    !important;
+
+  width: 100% !important;
+
+  max-width:
+    {{ module.form_style.card_style.card_width }}px
+    !important;
+
+  border-radius:
+    {{ module.form_style.card_style.card_radius }}px
+    !important;
+
+  box-sizing: border-box !important;
+
+}
+
+
+/* =========================================================
+   BADGE - DYNAMIC
+========================================================= */
+
+.lead-form-module__badge {
+
+  background-color:
+    {{ module.form_style.card_style.badge_bg.color }}
+    !important;
+
+  {{ module.form_style.typography_style.badge_font.css }}
+
+  display: inline-block;
+
+  padding: 6px 12px;
+
+  border-radius: 6px;
+
+  margin-bottom: 10px;
+
+  box-sizing: border-box;
+
+}
+
+
+/* =========================================================
+   HEADING - DYNAMIC FONT
+========================================================= */
+
+.lead-form-module__heading {
+
+  {{ module.form_style.typography_style.heading_font.css }}
+
+  box-sizing: border-box;
+
+}
+
+
+/* =========================================================
+   DESCRIPTION - DYNAMIC FONT
+========================================================= */
+
+.lead-form-module__description {
+
+  {{ module.form_style.typography_style.description_font.css }}
+
+  box-sizing: border-box;
+
+}
+
+
+/* =========================================================
+   PRIVACY - DYNAMIC FONT
+========================================================= */
+
+.lead-form-module__privacy {
+
+  {{ module.form_style.typography_style.privacy_text_font.css }}
+
+  box-sizing: border-box;
+
+}
+
+
+/* =========================================================
+   FORM FONT - DYNAMIC
+========================================================= */
+
+.lead-form-module__form input,
+.lead-form-module__form select,
+.lead-form-module__form textarea,
+.lead-form-module__form button,
+.lead-form-module__form .hsfc-PhoneInput__FlagAndCaret,
+.lead-form-module__form .hsfc-PhoneInput__FlagAndCaret * {
+
+  {{ module.form_style.form_style.form_font.css }}
+
+}
+
+
+/* =========================================================
+   INPUT STYLE - DYNAMIC
+========================================================= */
+
+.lead-form-module__form input,
+.lead-form-module__form select,
+.lead-form-module__form textarea {
+
+  background-color:
+    {{ module.form_style.form_style.input_background.color }}
+    !important;
+
+  color:
+    {{ module.form_style.form_style.input_text_color.color }}
+    !important;
+
+  border-color:
+    {{ module.form_style.form_style.input_border_color.color }}
+    !important;
+
+  border-radius:
+    {{ module.form_style.form_style.input_radius }}px
+    !important;
+
+  box-sizing: border-box !important;
+
+}
+
+
+/* =========================================================
+   PLACEHOLDER - DYNAMIC
+========================================================= */
+
+.lead-form-module__form input::placeholder,
+.lead-form-module__form textarea::placeholder {
+
+  color:
+    {{ module.form_style.form_style.placeholder_color.color }}
+    !important;
+
+  opacity: 1 !important;
+
+}
+
+
+/* =========================================================
+   PHONE FIELD
+========================================================= */
+
+.lead-form-module__form .hs_phone .input {
+
+  display: flex !important;
+
+  width: 100% !important;
+
+  align-items: stretch !important;
+
+}
+
+
+.lead-form-module__form .hs_phone .hs-fieldtype-intl-phone {
+
+  display: flex !important;
+
+  width: 100% !important;
+
+  align-items: stretch !important;
+
+}
+
+
+.lead-form-module__form .hsfc-PhoneInput {
+
+  display: flex !important;
+
+  width: 100% !important;
+
+  align-items: stretch !important;
+
+}
+
+
+/* =========================================================
+   COUNTRY SELECTOR
+========================================================= */
+
+.lead-form-module__form .hsfc-PhoneInput__FlagAndCaret {
+
+  background-color:
+    {{ module.form_style.form_style.input_background.color }}
+    !important;
+
+  color:
+    {{ module.form_style.form_style.input_text_color.color }}
+    !important;
+
+  border-color:
+    {{ module.form_style.form_style.input_border_color.color }}
+    !important;
+
+  border-style: solid !important;
+
+  border-width: 1px !important;
+
+  border-radius:
+    {{ module.form_style.form_style.input_radius }}px
+    0
+    0
+    {{ module.form_style.form_style.input_radius }}px
+    !important;
+
+  box-sizing: border-box !important;
+
+}
+
+
+/* Country text */
+
+.lead-form-module__form .hsfc-PhoneInput__FlagAndCaret *,
+.lead-form-module__form .hsfc-PhoneInput__FlagAndCaret button,
+.lead-form-module__form .hsfc-PhoneInput__FlagAndCaret span {
+
+  color:
+    {{ module.form_style.form_style.input_text_color.color }}
+    !important;
+
+}
+
+
+/* =========================================================
+   PHONE NUMBER
+========================================================= */
+
+.lead-form-module__form
+.hsfc-PhoneInput input[type="tel"] {
+
+  background-color:
+    {{ module.form_style.form_style.input_background.color }}
+    !important;
+
+  color:
+    {{ module.form_style.form_style.input_text_color.color }}
+    !important;
+
+  border-color:
+    {{ module.form_style.form_style.input_border_color.color }}
+    !important;
+
+  border-radius:
+    0
+    {{ module.form_style.form_style.input_radius }}px
+    {{ module.form_style.form_style.input_radius }}px
+    0
+    !important;
+
+  box-sizing: border-box !important;
+
+}
+
+
+/* =========================================================
+   SUBMIT BUTTON - DYNAMIC STYLE
+========================================================= */
+.lead-form-module .hsfc-NavigationRow__Buttons button.hsfc-Button:hover {
+  background-color: {{ module.form_style.form_style.button_bg_hover.color }} !important;
+  opacity: 1 !important;
+  filter: none !important;
+}
+.lead-form-module__form input[type="submit"],
+.lead-form-module__form button[type="submit"],
+.lead-form-module__form .hs-button,
+.lead-form-module__form .hsfc-button {
+
+  background-color:
+    {{ module.form_style.form_style.button_color.color }}
+    !important;
+
+  color:
+    {{ module.form_style.form_style.button_text_color.color }}
+    !important;
+
+  border-radius:
+    {{ module.form_style.form_style.input_radius }}px
+    !important;
+
+  box-sizing: border-box !important;
+
+}
+
+
+/* =========================================================
+   BUTTON WRAPPER
+========================================================= */
+
+.lead-form-module__form .hs_submit,
+.lead-form-module__form .hsfc-submit {
+
+  border-radius:
+    {{ module.form_style.form_style.input_radius }}px
+    !important;
+
+}
+
+
+/* =========================================================
+   DYNAMIC BUTTON TEXT SUPPORT
+   Hide native text visually only when JS replaces it.
+========================================================= */
+
+.lead-form-module__form .hsfc-button {
+  white-space: nowrap !important;
+}
+
+{% end_scope_css %}
+
+</style>
+
+

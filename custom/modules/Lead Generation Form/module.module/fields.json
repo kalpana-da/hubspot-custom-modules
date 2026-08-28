@@ -1,0 +1,551 @@
+[ {
+  "id" : "64c716cb-64ee-8d18-90c2-7fcf336c735d",
+  "name" : "content",
+  "label" : "Content",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "0689d24c-df73-816a-6c2b-34709734d530",
+    "name" : "badge_text",
+    "label" : "Badge Text",
+    "required" : false,
+    "locked" : false,
+    "allow_new_line" : false,
+    "type" : "text",
+    "display_width" : null,
+    "default" : "FREE • AUDIT REPORT"
+  }, {
+    "id" : "cdf155ac-013d-e91e-6a24-8e1e34932909",
+    "name" : "heading",
+    "label" : "Heading",
+    "required" : false,
+    "locked" : false,
+    "allow_new_line" : false,
+    "type" : "text",
+    "display_width" : null,
+    "default" : "Simplify Your Property  <span style=\"color:#ef4444;\">Financial  </span>Operations"
+  }, {
+    "id" : "6ffb55ee-2d09-8f82-4d40-1421b2c1547b",
+    "name" : "description",
+    "label" : "Description",
+    "required" : false,
+    "locked" : false,
+    "type" : "richtext",
+    "display_width" : null,
+    "default" : "&nbsp;See how better accounting processes can reduce manual work, improve reporting accuracy, and give your team greater financial visibility.&nbsp;"
+  }, {
+    "id" : "32d9223b-3f4a-e479-7a9d-ac3706aedcd7",
+    "name" : "form",
+    "label" : "Form",
+    "required" : false,
+    "locked" : false,
+    "embed_versions" : [ "v2", "v4" ],
+    "type" : "form",
+    "display_width" : null,
+    "default" : {
+      "form_id" : "4af12bf5-7cf4-4cb5-b638-da3f0a179ce6",
+      "response_type" : "inline",
+      "message" : "Thanks for submitting the form.",
+      "form_type" : "HUBSPOT"
+    }
+  }, {
+    "id" : "82fac4db-5066-d986-27f6-9041de191466",
+    "name" : "privacy_text",
+    "label" : "Privacy Text",
+    "required" : false,
+    "locked" : false,
+    "allow_new_line" : false,
+    "type" : "text",
+    "display_width" : null,
+    "default" : "Your information stays private. There’s no commitment or obligation."
+  }, {
+    "id" : "30d44448-aff4-43fa-f7e2-7aa1a7efaa11",
+    "name" : "button_text",
+    "label" : "Button Text",
+    "required" : false,
+    "locked" : false,
+    "allow_new_line" : false,
+    "type" : "text",
+    "display_width" : null,
+    "default" : "Get My Free Audit ➔"
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "group_occurrence_meta" : null,
+  "type" : "group",
+  "display_width" : null,
+  "default" : {
+    "badge_text" : "FREE • AUDIT REPORT",
+    "heading" : "Simplify Your Property  <span style=\"color:#ef4444;\">Financial  </span>Operations",
+    "description" : "&nbsp;See how better accounting processes can reduce manual work, improve reporting accuracy, and give your team greater financial visibility.&nbsp;",
+    "form" : {
+      "form_id" : "4af12bf5-7cf4-4cb5-b638-da3f0a179ce6",
+      "response_type" : "inline",
+      "message" : "Thanks for submitting the form.",
+      "form_type" : "HUBSPOT"
+    },
+    "privacy_text" : "Your information stays private. There’s no commitment or obligation.",
+    "button_text" : "Get My Free Audit ➔"
+  }
+}, {
+  "id" : "1e95e518-b769-851e-7825-c6d67775df7d",
+  "name" : "form_style",
+  "label" : "Form Style",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "25aea1ee-ce61-0380-6c82-9e1873a49b11",
+    "name" : "form_style",
+    "label" : "Form Style",
+    "required" : false,
+    "locked" : false,
+    "children" : [ {
+      "id" : "955abf15-a139-3f07-ef3c-e81a4b71ead3",
+      "name" : "form_font",
+      "label" : "Form Font",
+      "required" : false,
+      "locked" : false,
+      "load_external_fonts" : true,
+      "type" : "font",
+      "display_width" : null,
+      "default" : {
+        "size" : 16,
+        "styles" : { },
+        "variant" : "regular",
+        "font" : "Geologica",
+        "fallback" : "sans-serif",
+        "font_set" : "GOOGLE"
+      }
+    }, {
+      "id" : "4f90081a-1bdf-0b41-93af-0f37ba22b5af",
+      "name" : "input_background",
+      "label" : "Input Background",
+      "required" : false,
+      "locked" : false,
+      "type" : "color",
+      "display_width" : null,
+      "default" : {
+        "color" : null,
+        "opacity" : null
+      }
+    }, {
+      "id" : "3c7e6050-dba9-04e9-3616-21c67dfe07fc",
+      "name" : "button_text_color",
+      "label" : "Button Text",
+      "required" : false,
+      "locked" : false,
+      "type" : "color",
+      "display_width" : null,
+      "default" : {
+        "color" : null,
+        "opacity" : null
+      }
+    }, {
+      "id" : "1d79c02b-433d-d693-3b50-35b4e45ba079",
+      "name" : "button_color",
+      "label" : "Button Background",
+      "required" : false,
+      "locked" : false,
+      "type" : "color",
+      "display_width" : null,
+      "default" : {
+        "color" : null,
+        "opacity" : null
+      }
+    }, {
+      "id" : "566a8841-45b0-b791-0fa3-620a4cbfdcb4",
+      "name" : "button_bg_hover",
+      "label" : "Button Background Hover",
+      "required" : false,
+      "locked" : false,
+      "type" : "color",
+      "display_width" : null,
+      "default" : {
+        "color" : "#ff0000",
+        "opacity" : 100
+      }
+    }, {
+      "id" : "56ba6732-c821-e641-773d-d9238c506f3c",
+      "name" : "placeholder_color",
+      "label" : "Placeholder",
+      "required" : false,
+      "locked" : false,
+      "type" : "color",
+      "display_width" : null,
+      "default" : {
+        "color" : "#9ca8b6",
+        "opacity" : 100
+      }
+    }, {
+      "id" : "d49d3d8b-da08-e48d-5a7a-c6c42d8e4177",
+      "name" : "input_border_color",
+      "label" : "Border",
+      "required" : false,
+      "locked" : false,
+      "type" : "color",
+      "display_width" : null,
+      "default" : {
+        "color" : null,
+        "opacity" : null
+      }
+    }, {
+      "id" : "c639b76f-1109-f38e-6e44-d71bbf3bcdd5",
+      "name" : "input_text_color",
+      "label" : "Input Text",
+      "required" : false,
+      "locked" : false,
+      "type" : "color",
+      "display_width" : null,
+      "default" : {
+        "color" : null,
+        "opacity" : null
+      }
+    }, {
+      "id" : "05f7d25e-4fd4-b67d-9ccf-b07b3f0e6ff8",
+      "name" : "input_radius",
+      "label" : "Radius",
+      "required" : false,
+      "locked" : false,
+      "display" : "text",
+      "step" : 1,
+      "suffix" : "px",
+      "type" : "number",
+      "display_width" : null,
+      "default" : 12
+    } ],
+    "tab" : "STYLE",
+    "expanded" : false,
+    "group_occurrence_meta" : null,
+    "type" : "group",
+    "display_width" : null,
+    "default" : {
+      "form_font" : {
+        "size" : 16,
+        "styles" : { },
+        "variant" : "regular",
+        "font" : "Geologica",
+        "fallback" : "sans-serif",
+        "font_set" : "GOOGLE"
+      },
+      "input_background" : {
+        "color" : null,
+        "opacity" : null
+      },
+      "button_text_color" : {
+        "color" : null,
+        "opacity" : null
+      },
+      "button_color" : {
+        "color" : null,
+        "opacity" : null
+      },
+      "button_bg_hover" : {
+        "color" : "#ff0000",
+        "opacity" : 100
+      },
+      "placeholder_color" : {
+        "color" : "#9ca8b6",
+        "opacity" : 100
+      },
+      "input_border_color" : {
+        "color" : null,
+        "opacity" : null
+      },
+      "input_text_color" : {
+        "color" : null,
+        "opacity" : null
+      },
+      "input_radius" : 12
+    }
+  }, {
+    "id" : "2c4f208b-73ff-e638-e7c2-4ed2d82eae55",
+    "name" : "card_style",
+    "label" : "Card Style",
+    "required" : false,
+    "locked" : false,
+    "children" : [ {
+      "id" : "cb7a44b6-e214-4321-fa47-e8d7b27cf4cd",
+      "name" : "badge_bg",
+      "label" : "Badge Background",
+      "required" : false,
+      "locked" : false,
+      "type" : "color",
+      "display_width" : null,
+      "default" : {
+        "color" : "#e5efff",
+        "opacity" : 100
+      }
+    }, {
+      "id" : "b3d8ebe8-0861-5360-3916-d40f67083de1",
+      "name" : "card_background",
+      "label" : "Card Background ",
+      "required" : false,
+      "locked" : false,
+      "type" : "color",
+      "display_width" : null,
+      "default" : {
+        "color" : "#f5f7fa",
+        "opacity" : 100
+      }
+    }, {
+      "id" : "bf843ca9-695c-a83a-95af-2f436d765480",
+      "name" : "card_radius",
+      "label" : "Card Border Radius",
+      "required" : false,
+      "locked" : false,
+      "display" : "text",
+      "step" : 1,
+      "suffix" : "px",
+      "type" : "number",
+      "display_width" : null,
+      "default" : 24
+    }, {
+      "id" : "e03286b1-0f29-1d2a-dd68-910306947b9e",
+      "name" : "card_width",
+      "label" : "Card Width",
+      "required" : false,
+      "locked" : false,
+      "display" : "text",
+      "step" : 1,
+      "suffix" : "px",
+      "type" : "number",
+      "display_width" : null,
+      "default" : 720
+    } ],
+    "tab" : "STYLE",
+    "expanded" : false,
+    "group_occurrence_meta" : null,
+    "type" : "group",
+    "display_width" : null,
+    "default" : {
+      "badge_bg" : {
+        "color" : "#e5efff",
+        "opacity" : 100
+      },
+      "card_background" : {
+        "color" : "#f5f7fa",
+        "opacity" : 100
+      },
+      "card_radius" : 24,
+      "card_width" : 720
+    }
+  }, {
+    "id" : "a2c4e3ab-898e-49ed-bfac-2833649b5355",
+    "name" : "typography_style",
+    "label" : "Typography Style",
+    "required" : false,
+    "locked" : false,
+    "children" : [ {
+      "id" : "d3cce01d-5a46-f4b5-d0e6-2ec247a0877e",
+      "name" : "heading_font",
+      "label" : "Heading Font",
+      "required" : false,
+      "locked" : false,
+      "load_external_fonts" : true,
+      "type" : "font",
+      "display_width" : null,
+      "default" : {
+        "size" : 30,
+        "styles" : { },
+        "variant" : "700",
+        "font" : "Geologica",
+        "fallback" : "sans-serif",
+        "font_set" : "GOOGLE",
+        "color" : "#2b5573"
+      }
+    }, {
+      "id" : "944c5633-60aa-0abb-2465-81bcbb38fc32",
+      "name" : "description_font",
+      "label" : "Description Font ",
+      "required" : false,
+      "locked" : false,
+      "load_external_fonts" : true,
+      "type" : "font",
+      "display_width" : null,
+      "default" : {
+        "size" : 18,
+        "styles" : { },
+        "variant" : "regular",
+        "font" : "Geologica",
+        "fallback" : "sans-serif",
+        "font_set" : "GOOGLE",
+        "color" : "#828895"
+      }
+    }, {
+      "id" : "cd1ec359-6fb8-3bf0-d47a-120a7a1e491b",
+      "name" : "privacy_text_font",
+      "label" : "Privacy Text Font",
+      "required" : false,
+      "locked" : false,
+      "load_external_fonts" : true,
+      "type" : "font",
+      "display_width" : null,
+      "default" : {
+        "size" : 16,
+        "styles" : { },
+        "variant" : "regular",
+        "font" : "Geologica",
+        "fallback" : "sans-serif",
+        "font_set" : "GOOGLE",
+        "color" : "#677a8c"
+      }
+    }, {
+      "id" : "fc74d6af-8d38-2b73-ab4f-f9d5cc531aaf",
+      "name" : "badge_font",
+      "label" : "Badge Font",
+      "required" : false,
+      "locked" : false,
+      "load_external_fonts" : true,
+      "type" : "font",
+      "display_width" : null,
+      "default" : {
+        "size" : 18,
+        "styles" : { },
+        "variant" : "regular",
+        "font" : "Geologica",
+        "fallback" : "sans-serif",
+        "font_set" : "GOOGLE",
+        "color" : "#7aaaf9"
+      }
+    } ],
+    "tab" : "STYLE",
+    "expanded" : false,
+    "group_occurrence_meta" : null,
+    "type" : "group",
+    "display_width" : null,
+    "default" : {
+      "heading_font" : {
+        "size" : 30,
+        "styles" : { },
+        "variant" : "700",
+        "font" : "Geologica",
+        "fallback" : "sans-serif",
+        "font_set" : "GOOGLE",
+        "color" : "#2b5573"
+      },
+      "description_font" : {
+        "size" : 18,
+        "styles" : { },
+        "variant" : "regular",
+        "font" : "Geologica",
+        "fallback" : "sans-serif",
+        "font_set" : "GOOGLE",
+        "color" : "#828895"
+      },
+      "privacy_text_font" : {
+        "size" : 16,
+        "styles" : { },
+        "variant" : "regular",
+        "font" : "Geologica",
+        "fallback" : "sans-serif",
+        "font_set" : "GOOGLE",
+        "color" : "#677a8c"
+      },
+      "badge_font" : {
+        "size" : 18,
+        "styles" : { },
+        "variant" : "regular",
+        "font" : "Geologica",
+        "fallback" : "sans-serif",
+        "font_set" : "GOOGLE",
+        "color" : "#7aaaf9"
+      }
+    }
+  } ],
+  "tab" : "STYLE",
+  "expanded" : false,
+  "group_occurrence_meta" : null,
+  "type" : "group",
+  "display_width" : null,
+  "default" : {
+    "form_style" : {
+      "form_font" : {
+        "size" : 16,
+        "styles" : { },
+        "variant" : "regular",
+        "font" : "Geologica",
+        "fallback" : "sans-serif",
+        "font_set" : "GOOGLE"
+      },
+      "input_background" : {
+        "color" : null,
+        "opacity" : null
+      },
+      "button_text_color" : {
+        "color" : null,
+        "opacity" : null
+      },
+      "button_color" : {
+        "color" : null,
+        "opacity" : null
+      },
+      "button_bg_hover" : {
+        "color" : "#ff0000",
+        "opacity" : 100
+      },
+      "placeholder_color" : {
+        "color" : "#9ca8b6",
+        "opacity" : 100
+      },
+      "input_border_color" : {
+        "color" : null,
+        "opacity" : null
+      },
+      "input_text_color" : {
+        "color" : null,
+        "opacity" : null
+      },
+      "input_radius" : 12
+    },
+    "card_style" : {
+      "badge_bg" : {
+        "color" : "#e5efff",
+        "opacity" : 100
+      },
+      "card_background" : {
+        "color" : "#f5f7fa",
+        "opacity" : 100
+      },
+      "card_radius" : 24,
+      "card_width" : 720
+    },
+    "typography_style" : {
+      "heading_font" : {
+        "size" : 30,
+        "styles" : { },
+        "variant" : "700",
+        "font" : "Geologica",
+        "fallback" : "sans-serif",
+        "font_set" : "GOOGLE",
+        "color" : "#2b5573"
+      },
+      "description_font" : {
+        "size" : 18,
+        "styles" : { },
+        "variant" : "regular",
+        "font" : "Geologica",
+        "fallback" : "sans-serif",
+        "font_set" : "GOOGLE",
+        "color" : "#828895"
+      },
+      "privacy_text_font" : {
+        "size" : 16,
+        "styles" : { },
+        "variant" : "regular",
+        "font" : "Geologica",
+        "fallback" : "sans-serif",
+        "font_set" : "GOOGLE",
+        "color" : "#677a8c"
+      },
+      "badge_font" : {
+        "size" : 18,
+        "styles" : { },
+        "variant" : "regular",
+        "font" : "Geologica",
+        "fallback" : "sans-serif",
+        "font_set" : "GOOGLE",
+        "color" : "#7aaaf9"
+      }
+    }
+  }
+} ]
