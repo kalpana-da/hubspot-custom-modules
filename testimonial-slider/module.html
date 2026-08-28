@@ -1,0 +1,178 @@
+<section class="testimonial-section">
+
+    <div class="testimonial-heading">
+
+        {% if module.section_title %}
+        <h2>{{ module.section_title }}</h2>
+        {% endif %}
+
+        {% if module.section_description %}
+        <div class="section-description">
+            {{ module.section_description }}
+        </div>
+        {% endif %}
+       
+      
+    </div>
+
+    <div class="slider-wrapper">
+
+        <button class="arrow prev" type="button">
+            &#10094;
+        </button>
+
+        <div class="testimonial-slider">
+
+            <div class="testimonial-track">
+
+                {% for item in module.testimonials %}
+
+                <div class="testimonial-card">
+
+                    {% if item.client_image.src %}
+
+                    {% set sizeAttrs = 'width="' ~ item.client_image.width|escape_attr ~ '" height="' ~ item.client_image.height|escape_attr ~ '"' %}
+
+                    {% if item.client_image.size_type == "auto" %}
+                    {% set sizeAttrs = 'width="' ~ item.client_image.width|escape_attr ~ '" height="' ~ item.client_image.height|escape_attr ~ '" style="max-width:100%;height:auto;"' %}
+                    {% elif item.client_image.size_type == "auto_custom_max" %}
+                    {% set sizeAttrs = 'width="' ~ item.client_image.max_width|escape_attr ~ '" height="' ~ item.client_image.max_height|escape_attr ~ '" style="max-width:100%;height:auto;"' %}
+                    {% endif %}
+
+                    {% set loadingAttr = item.client_image.loading != "disabled" ? 'loading="' ~ item.client_image.loading|escape_attr ~ '"' : "" %}
+
+                    <img
+                        src="{{ item.client_image.src|escape_url }}"
+                        alt="{{ item.client_image.alt|escape_attr }}"
+                        {{ loadingAttr }}
+                        {{ sizeAttrs }}
+                    >
+
+                    {% endif %}
+
+                    {% if item.client_name %}
+                    <h3>{{ item.client_name }}</h3>
+                    {% endif %}
+
+                    {% if item.client_designation %}
+                    <div class="designation">
+                        {{ item.client_designation }}
+                    </div>
+                    {% endif %}
+
+                    {% if item.star_rating %}
+                    <div class="stars">
+
+                        {% for i in range(item.star_rating|int) %}
+                        ★
+                        {% endfor %}
+
+                    </div>
+                    {% endif %}
+
+                    {% if item.testimonial %}
+                    <div class="testimonial-text">
+                        {{ item.testimonial }}
+                    </div>
+                    {% endif %}
+
+                </div>
+
+                {% endfor %}
+
+            </div>
+
+        </div>
+
+        <button class="arrow next" type="button">
+            &#10095;
+        </button>
+
+    </div>
+
+</section>
+
+
+{% require_css %}
+<style>
+{% scope_css %}
+
+/* SECTION */
+
+.testimonial-section{
+    background: {{ module.Section.sections.section_bg.color }};
+    padding-top: {{ module.Section.sections.padding_top }}px;
+    padding-bottom: {{ module.Section.sections.padding_bottom }}px;
+}
+
+/* SECTION HEADING */
+
+.testimonial-heading h2{
+    font-family: "{{ module.Section.heading.heading_font.font }}";
+    color: {{ module.Section.heading.heading_font.color }};
+    font-size: {{ module.Section.heading.heading_font.size }}{{ module.Section.heading.heading_font.size_unit }};
+    {{ module.Section.heading.heading_align.css }}
+}
+
+/* SECTION DESCRIPTION */
+.section-description{
+
+    font-family: "{{ module.Section.description.description_font.font }}";
+
+    color: {{ module.Section.description.description_font.color }};
+
+    font-size: {{ module.Section.description.description_font.size }}{{ module.Section.description.description_font.size_unit }};
+
+    text-align: {{ module.Section.description.description_alignment.text_align|lower }};
+
+}
+/* CARD */
+
+.testimonial-card{
+    background: {{ module.Section.card.card_bg.color }};
+    padding: {{ module.Section.card.card_padding }}px;
+    border-radius: {{ module.Section.card.card_radius }}px;
+    margin: calc({{ module.Section.card.card_gap }}px / 2);
+    {{ module.Section.card.card_text_alignment.css }}
+}
+
+/* CLIENT NAME */
+
+.testimonial-card h3{
+    font-family: "{{ module.Section.client_name.client_name_font.font }}";
+    color: {{ module.Section.client_name.client_name_font.color }};
+    font-size: {{ module.Section.client_name.client_name_font.size }}{{ module.Section.client_name.client_name_font.size_unit }};
+    {{ module.Section.client_name.client_name_alignment.css }}
+}
+
+/* tTESTIMONIAL TEXT*/
+
+.testimonial-text {
+    font-family: "{{ module.Section.designation.designation_font.font }}";
+    color: {{ module.Section.designation.designation_font.color }};
+    font-size: {{ module.Section.designation.designation_font.size }}{{ module.Section.designation.designation_font.size_unit }};
+    {{ module.Section.designation.designation_alignment.css }}
+}
+
+/* STARS */
+
+.stars{
+    color: {{ module.Section.stars.star_color.color }};
+    font-size: {{ module.Section.stars.star_size }}px;
+    letter-spacing: {{ module.Section.stars.star_gap }}px;
+    {{ module.Section.stars.star_alignment.css }}
+}
+
+/* ARROWS */
+
+.arrow{
+    background: {{ module.Section.arrows.arrow_bg.color }};
+    color: {{ module.Section.arrows.arrow_color.color }};
+    width: {{ module.Section.arrows.arrow_size }}px;
+    height: {{ module.Section.arrows.arrow_size }}px;
+    border-radius: {{ module.Section.arrows.arrow_radius }}px;
+}
+
+{% end_scope_css %}
+</style>
+{% end_require_css %}

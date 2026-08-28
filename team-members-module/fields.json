@@ -1,0 +1,40 @@
+[
+  {
+    "name": "section_title",
+    "label": "Section Title",
+    "type": "text",
+    "default": "Meet Our Team"
+  },
+  {
+    "name": "team_members",
+    "label": "Team Members",
+    "type": "group",
+    "occurrence": {
+      "min": 1,
+      "sorting_label_field": "name",
+      "default": 3
+    },
+    "children": [
+      {
+        "name": "photo",
+        "label": "Photo",
+        "type": "image"
+      },
+      {
+        "name": "name",
+        "label": "Name",
+        "type": "text"
+      },
+      {
+        "name": "designation",
+        "label": "Designation",
+        "type": "text"
+      },
+      {
+        "name": "description",
+        "label": "Description",
+        "type": "richtext"
+      }
+    ]
+  }
+]

@@ -1,0 +1,570 @@
+[ {
+  "id" : "36b3d562-8eac-9fd5-e213-70f6fa441717",
+  "name" : "content",
+  "label" : "content",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "09ae57d5-efd0-c5df-e1ef-4858cf5ec4d4",
+    "name" : "section_header",
+    "label" : "section-header",
+    "required" : false,
+    "locked" : false,
+    "allow_new_line" : false,
+    "type" : "text",
+    "display_width" : null,
+    "default" : "Built for accounting firms of every size and specialty  "
+  }, {
+    "id" : "8a8711b1-0af9-61b6-c5cd-cdc40222489c",
+    "name" : "sub_heading",
+    "label" : "sub heading ",
+    "required" : false,
+    "locked" : false,
+    "allow_new_line" : false,
+    "type" : "text",
+    "display_width" : null,
+    "default" : "  Who We Serve"
+  }, {
+    "id" : "85090510-43f3-ec96-5480-de5db110b42f",
+    "name" : "section_description",
+    "label" : "Section description",
+    "required" : false,
+    "locked" : false,
+    "type" : "richtext",
+    "display_width" : null,
+    "default" : "&nbsp;<span style=\"color: #ffffff; text-align: center; background-color: #0b3760;\">We partner with firms that are serious about growth.</span>&nbsp;"
+  }, {
+    "id" : "83ad70bb-4810-9750-06cd-1833a82d2246",
+    "name" : "section_image",
+    "label" : "section Image",
+    "required" : false,
+    "locked" : false,
+    "responsive" : true,
+    "resizable" : true,
+    "show_loading" : false,
+    "type" : "image",
+    "display_width" : null,
+    "default" : {
+      "size_type" : "auto",
+      "src" : "https://246197183.fs1.hubspotusercontent-na2.net/hubfs/246197183/about_img-1.png",
+      "alt" : "about_img-1",
+      "loading" : "lazy",
+      "width" : 322,
+      "height" : 362,
+      "max_width" : 322,
+      "max_height" : 362
+    }
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "group_occurrence_meta" : null,
+  "type" : "group",
+  "display_width" : null,
+  "default" : {
+    "section_header" : "Built for accounting firms of every size and specialty  ",
+    "sub_heading" : "  Who We Serve",
+    "section_description" : "&nbsp;<span style=\"color: #ffffff; text-align: center; background-color: #0b3760;\">We partner with firms that are serious about growth.</span>&nbsp;",
+    "section_image" : {
+      "size_type" : "auto",
+      "src" : "https://246197183.fs1.hubspotusercontent-na2.net/hubfs/246197183/about_img-1.png",
+      "alt" : "about_img-1",
+      "loading" : "lazy",
+      "width" : 322,
+      "height" : 362,
+      "max_width" : 322,
+      "max_height" : 362
+    }
+  }
+}, {
+  "id" : "d8ce6dbe-3c68-7604-3834-7e777d3c36b0",
+  "name" : "style",
+  "label" : "Style",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "2852a179-25c2-3e5d-f590-4cef7dfe36bd",
+    "name" : "section",
+    "label" : "Section",
+    "required" : false,
+    "locked" : false,
+    "children" : [ {
+      "id" : "65e27fb7-5f63-f8b8-3ecf-9812b37d3594",
+      "name" : "background_color",
+      "label" : "Background Color",
+      "required" : false,
+      "locked" : false,
+      "type" : "color",
+      "display_width" : null,
+      "default" : {
+        "color" : "#0b3760",
+        "opacity" : 100
+      }
+    }, {
+      "id" : "b726554e-6ba2-865e-90eb-35256de974c2",
+      "name" : "padding_top",
+      "label" : "Padding Top",
+      "required" : false,
+      "locked" : false,
+      "display" : "text",
+      "step" : 1,
+      "suffix" : "px",
+      "type" : "number",
+      "display_width" : null,
+      "default" : 40
+    }, {
+      "id" : "c7143e4c-a28f-4a4b-f92b-a99528cc216f",
+      "name" : "padding_bottom",
+      "label" : "Padding Bottom",
+      "required" : false,
+      "locked" : false,
+      "display" : "text",
+      "step" : 1,
+      "suffix" : "px",
+      "type" : "number",
+      "display_width" : null,
+      "default" : 40
+    }, {
+      "id" : "d044ff33-a6b0-b2de-921d-1ced79ab73dc",
+      "name" : "max_width",
+      "label" : "Max width",
+      "required" : false,
+      "locked" : false,
+      "display" : "checkbox",
+      "type" : "boolean",
+      "display_width" : null,
+      "default" : false
+    } ],
+    "tab" : "STYLE",
+    "expanded" : false,
+    "group_occurrence_meta" : null,
+    "type" : "group",
+    "display_width" : null,
+    "default" : {
+      "background_color" : {
+        "color" : "#0b3760",
+        "opacity" : 100
+      },
+      "padding_top" : 40,
+      "padding_bottom" : 40,
+      "max_width" : false
+    }
+  }, {
+    "id" : "71d867e3-14e6-dbcb-7ee2-d2247abc204f",
+    "name" : "Heading",
+    "label" : "Heading",
+    "required" : false,
+    "locked" : false,
+    "children" : [ {
+      "id" : "1b38d5cd-088b-a9a2-b265-55a053f15454",
+      "name" : "font_field",
+      "label" : "Font",
+      "required" : false,
+      "locked" : false,
+      "load_external_fonts" : true,
+      "type" : "font",
+      "display_width" : null,
+      "default" : {
+        "styles" : { },
+        "variant" : "700",
+        "font" : "Roboto",
+        "fallback" : "sans-serif",
+        "font_set" : "GOOGLE",
+        "size" : 42
+      }
+    }, {
+      "id" : "5208a6a6-78ef-fdfb-780d-881879a4b0fe",
+      "name" : "alignment",
+      "label" : "Alignment",
+      "required" : false,
+      "locked" : false,
+      "type" : "textalignment",
+      "display_width" : null,
+      "default" : {
+        "text_align" : "CENTER"
+      }
+    } ],
+    "tab" : "STYLE",
+    "expanded" : false,
+    "group_occurrence_meta" : null,
+    "type" : "group",
+    "display_width" : null,
+    "default" : {
+      "font_field" : {
+        "styles" : { },
+        "variant" : "700",
+        "font" : "Roboto",
+        "fallback" : "sans-serif",
+        "font_set" : "GOOGLE",
+        "size" : 42
+      },
+      "alignment" : {
+        "text_align" : "CENTER"
+      }
+    }
+  }, {
+    "id" : "ff423f71-0653-0071-6e65-a009e76f24ec",
+    "name" : "sub_heading",
+    "label" : "Sub Heading",
+    "required" : false,
+    "locked" : false,
+    "children" : [ {
+      "id" : "faa83b30-d4a2-da80-a629-823544567994",
+      "name" : "font_sh",
+      "label" : "Font",
+      "required" : false,
+      "locked" : false,
+      "load_external_fonts" : true,
+      "type" : "font",
+      "display_width" : null,
+      "default" : {
+        "styles" : { },
+        "variant" : "500",
+        "font" : "Roboto",
+        "fallback" : "sans-serif",
+        "font_set" : "GOOGLE",
+        "size" : 35
+      }
+    } ],
+    "tab" : "STYLE",
+    "expanded" : false,
+    "group_occurrence_meta" : null,
+    "type" : "group",
+    "display_width" : null,
+    "default" : {
+      "font_sh" : {
+        "styles" : { },
+        "variant" : "500",
+        "font" : "Roboto",
+        "fallback" : "sans-serif",
+        "font_set" : "GOOGLE",
+        "size" : 35
+      }
+    }
+  }, {
+    "id" : "12bc1110-04aa-f79d-0dcb-f99aaed7dc19",
+    "name" : "description",
+    "label" : "Description",
+    "required" : false,
+    "locked" : false,
+    "children" : [ {
+      "id" : "7a2be5e4-4a67-a715-ab05-b4bbbf1d1f45",
+      "name" : "font",
+      "label" : "Font",
+      "required" : false,
+      "locked" : false,
+      "load_external_fonts" : true,
+      "type" : "font",
+      "display_width" : null,
+      "default" : {
+        "styles" : { },
+        "variant" : "500",
+        "font" : "Roboto",
+        "fallback" : "sans-serif",
+        "font_set" : "GOOGLE",
+        "size" : 35
+      }
+    } ],
+    "tab" : "STYLE",
+    "expanded" : false,
+    "group_occurrence_meta" : null,
+    "type" : "group",
+    "display_width" : null,
+    "default" : {
+      "font" : {
+        "styles" : { },
+        "variant" : "500",
+        "font" : "Roboto",
+        "fallback" : "sans-serif",
+        "font_set" : "GOOGLE",
+        "size" : 35
+      }
+    }
+  }, {
+    "id" : "16db5066-a0a0-4e98-ce7e-980aa111a035",
+    "name" : "card_heading",
+    "label" : "Card Heading",
+    "required" : false,
+    "locked" : false,
+    "children" : [ {
+      "id" : "416a4e10-2a59-6d67-9176-526032087fef",
+      "name" : "font",
+      "label" : "Font",
+      "required" : false,
+      "locked" : false,
+      "load_external_fonts" : true,
+      "type" : "font",
+      "display_width" : null,
+      "default" : {
+        "styles" : { },
+        "variant" : "500",
+        "font" : "Roboto",
+        "fallback" : "sans-serif",
+        "font_set" : "GOOGLE",
+        "size" : 35
+      }
+    } ],
+    "tab" : "STYLE",
+    "expanded" : false,
+    "group_occurrence_meta" : null,
+    "type" : "group",
+    "display_width" : null,
+    "default" : {
+      "font" : {
+        "styles" : { },
+        "variant" : "500",
+        "font" : "Roboto",
+        "fallback" : "sans-serif",
+        "font_set" : "GOOGLE",
+        "size" : 35
+      }
+    }
+  }, {
+    "id" : "ca8daeaf-26ab-b0fd-943b-ccdb7b33c34e",
+    "name" : "card_description",
+    "label" : "Card Description ",
+    "required" : false,
+    "locked" : false,
+    "children" : [ {
+      "id" : "25b392b6-cdc6-a517-f6d6-8558376e17b4",
+      "name" : "font",
+      "label" : "Font",
+      "required" : false,
+      "locked" : false,
+      "load_external_fonts" : true,
+      "type" : "font",
+      "display_width" : null,
+      "default" : {
+        "styles" : { },
+        "variant" : "500",
+        "font" : "Roboto",
+        "fallback" : "sans-serif",
+        "font_set" : "GOOGLE",
+        "size" : 35,
+        "color" : "#d8e8f7"
+      }
+    } ],
+    "tab" : "STYLE",
+    "expanded" : false,
+    "group_occurrence_meta" : null,
+    "type" : "group",
+    "display_width" : null,
+    "default" : {
+      "font" : {
+        "styles" : { },
+        "variant" : "500",
+        "font" : "Roboto",
+        "fallback" : "sans-serif",
+        "font_set" : "GOOGLE",
+        "size" : 35,
+        "color" : "#d8e8f7"
+      }
+    }
+  }, {
+    "id" : "451fb6b7-be6f-d9ea-5ab6-03f79a32caa0",
+    "name" : "cards",
+    "label" : "Cards",
+    "required" : false,
+    "locked" : false,
+    "children" : [ {
+      "id" : "a2fde678-bbe9-3941-e797-1e2c4de0541d",
+      "name" : "color_field_cards",
+      "label" : "Color",
+      "required" : false,
+      "locked" : false,
+      "type" : "color",
+      "display_width" : null,
+      "default" : {
+        "color" : "#1b4b76",
+        "opacity" : 100
+      }
+    }, {
+      "id" : "f7bd3cfe-f30d-889e-883f-df4eccd1257f",
+      "name" : "border_radius_card",
+      "label" : "Border Radius",
+      "required" : false,
+      "locked" : false,
+      "display" : "text",
+      "step" : 1,
+      "suffix" : "px",
+      "type" : "number",
+      "display_width" : null,
+      "default" : 14
+    }, {
+      "id" : "ab9be0da-854d-c137-2772-adb759bc35a1",
+      "name" : "gap",
+      "label" : "Gap",
+      "required" : false,
+      "locked" : false,
+      "display" : "text",
+      "step" : 1,
+      "suffix" : "px",
+      "type" : "number",
+      "display_width" : null,
+      "default" : 18
+    }, {
+      "id" : "0645cb38-2242-5f41-fbbc-28901c02c558",
+      "name" : "icon_size",
+      "label" : "Icon Size",
+      "required" : false,
+      "locked" : false,
+      "display" : "text",
+      "step" : 1,
+      "suffix" : "px",
+      "type" : "number",
+      "display_width" : null,
+      "default" : 98
+    } ],
+    "tab" : "STYLE",
+    "expanded" : false,
+    "group_occurrence_meta" : null,
+    "type" : "group",
+    "display_width" : null,
+    "default" : {
+      "color_field_cards" : {
+        "color" : "#1b4b76",
+        "opacity" : 100
+      },
+      "border_radius_card" : 14,
+      "gap" : 18,
+      "icon_size" : 98
+    }
+  } ],
+  "tab" : "STYLE",
+  "expanded" : false,
+  "group_occurrence_meta" : null,
+  "type" : "group",
+  "display_width" : null,
+  "default" : {
+    "section" : {
+      "background_color" : {
+        "color" : "#0b3760",
+        "opacity" : 100
+      },
+      "padding_top" : 40,
+      "padding_bottom" : 40,
+      "max_width" : false
+    },
+    "Heading" : {
+      "font_field" : {
+        "styles" : { },
+        "variant" : "700",
+        "font" : "Roboto",
+        "fallback" : "sans-serif",
+        "font_set" : "GOOGLE",
+        "size" : 42
+      },
+      "alignment" : {
+        "text_align" : "CENTER"
+      }
+    },
+    "sub_heading" : {
+      "font_sh" : {
+        "styles" : { },
+        "variant" : "500",
+        "font" : "Roboto",
+        "fallback" : "sans-serif",
+        "font_set" : "GOOGLE",
+        "size" : 35
+      }
+    },
+    "description" : {
+      "font" : {
+        "styles" : { },
+        "variant" : "500",
+        "font" : "Roboto",
+        "fallback" : "sans-serif",
+        "font_set" : "GOOGLE",
+        "size" : 35
+      }
+    },
+    "card_heading" : {
+      "font" : {
+        "styles" : { },
+        "variant" : "500",
+        "font" : "Roboto",
+        "fallback" : "sans-serif",
+        "font_set" : "GOOGLE",
+        "size" : 35
+      }
+    },
+    "card_description" : {
+      "font" : {
+        "styles" : { },
+        "variant" : "500",
+        "font" : "Roboto",
+        "fallback" : "sans-serif",
+        "font_set" : "GOOGLE",
+        "size" : 35,
+        "color" : "#d8e8f7"
+      }
+    },
+    "cards" : {
+      "color_field_cards" : {
+        "color" : "#1b4b76",
+        "opacity" : 100
+      },
+      "border_radius_card" : 14,
+      "gap" : 18,
+      "icon_size" : 98
+    }
+  }
+}, {
+  "id" : "46250204-a112-a05f-999c-5a20d59f5d39",
+  "name" : "serve_items",
+  "label" : "Serve Items",
+  "required" : false,
+  "locked" : false,
+  "occurrence" : {
+    "min" : null,
+    "max" : null,
+    "sorting_label_field" : null,
+    "default" : null
+  },
+  "children" : [ {
+    "id" : "4b3947e1-ae73-54aa-ea1f-9d930d8ea133",
+    "name" : "icon",
+    "label" : "icon",
+    "required" : false,
+    "locked" : false,
+    "responsive" : true,
+    "resizable" : true,
+    "show_loading" : false,
+    "type" : "image",
+    "display_width" : null,
+    "default" : {
+      "src" : "https://246197183.fs1.hubspotusercontent-na2.net/hubfs/246197183/icon_4.png",
+      "alt" : "icon_4",
+      "width" : 94,
+      "height" : 98,
+      "max_width" : 100,
+      "max_height" : 104,
+      "size_type" : "auto_custom_max",
+      "loading" : "lazy"
+    }
+  }, {
+    "id" : "9d048603-c995-fa39-d707-035b87592bac",
+    "name" : "title",
+    "label" : "Title",
+    "required" : false,
+    "locked" : false,
+    "allow_new_line" : false,
+    "type" : "text",
+    "display_width" : null,
+    "default" : "Accounting Firms"
+  }, {
+    "id" : "fe90c727-cdbe-5d62-353e-68ac173fc757",
+    "name" : "description",
+    "label" : "Description",
+    "required" : false,
+    "locked" : false,
+    "type" : "richtext",
+    "display_width" : null,
+    "default" : "&nbsp;<span style=\"color: #d8e8f7; background-color: #1b4b76;\">Replace with your content.</span>&nbsp;"
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "group_occurrence_meta" : null,
+  "type" : "group",
+  "display_width" : null,
+  "default" : [ ]
+} ]

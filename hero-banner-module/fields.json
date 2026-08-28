@@ -1,0 +1,8 @@
+[
+{"name":"heading","label":"Heading","type":"text"},
+{"name":"description","label":"Description","type":"richtext"},
+{"name":"button_text","label":"Button Text","type":"text"},
+{"name":"button_link","label":"Button Link","type":"link"},
+{"name":"button_color","label":"Button Color","type":"color"},
+{"name":"image","label":"Hero Image","type":"image"}
+]

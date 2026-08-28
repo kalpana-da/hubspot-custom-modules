@@ -1,0 +1,32 @@
+<div class="team-section">
+  {% if module.section_title %}
+    <h2 class="team-title">{{ module.section_title }}</h2>
+  {% endif %}
+
+  {% if module.team_members %}
+    <div class="team-grid">
+      {% for item in module.team_members %}
+        <div class="team-card">
+
+          {% if item.photo.src %}
+            <img
+              src="{{ resize_image_url(item.photo.src, 300, 300) }}"
+              alt="{{ item.photo.alt }}"
+              class="team-image">
+          {% endif %}
+
+          <h3>{{ item.name }}</h3>
+
+          <span class="designation">
+            {{ item.designation }}
+          </span>
+
+          <div class="description">
+            {{ item.description }}
+          </div>
+
+        </div>
+      {% endfor %}
+    </div>
+  {% endif %}
+</div>

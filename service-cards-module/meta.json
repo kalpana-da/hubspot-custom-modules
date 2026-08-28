@@ -1,0 +1,25 @@
+{
+  "label": "Service Cards",
+  "css_assets": [],
+  "external_js": [],
+  "global": false,
+  "help_text": "Responsive Service Cards module with dynamic typography, colors, SVG icon hover support, and HubSpot editor controls.",
+  "host_template_types": [
+    "PAGE",
+    "BLOG_POST",
+    "BLOG_LISTING"
+  ],
+  "icon": "fontawesome-5.14.0:th-large",
+  "is_available_for_new_content": true,
+  "js_assets": [],
+  "master_language": "en",
+  "other_language_variants": [],
+  "smart_type": "NOT_SMART",
+  "tags": [
+    "services",
+    "cards",
+    "responsive",
+    "hubspot",
+    "custom-module"
+  ]
+}
