@@ -488,9 +488,9 @@ Test Desktop + Mobile
 **Kalpana Sharma**  
 *HubSpot CMS Developer*
 
-- **GitHub:** [kalpana-da](https://github.com/kalpana-da)
-- **LinkedIn:** [Kalpana Sharma](https://www.linkedin.com/in/skalpana/)
-- **Portfolio:** [Go1Digital Portfolio](https://go1digital.com/startup-portfolio/)
+-  [**GitHub:**] [kalpana-da](https://github.com/kalpana-da)
+- [**LinkedIn:**] [Kalpana Sharma](https://www.linkedin.com/in/skalpana/)
+- [**Portfolio:**] [Go1Digital Portfolio](https://go1digital.com/startup-portfolio/)
 
 ---
 
