@@ -481,6 +481,8 @@ Test Desktop + Mobile
       ↓
 ---
 
+---
+
 ## 👩‍💻 Author
 
 **Kalpana Sharma**
@@ -497,4 +499,3 @@ HubSpot CMS Developer
 
 If you found this repository helpful, please consider giving it a ⭐ on GitHub.
 
-```
