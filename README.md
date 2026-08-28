@@ -131,18 +131,32 @@ These modules can be used in:
 
 ---
 
+
 ## 👩‍💻 Author
 
-**Kalpana Sharma**
+**Kalpana Sharma**  
+*HubSpot CMS Developer / Wordpress Developer*
 
-HubSpot CMS Developer
-
-- GitHub: https://github.com/kalpana-da
-- LinkedIn: https://www.linkedin.com/in/skalpana/
-- Portfolio: https://go1digital.com/startup-portfolio/
+<p>
+  <a href="https://github.com/kalpana-da">
+    <img src="https://img.shields.io/badge/GitHub-kalpana--da-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+  </a>
+  <a href="https://www.linkedin.com/in/skalpana/">
+    <img src="https://img.shields.io/badge/LinkedIn-Kalpana%20Sharma-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+  </a>
+  <a href="https://go1digital.com/startup-portfolio/">
+    <img src="https://img.shields.io/badge/Portfolio-Go1Digital-FF6B35?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio">
+  </a>
+</p>
 
 ---
 
 ## ⭐ Support
 
 If you found this repository helpful, please consider giving it a ⭐ on GitHub.
+
+<p>
+  <a href="https://github.com/kalpana-da/hubspot-custom-modules">
+    <img src="https://img.shields.io/badge/⭐%20Star%20this%20repository-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="Star this repository">
+  </a>
+</p>
