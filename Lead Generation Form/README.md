@@ -485,17 +485,18 @@ Test Desktop + Mobile
 
 ## 👩‍💻 Author
 
-**Kalpana Sharma**
+**Kalpana Sharma**  
+*HubSpot CMS Developer*
 
-HubSpot CMS Developer
-
-- GitHub: https://github.com/kalpana-da
-- LinkedIn: https://www.linkedin.com/in/skalpana/
-- Portfolio: https://go1digital.com/startup-portfolio/
+- **GitHub:** [kalpana-da](https://github.com/kalpana-da)
+- **LinkedIn:** [Kalpana Sharma](https://www.linkedin.com/in/skalpana/)
+- **Portfolio:** [Go1Digital Portfolio](https://go1digital.com/startup-portfolio/)
 
 ---
 
 ## ⭐ Support
 
 If you found this repository helpful, please consider giving it a ⭐ on GitHub.
+
+[⭐ **Star this repository**](https://github.com/kalpana-da/hubspot-custom-modules)
 
