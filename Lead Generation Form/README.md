@@ -1,0 +1,473 @@
+# HubSpot Lead Generation Form Module
+
+A responsive custom HubSpot CMS Lead Generation Form module using an existing HubSpot Form.
+
+## Module Preview
+
+![Lead Generation Form Module Preview](https://github.com/kalpana-da/hubspot-custom-modules/blob/main/Lead%20Generation%20Form/screenshots/form_module.png)
+
+## Module Files
+
+| File | Purpose |
+|---|---|
+| `fields.json` | Creates the editable Content and Style fields |
+| `meta.json` | Defines module information and availability |
+| `module.html` | HubL, HTML, existing HubSpot Form and dynamic styling |
+| `module.css` | Layout, spacing and responsive CSS |
+
+### Quick Links
+
+- [OPEN fields.json](https://github.com/kalpana-da/hubspot-custom-modules/blob/main/Lead%20Generation%20Form/fields.json)
+- [OPEN meta.json](https://github.com/kalpana-da/hubspot-custom-modules/blob/main/Lead%20Generation%20Form/meta.json)
+- [OPEN module.html](https://github.com/kalpana-da/hubspot-custom-modules/blob/main/Lead%20Generation%20Form/module.html)
+- [OPEN module.css](https://github.com/kalpana-da/hubspot-custom-modules/blob/main/Lead%20Generation%20Form/module.css)
+
+---
+
+# 1. Create the HubSpot Module
+
+Go to **HubSpot → Content → Design Manager**.
+
+Open your custom theme and go to:
+
+```text
+custom → modules
+```
+
+Create a new module named:
+
+**Lead Generation Form**
+
+Create:
+
+```text
+Lead Generation Form/
+├── fields.json
+├── meta.json
+├── module.html
+└── module.css
+```
+
+---
+
+# 2. Add meta.json
+
+Create `meta.json`.
+
+[**OPEN META.JSON**](https://github.com/kalpana-da/hubspot-custom-modules/blob/main/Lead%20Generation%20Form/meta.json)
+
+Copy the code into your module's `meta.json` and save.
+
+---
+
+# 3. Create fields.json
+
+Create `fields.json`.
+
+[**OPEN FIELDS.JSON**](https://github.com/kalpana-da/hubspot-custom-modules/blob/main/Lead%20Generation%20Form/fields.json)
+
+Copy the complete code into:
+
+```text
+Lead Generation Form → fields.json
+```
+
+The fields create the options available in the HubSpot module editor.
+
+### Content Fields
+
+- Badge Text
+- Heading
+- Description
+- Form
+- Privacy Text
+- Button Text
+
+### Card Style Fields
+
+- Card Background
+- Card Width
+- Card Radius
+- Badge Background
+
+### Typography Style Fields
+
+- Badge Font
+- Heading Font
+- Description Font
+- Privacy Text Font
+
+### Form Style Fields
+
+- Form Font
+- Input Background
+- Input Text Color
+- Input Border Color
+- Placeholder Color
+- Input Radius
+- Button Color
+- Button Text Color
+
+---
+
+# 4. Content Fields Screenshot
+
+[**VIEW CONTENT FIELDS SCREENSHOT**](https://github.com/kalpana-da/hubspot-custom-modules/blob/main/Lead%20Generation%20Form/screenshots/form_module_fileds.png)
+
+![Content Fields](https://github.com/kalpana-da/hubspot-custom-modules/blob/main/Lead%20Generation%20Form/screenshots/form_module_fileds.png)
+
+---
+
+# 5. Style Fields Screenshots
+
+### Style Fields 1
+
+[**VIEW STYLE FIELDS 1**](https://github.com/kalpana-da/hubspot-custom-modules/blob/main/Lead%20Generation%20Form/screenshots/form_module_style_fileds_1.png)
+
+![Style Fields 1](https://github.com/kalpana-da/hubspot-custom-modules/blob/main/Lead%20Generation%20Form/screenshots/form_module_style_fileds_1.png)
+
+### Style Fields 2
+
+[**VIEW STYLE FIELDS 2**](https://github.com/kalpana-da/hubspot-custom-modules/blob/main/Lead%20Generation%20Form/screenshots/form_module_style_fileds_2.png)
+
+![Style Fields 2](https://github.com/kalpana-da/hubspot-custom-modules/blob/main/Lead%20Generation%20Form/screenshots/form_module_style_fileds_2.png)
+
+---
+
+# 6. Add module.html
+
+Create `module.html`.
+
+[**OPEN MODULE.HTML**](https://github.com/kalpana-da/hubspot-custom-modules/blob/main/Lead%20Generation%20Form/module.html)
+
+Copy the complete code into:
+
+```text
+Lead Generation Form → module.html
+```
+
+The file contains the HubL/HTML structure, existing HubSpot Form, dynamic styling and scoped CSS.
+
+The dynamic styles use:
+
+```hubl
+{% scope_css %}
+```
+
+---
+
+# 7. Add module.css
+
+Create `module.css`.
+
+[**OPEN MODULE.CSS**](https://github.com/kalpana-da/hubspot-custom-modules/blob/main/Lead%20Generation%20Form/module.css)
+
+Copy the complete code into:
+
+```text
+Lead Generation Form → module.css
+```
+
+It controls module spacing, form spacing, field spacing, desktop layout, two-column fields, mobile stacking and responsive behavior.
+
+---
+
+# 8. Create the HubSpot Form
+
+The custom module uses an **existing HubSpot Form**.
+
+Go to:
+
+**HubSpot → Marketing → Forms**
+
+Create a new form.
+
+Example:
+
+```text
+Property Accounting Audit
+```
+
+Save the form.
+
+---
+
+# 9. Add Form Fields
+
+Inside the HubSpot Form editor, add the fields required for your form.
+
+Example:
+
+```text
+First Name
+Last Name
+Email
+Company Name
+Phone Number
+Units under Management
+```
+
+Example layout:
+
+```text
+First Name              Last Name
+
+Email
+
+Company Name
+
+Phone Number
+
+Units under Management
+```
+
+Arrange fields using the HubSpot Form editor.
+
+---
+
+# 10. Configure the Form Button
+
+Inside the HubSpot Form editor, configure the native submit button.
+
+Example:
+
+```text
+Get My Free Audit ➔
+```
+
+Save the form.
+
+> The custom module uses the existing HubSpot Form. It does not create a second form or a second submit button.
+
+---
+
+# 11. Add the Module to a Page
+
+Go to **HubSpot → Website Pages** and open the page editor.
+
+Search for:
+
+**Lead Generation Form**
+
+Drag the module onto the page.
+
+---
+
+# 12. Select the Existing HubSpot Form
+
+Open:
+
+**Content → Form**
+
+Select the HubSpot Form created earlier.
+
+The selected existing form will appear inside the custom module.
+
+---
+
+# 13. Configure Content
+
+Open **Content** and configure:
+
+### Badge Text
+
+Example:
+
+```text
+SMARTER PROPERTY ACCOUNTING
+```
+
+### Heading
+
+Example:
+
+```text
+Simplify Your Property Financial Operations
+```
+
+### Description
+
+Example:
+
+```text
+See how better accounting processes can reduce manual work,
+improve reporting accuracy, and give your team greater
+financial visibility.
+```
+
+### Form
+
+Select the existing HubSpot Form.
+
+### Privacy Text
+
+Example:
+
+```text
+Your information stays private. There’s no commitment or obligation.
+```
+
+### Button Text
+
+Example:
+
+```text
+Get My Free Audit ➔
+```
+
+---
+
+# 14. Configure Card Style
+
+Open:
+
+**Style → Card Style**
+
+Configure:
+
+```text
+Card Background
+Card Width
+Card Radius
+Badge Background
+```
+
+---
+
+# 15. Configure Typography Style
+
+Open:
+
+**Style → Typography Style**
+
+Configure:
+
+```text
+Badge Font
+Heading Font
+Description Font
+Privacy Text Font
+```
+
+---
+
+# 16. Configure Form Style
+
+Open:
+
+**Style → Form Style**
+
+Configure:
+
+```text
+Form Font
+Input Background
+Input Text Color
+Input Border Color
+Placeholder Color
+Input Radius
+Button Color
+Button Text Color
+```
+
+---
+
+# 17. Responsive Behavior
+
+### Desktop
+
+Two fields in the same form row can display side by side:
+
+```text
+First Name              Last Name
+```
+
+### Mobile
+
+Fields stack vertically:
+
+```text
+First Name
+
+Last Name
+
+Email
+
+Company Name
+```
+
+The responsive CSS is in `module.css`.
+
+---
+
+# 18. Test the Module
+
+Before publishing, check:
+
+- [ ] Badge displays
+- [ ] Heading displays
+- [ ] Description displays
+- [ ] Existing HubSpot Form loads
+- [ ] Form fields display
+- [ ] Phone field works
+- [ ] Dropdown works
+- [ ] Submit button works
+- [ ] Privacy text displays
+- [ ] Card styling works
+- [ ] Typography settings work
+- [ ] Input styling works
+- [ ] Button styling works
+- [ ] Desktop layout works
+- [ ] Mobile layout works
+
+---
+
+# Final Module Structure
+
+```text
+Lead Generation Form/
+├── fields.json
+├── meta.json
+├── module.html
+└── module.css
+```
+
+[**OPEN LEAD GENERATION FORM ON GITHUB**](https://github.com/kalpana-da/hubspot-custom-modules/tree/main/Lead%20Generation%20Form)
+
+---
+
+# Quick Setup
+
+```text
+Create Module
+      ↓
+Add meta.json
+      ↓
+Add fields.json
+      ↓
+Add module.html
+      ↓
+Add module.css
+      ↓
+Create HubSpot Form
+      ↓
+Add Form Fields
+      ↓
+Configure Form Button
+      ↓
+Add Module to Page
+      ↓
+Select Existing Form
+      ↓
+Configure Content
+      ↓
+Configure Card Style
+      ↓
+Configure Typography
+      ↓
+Configure Form Style
+      ↓
+Test Desktop + Mobile
+      ↓
+Publish
+```
