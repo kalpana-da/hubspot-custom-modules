@@ -496,5 +496,5 @@ HubSpot CMS Developer
 ## ⭐ Support
 
 If you found this repository helpful, please consider giving it a ⭐ on GitHub.
-Publish
+
 ```
