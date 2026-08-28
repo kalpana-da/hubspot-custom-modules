@@ -28,7 +28,7 @@ A responsive custom HubSpot CMS Lead Generation Form module using an existing Hu
 
 Go to **HubSpot → Content → Design Manager**.
 
-Open your custom theme and go to:
+Open your custom module and go to:
 
 ```text
 custom → modules
@@ -74,39 +74,49 @@ Lead Generation Form → fields.json
 
 The fields create the options available in the HubSpot module editor.
 
+## Fields Used in the Module
+
 ### Content Fields
 
-- Badge Text
-- Heading
-- Description
-- Form
-- Privacy Text
-- Button Text
+| Field Name | Type | Purpose |
+|---|---|---|
+| Badge Text | Text | Displays the badge text above the heading |
+| Heading | Text | Displays the main heading of the form section |
+| Description | Rich Text | Displays supporting description below the heading |
+| Form | HubSpot Form | Selects the existing HubSpot Form to display |
+| Privacy Text | Text | Displays privacy or consultation information below the form |
+| Button Text | Text | Defines the submit button text |
 
 ### Card Style Fields
 
-- Card Background
-- Card Width
-- Card Radius
-- Badge Background
+| Field Name | Type | Purpose |
+|---|---|---|
+| Card Background | Color | Controls the background color of the form card |
+| Card Width | Number | Controls the maximum width of the card |
+| Card Radius | Number | Controls the card corner radius |
+| Badge Background | Color | Controls the background color of the badge |
 
 ### Typography Style Fields
 
-- Badge Font
-- Heading Font
-- Description Font
-- Privacy Text Font
+| Field Name | Type | Purpose |
+|---|---|---|
+| Badge Font | Font | Controls the badge typography |
+| Heading Font | Font | Controls the heading typography |
+| Description Font | Font | Controls the description typography |
+| Privacy Text Font | Font | Controls the privacy text typography |
 
 ### Form Style Fields
 
-- Form Font
-- Input Background
-- Input Text Color
-- Input Border Color
-- Placeholder Color
-- Input Radius
-- Button Color
-- Button Text Color
+| Field Name | Type | Purpose |
+|---|---|---|
+| Form Font | Font | Controls the typography inside the HubSpot Form |
+| Input Background | Color | Controls the background color of input fields |
+| Input Text Color | Color | Controls the text color entered in form fields |
+| Input Border Color | Color | Controls the border color of form fields |
+| Placeholder Color | Color | Controls the placeholder text color |
+| Input Radius | Number | Controls the corner radius of input fields and button |
+| Button Color | Color | Controls the submit button background color |
+| Button Text Color | Color | Controls the submit button text color |
 
 ---
 
