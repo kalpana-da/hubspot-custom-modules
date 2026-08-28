@@ -4,7 +4,7 @@ A responsive custom HubSpot CMS Lead Generation Form module using an existing Hu
 
 ## Module Preview
 
-<img src="https://github.com/kalpana-da/hubspot-custom-modules/blob/main/Lead%20Generation%20Form/screenshots/form_module.png" alt="Lead Generation Form Module Preview" width="400">
+<img src="https://github.com/kalpana-da/hubspot-custom-modules/blob/main/Lead%20Generation%20Form/screenshots/form_module.png" alt="Lead Generation Form Module Preview" width="400" height:"400">
 
 ## Module Files
 
