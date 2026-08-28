@@ -478,8 +478,8 @@ Configure Typography
 Configure Form Style
       ↓
 Test Desktop + Mobile
-      ↓
----
+    
+
 
 ---
 
