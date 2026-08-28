@@ -514,7 +514,7 @@ Publish
 ## 👩‍💻 Author
 
 **Kalpana Sharma**  
-*HubSpot CMS Developer*
+*HubSpot CMS Developer / Wordpress Developer*
 
 <p>
   <a href="https://github.com/kalpana-da">
