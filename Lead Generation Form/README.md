@@ -5,13 +5,10 @@ A responsive custom HubSpot CMS Lead Generation Form module using an existing Hu
 ## Module Preview
 
 <p align="center">
-  <img
-    src="https://github.com/kalpana-da/hubspot-custom-modules/blob/main/Lead%20Generation%20Form/screenshots/form_module.png"
-    alt="Lead Generation Form Module Preview"
-    width="300"
-    height="400"
-  >
+  <img src="https://github.com/kalpana-da/hubspot-custom-modules/blob/main/Lead%20Generation%20Form/screenshots/form_module.png" alt="Lead Generation Form Module Preview" width="300" height="400">
 </p>
+
+---
 
 ## Module Files
 
@@ -24,18 +21,20 @@ A responsive custom HubSpot CMS Lead Generation Form module using an existing Hu
 
 ### Quick Links
 
-- [OPEN fields.json](https://github.com/kalpana-da/hubspot-custom-modules/blob/main/Lead%20Generation%20Form/fields.json)
-- [OPEN meta.json](https://github.com/kalpana-da/hubspot-custom-modules/blob/main/Lead%20Generation%20Form/meta.json)
-- [OPEN module.html](https://github.com/kalpana-da/hubspot-custom-modules/blob/main/Lead%20Generation%20Form/module.html)
-- [OPEN module.css](https://github.com/kalpana-da/hubspot-custom-modules/blob/main/Lead%20Generation%20Form/module.css)
+- [📄 Open fields.json](https://github.com/kalpana-da/hubspot-custom-modules/blob/main/Lead%20Generation%20Form/fields.json)
+- [📄 Open meta.json](https://github.com/kalpana-da/hubspot-custom-modules/blob/main/Lead%20Generation%20Form/meta.json)
+- [📄 Open module.html](https://github.com/kalpana-da/hubspot-custom-modules/blob/main/Lead%20Generation%20Form/module.html)
+- [📄 Open module.css](https://github.com/kalpana-da/hubspot-custom-modules/blob/main/Lead%20Generation%20Form/module.css)
 
 ---
 
 # 1. Create the HubSpot Module
 
-Go to **HubSpot → Content → Design Manager**.
+Go to:
 
-Open your custom module and go to:
+**HubSpot → Content → Design Manager**
+
+Open your custom theme and go to:
 
 ```text
 custom → modules
@@ -45,7 +44,7 @@ Create a new module named:
 
 **Lead Generation Form**
 
-Create:
+Create these files:
 
 ```text
 Lead Generation Form/
@@ -79,7 +78,7 @@ Copy the complete code into:
 Lead Generation Form → fields.json
 ```
 
-The fields create the options available in the HubSpot module editor.
+Save the file.
 
 ## Fields Used in the Module
 
@@ -142,9 +141,10 @@ The fields create the options available in the HubSpot module editor.
   &nbsp; | &nbsp;
   <a href="https://github.com/kalpana-da/hubspot-custom-modules/blob/main/Lead%20Generation%20Form/screenshots/form_module_style_fileds_2.png">Style Fields 2</a>
 </p>
+
 ---
 
-# 6. Add module.html
+# 5. Add module.html
 
 Create `module.html`.
 
@@ -156,17 +156,22 @@ Copy the complete code into:
 Lead Generation Form → module.html
 ```
 
-The file contains the HubL/HTML structure, existing HubSpot Form, dynamic styling and scoped CSS.
+The file contains:
 
-The dynamic styles use:
-
-```hubl
-{% scope_css %}
-```
+- HubL
+- HTML structure
+- Existing HubSpot Form
+- Dynamic content
+- Dynamic typography
+- Dynamic card styling
+- Dynamic form styling
+- Dynamic input styling
+- Button styling
+- Scoped CSS
 
 ---
 
-# 7. Add module.css
+# 6. Add module.css
 
 Create `module.css`.
 
@@ -178,13 +183,22 @@ Copy the complete code into:
 Lead Generation Form → module.css
 ```
 
-It controls module spacing, form spacing, field spacing, desktop layout, two-column fields, mobile stacking and responsive behavior.
+It controls:
+
+- Module spacing
+- Form spacing
+- Field spacing
+- Desktop layout
+- Two-column fields
+- Mobile field stacking
+- Responsive behavior
+- Privacy text alignment
 
 ---
 
-# 8. Create the HubSpot Form
+# 7. Create the HubSpot Form
 
-The custom module uses an **existing HubSpot Form**.
+This custom module uses an **existing HubSpot Form**.
 
 Go to:
 
@@ -202,7 +216,7 @@ Save the form.
 
 ---
 
-# 9. Add Form Fields
+# 8. Add Form Fields
 
 Inside the HubSpot Form editor, add the fields required for your form.
 
@@ -231,13 +245,13 @@ Phone Number
 Units under Management
 ```
 
-Arrange fields using the HubSpot Form editor.
+Arrange the fields using the HubSpot Form editor.
 
 ---
 
-# 10. Configure the Form Button
+# 9. Configure the Form Button
 
-Inside the HubSpot Form editor, configure the native submit button.
+Inside the HubSpot Form editor, configure the **native submit button**.
 
 Example:
 
@@ -247,23 +261,29 @@ Get My Free Audit ➔
 
 Save the form.
 
-> The custom module uses the existing HubSpot Form. It does not create a second form or a second submit button.
+> The custom module uses the existing HubSpot Form. It does not create a second form or a separate submit button.
 
 ---
 
-# 11. Add the Module to a Page
+# 10. Add the Module to a Page
 
-Go to **HubSpot → Website Pages** and open the page editor.
+Go to:
+
+**HubSpot → Website Pages**
+
+Open the page editor.
 
 Search for:
 
-**Lead Generation Form**
+```text
+Lead Generation Form
+```
 
 Drag the module onto the page.
 
 ---
 
-# 12. Select the Existing HubSpot Form
+# 11. Select the Existing HubSpot Form
 
 Open:
 
@@ -271,11 +291,11 @@ Open:
 
 Select the HubSpot Form created earlier.
 
-The selected existing form will appear inside the custom module.
+The selected existing HubSpot Form will now appear inside the custom module.
 
 ---
 
-# 13. Configure Content
+# 12. Configure Content
 
 Open **Content** and configure:
 
@@ -327,7 +347,7 @@ Get My Free Audit ➔
 
 ---
 
-# 14. Configure Card Style
+# 13. Configure Card Style
 
 Open:
 
@@ -344,7 +364,7 @@ Badge Background
 
 ---
 
-# 15. Configure Typography Style
+# 14. Configure Typography Style
 
 Open:
 
@@ -361,7 +381,7 @@ Privacy Text Font
 
 ---
 
-# 16. Configure Form Style
+# 15. Configure Form Style
 
 Open:
 
@@ -382,11 +402,13 @@ Button Text Color
 
 ---
 
-# 17. Responsive Behavior
+# 16. Responsive Behavior
+
+The module is designed for desktop, tablet and mobile layouts.
 
 ### Desktop
 
-Two fields in the same form row can display side by side:
+Two fields in the same HubSpot Form row can appear side by side:
 
 ```text
 First Name              Last Name
@@ -404,13 +426,15 @@ Last Name
 Email
 
 Company Name
+
+Phone Number
 ```
 
-The responsive CSS is in `module.css`.
+The responsive CSS is included in `module.css`.
 
 ---
 
-# 18. Test the Module
+# 17. Test the Module
 
 Before publishing, check:
 
@@ -423,7 +447,10 @@ Before publishing, check:
 - [ ] Dropdown works
 - [ ] Submit button works
 - [ ] Privacy text displays
-- [ ] Card styling works
+- [ ] Card background works
+- [ ] Card width works
+- [ ] Card radius works
+- [ ] Badge background works
 - [ ] Typography settings work
 - [ ] Input styling works
 - [ ] Button styling works
@@ -478,8 +505,9 @@ Configure Typography
 Configure Form Style
       ↓
 Test Desktop + Mobile
-    
-
+      ↓
+Publish
+```
 
 ---
 
@@ -499,7 +527,7 @@ Test Desktop + Mobile
     <img src="https://img.shields.io/badge/Portfolio-Go1Digital-FF6B35?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio">
   </a>
 </p>
----
+
 ---
 
 ## ⭐ Support
@@ -511,9 +539,3 @@ If you found this repository helpful, please consider giving it a ⭐ on GitHub.
     <img src="https://img.shields.io/badge/⭐%20Star%20this%20repository-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="Star this repository">
   </a>
 </p>
-
-
-If you found this repository helpful, please consider giving it a ⭐ on GitHub.
-
-[⭐ **Star this repository**](https://github.com/kalpana-da/hubspot-custom-modules)
-
