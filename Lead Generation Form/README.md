@@ -479,5 +479,22 @@ Configure Form Style
       ↓
 Test Desktop + Mobile
       ↓
+---
+
+## 👩‍💻 Author
+
+**Kalpana Sharma**
+
+HubSpot CMS Developer
+
+- GitHub: https://github.com/kalpana-da
+- LinkedIn: https://www.linkedin.com/in/skalpana/
+- Portfolio: https://go1digital.com/startup-portfolio/
+
+---
+
+## ⭐ Support
+
+If you found this repository helpful, please consider giving it a ⭐ on GitHub.
 Publish
 ```
