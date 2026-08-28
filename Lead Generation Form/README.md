@@ -127,28 +127,21 @@ The fields create the options available in the HubSpot module editor.
 
 ---
 
-# 4. Content Fields Screenshot
+# 4. Module Fields Screenshots
 
-[**VIEW CONTENT FIELDS SCREENSHOT**](https://github.com/kalpana-da/hubspot-custom-modules/blob/main/Lead%20Generation%20Form/screenshots/form_module_fileds.png)
+<p align="center">
+  <img src="https://github.com/kalpana-da/hubspot-custom-modules/blob/main/Lead%20Generation%20Form/screenshots/form_module_fileds.png" alt="Content Fields" width="30%">
+  <img src="https://github.com/kalpana-da/hubspot-custom-modules/blob/main/Lead%20Generation%20Form/screenshots/form_module_style_fileds_1.png" alt="Style Fields 1" width="30%">
+  <img src="https://github.com/kalpana-da/hubspot-custom-modules/blob/main/Lead%20Generation%20Form/screenshots/form_module_style_fileds_2.png" alt="Style Fields 2" width="30%">
+</p>
 
-![Content Fields](https://github.com/kalpana-da/hubspot-custom-modules/blob/main/Lead%20Generation%20Form/screenshots/form_module_fileds.png)
-
----
-
-# 5. Style Fields Screenshots
-
-### Style Fields 1
-
-[**VIEW STYLE FIELDS 1**](https://github.com/kalpana-da/hubspot-custom-modules/blob/main/Lead%20Generation%20Form/screenshots/form_module_style_fileds_1.png)
-
-![Style Fields 1](https://github.com/kalpana-da/hubspot-custom-modules/blob/main/Lead%20Generation%20Form/screenshots/form_module_style_fileds_1.png)
-
-### Style Fields 2
-
-[**VIEW STYLE FIELDS 2**](https://github.com/kalpana-da/hubspot-custom-modules/blob/main/Lead%20Generation%20Form/screenshots/form_module_style_fileds_2.png)
-
-![Style Fields 2](https://github.com/kalpana-da/hubspot-custom-modules/blob/main/Lead%20Generation%20Form/screenshots/form_module_style_fileds_2.png)
-
+<p align="center">
+  <a href="https://github.com/kalpana-da/hubspot-custom-modules/blob/main/Lead%20Generation%20Form/screenshots/form_module_fileds.png">Content Fields</a>
+  &nbsp; | &nbsp;
+  <a href="https://github.com/kalpana-da/hubspot-custom-modules/blob/main/Lead%20Generation%20Form/screenshots/form_module_style_fileds_1.png">Style Fields 1</a>
+  &nbsp; | &nbsp;
+  <a href="https://github.com/kalpana-da/hubspot-custom-modules/blob/main/Lead%20Generation%20Form/screenshots/form_module_style_fileds_2.png">Style Fields 2</a>
+</p>
 ---
 
 # 6. Add module.html
