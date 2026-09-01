@@ -14,8 +14,10 @@ The repository is intended as both a learning resource and a portfolio showcasin
 | [Team Members Module](team-members-module/) | Dynamic team section using HubSpot Repeater Fields | ✅ Complete |
 | [Responsive Testimonial Slider](testimonial-slider/) | Responsive testimonial slider with repeater fields, dynamic styling and navigation | ✅ Complete |
 | [HubSpot Service Cards Module](service-cards-module/) | Reusable responsive HubSpot Service Cards module with dynamic styling, SVG icon hover support, equal-height cards, and editor-friendly customization. | ✅ Complete |
-| [HubSpot Lead Generation Form Module](https://github.com/kalpana-da/hubspot-custom-modules/tree/main/Lead%20Generation%20Form) | Reusable responsive HubSpot Lead Generation Form module using an existing HubSpot Form, with dynamic content, typography, card styling, form styling, button styling, and mobile-responsive customization. | ✅ Complete |
+| [HubSpot Lead Generation Form Module](https://github.com/kalpana-da/hubspot-custom-modules/tree/main/Lead%20Generation%20Form) | Reusable responsive HubSpot Lead Generation Form module using an existing HubSpot Logo Slider, with dynamic content, typography, card styling, form styling, button styling, and mobile-responsive customization. | ✅ Complete |
 | [HubSpot Logo Slider Module](https://github.com/kalpana-da/hubspot-custom-modules/tree/main/logo-slider) | Reusable responsive HubSpot Logo Slider module with dynamic content, typography, styling, form arrow styling, and responsive for all devices. | ✅ Complete |
+| [HubSpot CTE Module](https://github.com/kalpana-da/hubspot-custom-modules/tree/main/cta-module) | Reusable responsive HubSpot CTE module using an existing HubSpot CTE Slider, with dynamic content, typography, card styling, form styling, button styling, and mobile-responsive customization. | ✅ Complete |
+| [HubSpot Logo Slider Module](https://github.com/kalpana-da/hubspot-custom-modules/tree/main/logo-slider) | Reusable responsive HubSpot Logo Slider module with dynamic content, typography, styling, form arrow styling, button and responsive for all devices. | ✅ Complete |
 ---
 
 ## ✨ Features
@@ -91,6 +93,16 @@ hubspot-custom-modules/
 │   |── logo_slider_fields.png
 |   |── logo_slider_preview.png
 |   |── logo_slider_style_fields.png
+|
+├── CTE-module/
+│   ├── README.md
+│   ├── module.html
+│   ├── module.css
+│   ├── module.js
+│   ├── fields.json
+│   |── CTE_Module_fields.png
+|   |── CTE_Module_style_fields.png
+|   |── cte_module_preview.png
 |
 
 
