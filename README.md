@@ -15,7 +15,7 @@ The repository is intended as both a learning resource and a portfolio showcasin
 | [Responsive Testimonial Slider](testimonial-slider/) | Responsive testimonial slider with repeater fields, dynamic styling and navigation | ✅ Complete |
 | [HubSpot Service Cards Module](service-cards-module/) | Reusable responsive HubSpot Service Cards module with dynamic styling, SVG icon hover support, equal-height cards, and editor-friendly customization. | ✅ Complete |
 | [HubSpot Lead Generation Form Module](https://github.com/kalpana-da/hubspot-custom-modules/tree/main/Lead%20Generation%20Form) | Reusable responsive HubSpot Lead Generation Form module using an existing HubSpot Form, with dynamic content, typography, card styling, form styling, button styling, and mobile-responsive customization. | ✅ Complete |
-| [HubSpot Logo Slider Form Module](https://github.com/kalpana-da/hubspot-custom-modules/tree/main/logo-slider) | Reusable responsive HubSpot Logo Slider module with dynamic content, typography, styling, form arrow styling, and mobile-responsive customization. | ✅ Complete |
+| [HubSpot Logo Slider Module](https://github.com/kalpana-da/hubspot-custom-modules/tree/main/logo-slider) | Reusable responsive HubSpot Logo Slider module with dynamic content, typography, styling, form arrow styling, and responsive for all devices. | ✅ Complete |
 ---
 
 ## ✨ Features
@@ -81,6 +81,7 @@ hubspot-custom-modules/
 │   ├── module.js
 │   ├── fields.json
 │   └── screenshot/
+|
 ├── Logo-module/
 │   ├── README.md
 │   ├── module.html
