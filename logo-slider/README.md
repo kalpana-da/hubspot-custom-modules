@@ -41,10 +41,6 @@ A responsive **HubSpot CMS custom module** for displaying client or company logo
 The module provides editable content fields from the **HubSpot Content** tab.
 
 <p align="center">
-  <img src="https://github.com/kalpana-da/hubspot-custom-modules/blob/main/logo-slider/logo_slider_fields.png" alt="Logo Slider Content Fields" width="450">
-</p>
-
-<p align="center">
   <a href="https://github.com/kalpana-da/hubspot-custom-modules/blob/main/logo-slider/logo_slider_fields.png">
     <strong>📄 View Content Fields</strong>
   </a>
@@ -91,14 +87,19 @@ Style
     ├── Border Radius
     └── Border Color
 ```
-
 <p align="center">
-  <img src="https://github.com/kalpana-da/hubspot-custom-modules/blob/main/logo-slider/logo_slider_style_fields.png" alt="Logo Slider Style Fields" width="450">
+  <a href="https://github.com/kalpana-da/hubspot-custom-modules/blob/main/logo-slider/logo_slider_fields.png">
+    <img src="https://github.com/kalpana-da/hubspot-custom-modules/blob/main/logo-slider/logo_slider_fields.png" alt="Logo Slider Content Fields" width="30%">
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/kalpana-da/hubspot-custom-modules/blob/main/logo-slider/logo_slider_style_fields.png">
+    <img src="https://github.com/kalpana-da/hubspot-custom-modules/blob/main/logo-slider/logo_slider_style_fields.png" alt="Logo Slider Style Fields" width="30%">
+  </a>
 </p>
 
 <p align="center">
   <a href="https://github.com/kalpana-da/hubspot-custom-modules/blob/main/logo-slider/logo_slider_style_fields.png">
-    <strong>🎨 View Style Fields</strong>
+    <strong> View Style Fields</strong>
   </a>
 </p>
 
@@ -238,19 +239,6 @@ logo-slider/
 
 # 10. Screenshots
 
-<p align="center">
-  <a href="https://github.com/kalpana-da/hubspot-custom-modules/blob/main/logo-slider/logo_slider_fields.png">
-    <img src="https://github.com/kalpana-da/hubspot-custom-modules/blob/main/logo-slider/logo_slider_fields.png" alt="Logo Slider Content Fields" width="30%">
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://github.com/kalpana-da/hubspot-custom-modules/blob/main/logo-slider/logo_slider_style_fields.png">
-    <img src="https://github.com/kalpana-da/hubspot-custom-modules/blob/main/logo-slider/logo_slider_style_fields.png" alt="Logo Slider Style Fields" width="30%">
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://github.com/kalpana-da/hubspot-custom-modules/blob/main/logo-slider/logo_slider_preview.png">
-    <img src="https://github.com/kalpana-da/hubspot-custom-modules/blob/main/logo-slider/logo_slider_preview.png" alt="Logo Slider Module Preview" width="30%">
-  </a>
-</p>
 
 <p align="center">
   <a href="https://github.com/kalpana-da/hubspot-custom-modules/blob/main/logo-slider/logo_slider_fields.png"><strong>📄 Content Fields</strong></a>
