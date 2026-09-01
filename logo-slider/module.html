@@ -1,0 +1,508 @@
+<div class="logo-slider-container">
+
+  {% if module.content.heading %}
+    <h2 class="slider-title">
+      {{ module.content.heading }}
+    </h2>
+  {% endif %}
+
+  <div class="slider-wrapper">
+
+    <!-- Previous Arrow -->
+    <button
+      class="slider-arrow prev-arrow"
+      type="button"
+      aria-label="Previous logos">
+      &#10094;
+    </button>
+
+    <!-- Logo Slider -->
+    <div class="logo-slider">
+
+      {% for item in module.content.logo_img %}
+
+        {% if item.src %}
+          <div class="logo-card">
+
+            <img
+              src="{{ item.src|escape_url }}"
+              alt="{{ item.alt|escape_attr }}"
+            >
+
+          </div>
+        {% endif %}
+
+      {% endfor %}
+
+    </div>
+
+    <!-- Next Arrow -->
+    <button
+      class="slider-arrow next-arrow"
+      type="button"
+      aria-label="Next logos">
+      &#10095;
+    </button>
+
+  </div>
+
+</div>
+
+
+{% require_css %}
+<style>
+
+{% scope_css %}
+
+/* =====================================
+   MAIN CONTAINER
+===================================== */
+
+.logo-slider-container {
+  width: 100%;
+  box-sizing: border-box;
+
+  background-color:
+    {{ module.style.slider.section_bg.color|default("#e8f3fe")|escape_attr }};
+
+  padding: 40px 40px;
+
+  text-align: center;
+
+  overflow: hidden;
+}
+
+
+/* =====================================
+   HEADING
+===================================== */
+
+.slider-title {
+
+  {{ module.style.slider.heading_font.css }}
+
+  margin: 0 0 30px;
+
+  line-height: 1.2;
+}
+
+
+/* =====================================
+   SLIDER WRAPPER
+===================================== */
+
+.slider-wrapper {
+  position: relative;
+
+  width: 100%;
+  max-width: 1200px;
+
+  margin: 0 auto;
+
+  padding: 0 55px;
+
+  box-sizing: border-box;
+}
+
+
+/* =====================================
+   SLIDER
+===================================== */
+
+.logo-slider {
+  display: flex;
+
+  flex-wrap: nowrap;
+
+  align-items: center;
+
+  gap:
+    {{ module.style.slider.logo_gap|default(20) }}px;
+
+  width: 100%;
+
+  padding: 10px 0;
+
+  box-sizing: border-box;
+
+  overflow-x: auto;
+  overflow-y: hidden;
+
+  scroll-behavior: smooth;
+
+  scrollbar-width: none;
+}
+
+
+/* Hide scrollbar */
+
+.logo-slider::-webkit-scrollbar {
+  display: none;
+}
+
+
+/* =====================================
+   LOGO CARD
+   DESKTOP = 5
+===================================== */
+
+.logo-card {
+
+  flex: 0 0 calc((100% - 80px) / 5);
+
+  width: calc((100% - 80px) / 5);
+
+  height: 90px;
+
+  min-width: 0;
+
+  background-color: #ffffff;
+
+  border:
+    {{ module.style.slider.border|default(1) }}px
+    solid
+    {{ module.style.slider.border_color.color|default("#cdcdcd")|escape_attr }};
+
+  border-radius:
+    {{ module.style.slider.border_radius|default(5) }}px;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  padding: 12px;
+
+  box-sizing: border-box;
+
+  overflow: hidden;
+}
+
+
+/* =====================================
+   LOGO IMAGE
+===================================== */
+
+.logo-card img {
+
+  display: block;
+
+  width: auto !important;
+
+  height: auto !important;
+
+  max-width: 70% !important;
+
+  max-height: 65% !important;
+
+  object-fit: contain !important;
+
+  margin: auto;
+}
+
+
+/* =====================================
+   CENTER FEWER LOGOS
+===================================== */
+
+.logo-slider:has(> .logo-card:nth-child(4):last-child),
+.logo-slider:has(> .logo-card:nth-child(3):last-child),
+.logo-slider:has(> .logo-card:nth-child(2):last-child),
+.logo-slider:has(> .logo-card:nth-child(1):last-child) {
+
+  justify-content: center;
+}
+
+
+/* =====================================
+   ARROWS
+===================================== */
+
+.slider-arrow {
+
+  position: absolute !important;
+
+  top: 50% !important;
+
+  transform: translateY(-50%) !important;
+
+  width: 40px !important;
+
+  height: 40px !important;
+
+  min-width: 40px !important;
+
+  min-height: 40px !important;
+
+  padding: 0 !important;
+
+  margin: 0 !important;
+
+  display: flex !important;
+
+  align-items: center !important;
+
+  justify-content: center !important;
+
+  background-color:
+    {{ module.style.slider.arrow_bg_color.color|default("#ffffff")|escape_attr }}
+    !important;
+
+  border: 1px solid #e0e0e0 !important;
+
+  border-radius: 50% !important;
+
+  color:
+    {{ module.style.slider.arrow_color.color|default("#0b3c5d")|escape_attr }}
+    !important;
+
+  font-size: 20px !important;
+
+  line-height: 1 !important;
+
+  cursor: pointer;
+
+  z-index: 20;
+
+  box-sizing: border-box;
+
+  box-shadow:
+    0 2px 6px rgba(0, 0, 0, 0.12);
+
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease,
+    opacity 0.2s ease;
+}
+
+
+/* =====================================
+   PREVIOUS ARROW
+===================================== */
+
+.prev-arrow {
+
+  left: 5px !important;
+
+  right: auto !important;
+}
+
+
+/* =====================================
+   NEXT ARROW
+===================================== */
+
+.next-arrow {
+
+  right: 5px !important;
+
+  left: auto !important;
+}
+
+
+/* =====================================
+   ARROW HOVER
+===================================== */
+
+.slider-arrow:hover {
+
+  background-color:
+    {{ module.style.slider.arrow_hover_color.color|default("#0b3c5d")|escape_attr }}
+    !important;
+
+  color: #ffffff !important;
+}
+
+
+/* =====================================
+   DISABLED ARROW
+===================================== */
+
+.slider-arrow:disabled {
+
+  opacity: 0.35;
+
+  cursor: default;
+}
+
+
+/* =====================================
+   TABLET
+   4 LOGOS
+===================================== */
+
+@media (max-width: 1000px) {
+
+  .logo-slider-container {
+
+    padding: 30px 15px;
+  }
+
+
+  .slider-wrapper {
+
+    padding-left: 50px;
+
+    padding-right: 50px;
+  }
+
+
+  .logo-card {
+
+    flex: 0 0 calc((100% - 48px) / 4);
+
+    width: calc((100% - 48px) / 4);
+
+    height: 85px;
+
+    padding: 10px;
+  }
+
+
+  .logo-card img {
+
+    max-width: 68% !important;
+
+    max-height: 63% !important;
+  }
+
+
+  .slider-arrow {
+
+    width: 38px !important;
+
+    height: 38px !important;
+
+    min-width: 38px !important;
+
+    min-height: 38px !important;
+
+    font-size: 18px !important;
+  }
+
+}
+
+
+/* =====================================
+   MOBILE
+   2 LOGOS
+===================================== */
+
+@media (max-width: 600px) {
+
+  .logo-slider-container {
+
+    padding: 30px 30px;
+  }
+
+
+  .slider-wrapper {
+
+    padding-left: 42px;
+
+    padding-right: 42px;
+  }
+
+
+  .logo-card {
+
+    flex: 0 0 calc((100% - 12px) / 2);
+
+    width: calc((100% - 12px) / 2);
+
+    height: 80px;
+
+    padding: 10px;
+  }
+
+
+  .logo-card img {
+
+    max-width: 65% !important;
+
+    max-height: 60% !important;
+  }
+
+
+  .slider-arrow {
+
+    width: 34px !important;
+
+    height: 34px !important;
+
+    min-width: 34px !important;
+
+    min-height: 34px !important;
+
+    font-size: 17px !important;
+  }
+
+
+  .prev-arrow {
+
+    left: 2px !important;
+  }
+
+
+  .next-arrow {
+
+    right: 2px !important;
+  }
+
+}
+
+
+/* =====================================
+   SMALL MOBILE
+===================================== */
+
+@media (max-width: 400px) {
+
+  .slider-wrapper {
+
+    padding-left: 38px;
+
+    padding-right: 38px;
+  }
+
+
+  .logo-card {
+
+    flex: 0 0 calc((100% - 10px) / 2);
+
+    width: calc((100% - 10px) / 2);
+
+    height: 70px;
+
+    padding: 8px;
+  }
+
+
+  .logo-card img {
+
+    max-width: 60% !important;
+
+    max-height: 58% !important;
+  }
+
+
+  .slider-arrow {
+
+    width: 32px !important;
+
+    height: 32px !important;
+
+    min-width: 32px !important;
+
+    min-height: 32px !important;
+
+    font-size: 16px !important;
+  }
+
+}
+
+{% end_scope_css %}
+
+</style>
+{% end_require_css %}

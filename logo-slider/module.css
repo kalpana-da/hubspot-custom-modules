@@ -1,0 +1,30 @@
+/* =====================================
+   LOGO SLIDER
+   STATIC CSS
+===================================== */
+
+.logo-slider-container {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.logo-slider {
+  scrollbar-width: none;
+}
+
+.logo-slider::-webkit-scrollbar {
+  display: none;
+}
+
+.logo-card img {
+  display: block;
+  object-fit: contain;
+}
+
+.slider-arrow {
+  cursor: pointer;
+}
+
+.slider-arrow:disabled {
+  cursor: default;
+}

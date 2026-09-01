@@ -1,0 +1,331 @@
+[ {
+  "id" : "50a628d8-0604-1b83-1cfa-be9fd521dd16",
+  "name" : "style",
+  "label" : "Style",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "28d1849e-5611-38b3-fcbe-ce172be5a267",
+    "name" : "slider",
+    "label" : "Style",
+    "required" : false,
+    "locked" : false,
+    "children" : [ {
+      "id" : "ac09b6f0-9663-7743-7ee8-5c510e81a41e",
+      "name" : "heading_font",
+      "label" : "Heading Font",
+      "required" : false,
+      "locked" : false,
+      "load_external_fonts" : true,
+      "type" : "font",
+      "display_width" : null,
+      "default" : {
+        "font" : "Geologica",
+        "fallback" : "sans-serif",
+        "variant" : "regular",
+        "font_set" : "GOOGLE",
+        "styles" : {
+          "text-decoration" : "none"
+        },
+        "size" : 35,
+        "color" : "#000000"
+      }
+    }, {
+      "id" : "1dd012cd-3b12-85fa-5720-3cb7972e380e",
+      "name" : "section_bg",
+      "label" : "Section Background",
+      "required" : false,
+      "locked" : false,
+      "type" : "color",
+      "display_width" : null,
+      "default" : {
+        "color" : "#CCCCCC",
+        "opacity" : 100
+      }
+    }, {
+      "id" : "ef687425-197a-4027-f876-c538b157618e",
+      "name" : "arrow_color",
+      "label" : "Arrow Color",
+      "required" : false,
+      "locked" : false,
+      "type" : "color",
+      "display_width" : null,
+      "default" : {
+        "color" : "#CCCCCC",
+        "opacity" : 100
+      }
+    }, {
+      "id" : "af83628f-4f80-c0d0-2708-cab2d4342094",
+      "name" : "arrow_hover_color",
+      "label" : "Arrow Hover Color",
+      "required" : false,
+      "locked" : false,
+      "type" : "color",
+      "display_width" : null,
+      "default" : {
+        "color" : "#0C5394",
+        "opacity" : 100
+      }
+    }, {
+      "id" : "3e7d3ebe-b8e8-fa7d-8c92-49b7af3c5a96",
+      "name" : "arrow_bg_color",
+      "label" : "Arrow Background",
+      "required" : false,
+      "locked" : false,
+      "type" : "color",
+      "display_width" : null,
+      "default" : {
+        "color" : "#666666",
+        "opacity" : 100
+      }
+    }, {
+      "id" : "a0bc5c48-94a4-408a-6d3b-eb691b9d812a",
+      "name" : "logo_gap",
+      "label" : "Logo Gap",
+      "required" : false,
+      "locked" : false,
+      "display" : "text",
+      "step" : 1,
+      "suffix" : "px",
+      "type" : "number",
+      "display_width" : null,
+      "default" : 20
+    }, {
+      "id" : "e39fa2e1-13cd-321f-b8dc-2deec141638e",
+      "name" : "border",
+      "label" : "Border",
+      "required" : false,
+      "locked" : false,
+      "display" : "text",
+      "step" : 1,
+      "suffix" : "px",
+      "type" : "number",
+      "display_width" : null,
+      "default" : 2
+    }, {
+      "id" : "cce70b0e-1c76-629d-9a6d-76fb4920d284",
+      "name" : "border_radius",
+      "label" : "Border Radius",
+      "required" : false,
+      "locked" : false,
+      "display" : "text",
+      "step" : 1,
+      "suffix" : "px",
+      "type" : "number",
+      "display_width" : null,
+      "default" : 2
+    }, {
+      "id" : "586708c0-c371-fe28-70f9-6d67b25f9fa9",
+      "name" : "border_color",
+      "label" : "Border Color",
+      "required" : false,
+      "locked" : false,
+      "type" : "color",
+      "display_width" : null,
+      "default" : {
+        "color" : "#CCCCCC",
+        "opacity" : 100
+      }
+    } ],
+    "tab" : "STYLE",
+    "expanded" : false,
+    "group_occurrence_meta" : null,
+    "type" : "group",
+    "display_width" : null,
+    "default" : {
+      "heading_font" : {
+        "font" : "Geologica",
+        "fallback" : "sans-serif",
+        "variant" : "regular",
+        "font_set" : "GOOGLE",
+        "styles" : {
+          "text-decoration" : "none"
+        },
+        "size" : 35,
+        "color" : "#000000"
+      },
+      "section_bg" : {
+        "color" : "#CCCCCC",
+        "opacity" : 100
+      },
+      "arrow_color" : {
+        "color" : "#CCCCCC",
+        "opacity" : 100
+      },
+      "arrow_hover_color" : {
+        "color" : "#0C5394",
+        "opacity" : 100
+      },
+      "arrow_bg_color" : {
+        "color" : "#666666",
+        "opacity" : 100
+      },
+      "logo_gap" : 20,
+      "border" : 2,
+      "border_radius" : 2,
+      "border_color" : {
+        "color" : "#CCCCCC",
+        "opacity" : 100
+      }
+    }
+  } ],
+  "tab" : "STYLE",
+  "expanded" : false,
+  "group_occurrence_meta" : null,
+  "type" : "group",
+  "display_width" : null,
+  "default" : {
+    "slider" : {
+      "heading_font" : {
+        "font" : "Geologica",
+        "fallback" : "sans-serif",
+        "variant" : "regular",
+        "font_set" : "GOOGLE",
+        "styles" : {
+          "text-decoration" : "none"
+        },
+        "size" : 35,
+        "color" : "#000000"
+      },
+      "section_bg" : {
+        "color" : "#CCCCCC",
+        "opacity" : 100
+      },
+      "arrow_color" : {
+        "color" : "#CCCCCC",
+        "opacity" : 100
+      },
+      "arrow_hover_color" : {
+        "color" : "#0C5394",
+        "opacity" : 100
+      },
+      "arrow_bg_color" : {
+        "color" : "#666666",
+        "opacity" : 100
+      },
+      "logo_gap" : 20,
+      "border" : 2,
+      "border_radius" : 2,
+      "border_color" : {
+        "color" : "#CCCCCC",
+        "opacity" : 100
+      }
+    }
+  }
+}, {
+  "id" : "05b60a0b-fd5e-f33c-4714-4121c0c02631",
+  "name" : "content",
+  "label" : "content",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "4949f124-055e-1ef2-7a9c-3ec481b8ca86",
+    "name" : "heading",
+    "label" : "Heading",
+    "required" : false,
+    "locked" : false,
+    "allow_new_line" : false,
+    "type" : "text",
+    "display_width" : null,
+    "default" : "Our Clients"
+  }, {
+    "id" : "13503394-3847-8e58-0561-543692abc96d",
+    "name" : "logo_img",
+    "label" : "logo_img",
+    "required" : false,
+    "locked" : false,
+    "occurrence" : {
+      "min" : 4,
+      "max" : null,
+      "sorting_label_field" : null,
+      "default" : 4
+    },
+    "responsive" : true,
+    "resizable" : true,
+    "show_loading" : false,
+    "type" : "image",
+    "display_width" : null,
+    "default" : [ {
+      "size_type" : "auto",
+      "src" : "https://246197183.fs1.hubspotusercontent-na2.net/hubfs/246197183/godigital.png",
+      "alt" : "godigital",
+      "loading" : "lazy",
+      "width" : 300,
+      "height" : 143,
+      "max_width" : 300,
+      "max_height" : 143
+    }, {
+      "size_type" : "auto",
+      "src" : "https://246197183.fs1.hubspotusercontent-na2.net/hubfs/246197183/godigital.png",
+      "alt" : "godigital",
+      "loading" : "lazy",
+      "width" : 300,
+      "height" : 143,
+      "max_width" : 300,
+      "max_height" : 143
+    }, {
+      "size_type" : "auto",
+      "src" : "https://246197183.fs1.hubspotusercontent-na2.net/hubfs/246197183/godigital.png",
+      "alt" : "godigital",
+      "loading" : "lazy",
+      "width" : 300,
+      "height" : 143,
+      "max_width" : 300,
+      "max_height" : 143
+    }, {
+      "size_type" : "auto",
+      "src" : "https://246197183.fs1.hubspotusercontent-na2.net/hubfs/246197183/godigital.png",
+      "alt" : "godigital",
+      "loading" : "lazy",
+      "width" : 300,
+      "height" : 143,
+      "max_width" : 300,
+      "max_height" : 143
+    } ]
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "group_occurrence_meta" : null,
+  "type" : "group",
+  "display_width" : null,
+  "default" : {
+    "heading" : "Our Clients",
+    "logo_img" : [ {
+      "size_type" : "auto",
+      "src" : "https://246197183.fs1.hubspotusercontent-na2.net/hubfs/246197183/godigital.png",
+      "alt" : "godigital",
+      "loading" : "lazy",
+      "width" : 300,
+      "height" : 143,
+      "max_width" : 300,
+      "max_height" : 143
+    }, {
+      "size_type" : "auto",
+      "src" : "https://246197183.fs1.hubspotusercontent-na2.net/hubfs/246197183/godigital.png",
+      "alt" : "godigital",
+      "loading" : "lazy",
+      "width" : 300,
+      "height" : 143,
+      "max_width" : 300,
+      "max_height" : 143
+    }, {
+      "size_type" : "auto",
+      "src" : "https://246197183.fs1.hubspotusercontent-na2.net/hubfs/246197183/godigital.png",
+      "alt" : "godigital",
+      "loading" : "lazy",
+      "width" : 300,
+      "height" : 143,
+      "max_width" : 300,
+      "max_height" : 143
+    }, {
+      "size_type" : "auto",
+      "src" : "https://246197183.fs1.hubspotusercontent-na2.net/hubfs/246197183/godigital.png",
+      "alt" : "godigital",
+      "loading" : "lazy",
+      "width" : 300,
+      "height" : 143,
+      "max_width" : 300,
+      "max_height" : 143
+    } ]
+  }
+} ]
