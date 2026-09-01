@@ -9,7 +9,7 @@ A responsive **HubSpot CMS custom module** for displaying client or company logo
 </p>
 
 <p align="center">
-  <a href="https://github.com/kalpana-da/hubspot-custom-modules/blob/main/logo-slider/logo_slider_preview.png">
+  <a target="_blank" href="https://github.com/kalpana-da/hubspot-custom-modules/blob/main/logo-slider/logo_slider_preview.png">
     <strong>🔍 View Module Preview</strong>
   </a>
 </p>
@@ -41,7 +41,7 @@ A responsive **HubSpot CMS custom module** for displaying client or company logo
 The module provides editable content fields from the **HubSpot Content** tab.
 
 <p align="center">
-  <a href="https://github.com/kalpana-da/hubspot-custom-modules/blob/main/logo-slider/logo_slider_fields.png">
+  <a target="_blank" href="https://github.com/kalpana-da/hubspot-custom-modules/blob/main/logo-slider/logo_slider_fields.png">
     <strong>📄 View Content Fields</strong>
   </a>
 </p>
@@ -88,17 +88,17 @@ Style
     └── Border Color
 ```
 <p align="center">
-  <a href="https://github.com/kalpana-da/hubspot-custom-modules/blob/main/logo-slider/logo_slider_fields.png">
+  <a target="_blank" href="https://github.com/kalpana-da/hubspot-custom-modules/blob/main/logo-slider/logo_slider_fields.png">
     <img src="https://github.com/kalpana-da/hubspot-custom-modules/blob/main/logo-slider/logo_slider_fields.png" alt="Logo Slider Content Fields" width="30%">
   </a>
   &nbsp;&nbsp;
-  <a href="https://github.com/kalpana-da/hubspot-custom-modules/blob/main/logo-slider/logo_slider_style_fields.png">
+  <a target="_blank" href="https://github.com/kalpana-da/hubspot-custom-modules/blob/main/logo-slider/logo_slider_style_fields.png">
     <img src="https://github.com/kalpana-da/hubspot-custom-modules/blob/main/logo-slider/logo_slider_style_fields.png" alt="Logo Slider Style Fields" width="30%">
   </a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/kalpana-da/hubspot-custom-modules/blob/main/logo-slider/logo_slider_style_fields.png">
+  <a target="_blank" href="https://github.com/kalpana-da/hubspot-custom-modules/blob/main/logo-slider/logo_slider_style_fields.png">
     <strong> View Style Fields</strong>
   </a>
 </p>
@@ -241,11 +241,11 @@ logo-slider/
 
 
 <p align="center">
-  <a href="https://github.com/kalpana-da/hubspot-custom-modules/blob/main/logo-slider/logo_slider_fields.png"><strong>📄 Content Fields</strong></a>
+  <a target="_blank" href="https://github.com/kalpana-da/hubspot-custom-modules/blob/main/logo-slider/logo_slider_fields.png"><strong>📄 Content Fields</strong></a>
   &nbsp; | &nbsp;
-  <a href="https://github.com/kalpana-da/hubspot-custom-modules/blob/main/logo-slider/logo_slider_style_fields.png"><strong>🎨 Style Fields</strong></a>
+  <a target="_blank" href="https://github.com/kalpana-da/hubspot-custom-modules/blob/main/logo-slider/logo_slider_style_fields.png"><strong>🎨 Style Fields</strong></a>
   &nbsp; | &nbsp;
-  <a href="https://github.com/kalpana-da/hubspot-custom-modules/blob/main/logo-slider/logo_slider_preview.png"><strong>🔍 Module Preview</strong></a>
+  <a target="_blank" href="https://github.com/kalpana-da/hubspot-custom-modules/blob/main/logo-slider/logo_slider_preview.png"><strong>🔍 Module Preview</strong></a>
 </p>
 
 # Quick Setup
@@ -276,13 +276,13 @@ Publish
 *HubSpot CMS Developer / Wordpress Developer*
 
 <p>
-  <a href="https://github.com/kalpana-da">
+  <a target="_blank" href="https://github.com/kalpana-da">
     <img src="https://img.shields.io/badge/GitHub-kalpana--da-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
   </a>
-  <a href="https://www.linkedin.com/in/skalpana/">
+  <a target="_blank" href="https://www.linkedin.com/in/skalpana/">
     <img src="https://img.shields.io/badge/LinkedIn-Kalpana%20Sharma-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
   </a>
-  <a href="https://go1digital.com/startup-portfolio/">
+  <a target="_blank" href="https://go1digital.com/startup-portfolio/">
     <img src="https://img.shields.io/badge/Portfolio-Go1Digital-FF6B35?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio">
   </a>
 </p>
@@ -294,7 +294,7 @@ Publish
 If you found this repository helpful, please consider giving it a ⭐ on GitHub.
 
 <p>
-  <a href="https://github.com/kalpana-da/hubspot-custom-modules">
+  <a target="_blank" href="https://github.com/kalpana-da/hubspot-custom-modules">
     <img src="https://img.shields.io/badge/⭐%20Star%20this%20repository-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="Star this repository">
   </a>
 </p>
