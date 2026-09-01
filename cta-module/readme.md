@@ -5,11 +5,11 @@ A responsive **HubSpot CMS custom module** for creating a clean Call-to-Action s
 ## Module Preview
 
 <p align="center">
-  <img src="https://github.com/example/cta-module/blob/main/cta_module_preview.png" alt="CTA Module Preview" width="800">
+  <img src="https://github.com/kalpana-da/hubspot-custom-modules/blob/main/cta-module/cte_module_preview.png" alt="CTA Module Preview" width="800">
 </p>
 
 <p align="center">
-  <a target="_blank" href="https://github.com/example/cta-module/blob/main/cta_module_preview.png">
+  <a target="_blank" href="https://github.com/kalpana-da/hubspot-custom-modules/blob/main/cta-module/cte_module_preview.png">
     <strong>🔍 View Module Preview</strong>
   </a>
 </p>
@@ -28,11 +28,11 @@ A responsive **HubSpot CMS custom module** for creating a clean Call-to-Action s
 
 ### Quick Links
 
-- [📄 Open fields.json](https://github.com/example/cta-module/blob/main/fields.json)
-- [📄 Open meta.json](https://github.com/example/cta-module/blob/main/meta.json)
-- [📄 Open module.html](https://github.com/example/cta-module/blob/main/module.html)
-- [📄 Open module.css](https://github.com/example/cta-module/blob/main/module.css)
-- [📄 Open module.js](https://github.com/example/cta-module/blob/main/module.js)
+- [📄 Open fields.json](https://github.com/kalpana-da/hubspot-custom-modules/blob/main/cta-module/fields.json)
+- [📄 Open meta.json](https://github.com/kalpana-da/hubspot-custom-modules/blob/main/cta-module/meta.json)
+- [📄 Open module.html](https://github.com/kalpana-da/hubspot-custom-modules/blob/main/cta-module/module.html)
+- [📄 Open module.css](https://github.com/kalpana-da/hubspot-custom-modules/blob/main/cta-module/module.css)
+- [📄 Open module.js](https://github.com/kalpana-da/hubspot-custom-modules/blob/main/cta-module/module.js)
 
 ---
 
@@ -41,7 +41,7 @@ A responsive **HubSpot CMS custom module** for creating a clean Call-to-Action s
 The module provides editable content fields from the **HubSpot Content** tab.
 
 <p align="center">
-  <a target="_blank" href="https://github.com/example/cta-module/blob/main/cta_module_fields.png">
+  <a target="_blank" href="https://github.com/kalpana-da/hubspot-custom-modules/blob/main/cta-module/CTE_Module_fields.png">
     <strong>📄 View Content Fields</strong>
   </a>
 </p>
@@ -76,21 +76,21 @@ Style
 ```
 
 <p align="center">
-  <a target="_blank" href="https://github.com/example/cta-module/blob/main/cta_module_fields.png">
-    <img src="https://github.com/example/cta-module/blob/main/cta_module_fields.png" alt="CTA Content Fields" width="30%">
+  <a target="_blank" href="https://github.com/kalpana-da/hubspot-custom-modules/blob/main/cta-module/CTE_Module_fields.png">
+    <img src="https://github.com/kalpana-da/hubspot-custom-modules/blob/main/cta-module/CTE_Module_fields.png" alt="CTA Content Fields" width="30%">
   </a>
   &nbsp;&nbsp;
-  <a target="_blank" href="https://github.com/example/cta-module/blob/main/cta_module_style_fields.png">
-    <img src="https://github.com/example/cta-module/blob/main/cta_module_style_fields.png" alt="CTA Style Fields" width="30%">
+  <a target="_blank" href="https://github.com/kalpana-da/hubspot-custom-modules/blob/main/cta-module/CTE_Module_style_fields.png">
+    <img src="https://github.com/kalpana-da/hubspot-custom-modules/blob/main/cta-module/CTE_Module_style_fields.png" alt="CTA Style Fields" width="30%">
   </a>
   &nbsp;&nbsp;
-  <a target="_blank" href="https://github.com/example/cta-module/blob/main/cta_module_preview.png">
-    <img src="https://github.com/example/cta-module/blob/main/cta_module_preview.png" alt="CTA Module Preview" width="30%">
+  <a target="_blank" href="https://github.com/kalpana-da/hubspot-custom-modules/blob/main/cta-module/cte_module_preview.png">
+    <img src="https://github.com/kalpana-da/hubspot-custom-modules/blob/main/cta-module/cte_module_preview.png" alt="CTA Module Preview" width="30%">
   </a>
 </p>
 
 <p align="center">
-  <a target="_blank" href="https://github.com/example/cta-module/blob/main/cta_module_style_fields.png">
+  <a target="_blank" href="https://github.com/kalpana-da/hubspot-custom-modules/blob/main/cta-module/CTE_Module_style_fields.png">
     <strong>🎨 View Style Fields</strong>
   </a>
 </p>
@@ -253,11 +253,11 @@ CTA Module/
 # 10. Screenshots
 
 <p align="center">
-  <a target="_blank" href="https://github.com/example/cta-module/blob/main/cta_module_fields.png"><strong>📄 Content Fields</strong></a>
+  <a target="_blank" href="https://github.com/kalpana-da/hubspot-custom-modules/blob/main/cta-module/cta_module_fields.png"><strong>📄 Content Fields</strong></a>
   &nbsp; | &nbsp;
-  <a target="_blank" href="https://github.com/example/cta-module/blob/main/cta_module_style_fields.png"><strong>🎨 Style Fields</strong></a>
+  <a target="_blank" href="https://github.com/kalpana-da/hubspot-custom-modules/blob/main/cta-module/CTE_Module_style_fields.png"><strong>🎨 Style Fields</strong></a>
   &nbsp; | &nbsp;
-  <a target="_blank" href="https://github.com/example/cta-module/blob/main/cta_module_preview.png"><strong>🔍 Module Preview</strong></a>
+  <a target="_blank" href="https://github.com/kalpana-da/hubspot-custom-modules/blob/main/cta-module/cta_module_preview.png"><strong>🔍 Module Preview</strong></a>
 </p>
 
 # Quick Setup
