@@ -1,0 +1,260 @@
+[ {
+  "id" : "987d4530-fc0a-6b05-c668-afedc37ce867",
+  "name" : "cte_style",
+  "label" : "CTA STYLE",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "3f128afe-b726-68fe-fd36-c4049ac49b83",
+    "name" : "heading_font",
+    "label" : "Heading Font",
+    "required" : false,
+    "locked" : false,
+    "load_external_fonts" : true,
+    "type" : "font",
+    "display_width" : null,
+    "default" : {
+      "size" : 35,
+      "styles" : { },
+      "variant" : "700",
+      "font" : "Geologica",
+      "fallback" : "sans-serif",
+      "font_set" : "GOOGLE",
+      "color" : "#073763"
+    }
+  }, {
+    "id" : "8ae360c6-a96f-a825-d49e-49d18e6b9d5c",
+    "name" : "description_font",
+    "label" : "Description Font",
+    "required" : false,
+    "locked" : false,
+    "load_external_fonts" : true,
+    "type" : "font",
+    "display_width" : null,
+    "default" : {
+      "size" : 25,
+      "styles" : { },
+      "variant" : "700",
+      "font" : "Geologica",
+      "fallback" : "sans-serif",
+      "font_set" : "GOOGLE",
+      "color" : "#CC0201"
+    }
+  }, {
+    "id" : "fe6bb59a-54b8-f067-986c-3a5005cef80e",
+    "name" : "button_text_font",
+    "label" : "Button Text Font ",
+    "required" : false,
+    "locked" : false,
+    "load_external_fonts" : true,
+    "type" : "font",
+    "display_width" : null,
+    "default" : {
+      "size" : 16,
+      "styles" : { },
+      "variant" : "500",
+      "font" : "Geologica",
+      "fallback" : "sans-serif",
+      "font_set" : "GOOGLE",
+      "color" : "#073763"
+    }
+  }, {
+    "id" : "48657144-8de3-2b8b-ef88-f50107a34e14",
+    "name" : "button_bg",
+    "label" : "Button Background",
+    "required" : false,
+    "locked" : false,
+    "type" : "color",
+    "display_width" : null,
+    "default" : {
+      "color" : "#0600FF",
+      "opacity" : 100
+    }
+  }, {
+    "id" : "3ca28567-d713-1749-782f-c90d41f5634f",
+    "name" : "button_bg_hover",
+    "label" : "Button Background Hover",
+    "required" : false,
+    "locked" : false,
+    "type" : "color",
+    "display_width" : null,
+    "default" : {
+      "color" : "#FF0000",
+      "opacity" : 100
+    }
+  }, {
+    "id" : "12d27438-8180-b531-4914-b83acf0c23bb",
+    "name" : "section_bg",
+    "label" : "Section Background",
+    "required" : false,
+    "locked" : false,
+    "type" : "color",
+    "display_width" : null,
+    "default" : {
+      "color" : "#D0E0E3",
+      "opacity" : 100
+    }
+  }, {
+    "id" : "b9b7c050-a788-13aa-c0bb-3e8d0dbfbd61",
+    "name" : "border_color",
+    "label" : "Border Color",
+    "required" : false,
+    "locked" : false,
+    "type" : "color",
+    "display_width" : null,
+    "default" : {
+      "color" : "#666666",
+      "opacity" : 100
+    }
+  }, {
+    "id" : "2dfde274-25f9-d4f8-1069-ee88df16cae9",
+    "name" : "section_border",
+    "label" : "Section Border",
+    "required" : false,
+    "locked" : false,
+    "display" : "text",
+    "step" : 1,
+    "suffix" : "px",
+    "type" : "number",
+    "display_width" : null,
+    "default" : 1
+  }, {
+    "id" : "8bf6c085-c437-9e43-2a6f-62fcde52e45c",
+    "name" : "button_border_radius",
+    "label" : "Button Border Radius ",
+    "required" : false,
+    "locked" : false,
+    "display" : "text",
+    "step" : 1,
+    "suffix" : "px",
+    "type" : "number",
+    "display_width" : null,
+    "default" : 5
+  } ],
+  "tab" : "STYLE",
+  "expanded" : false,
+  "group_occurrence_meta" : null,
+  "type" : "group",
+  "display_width" : null,
+  "default" : {
+    "heading_font" : {
+      "size" : 35,
+      "styles" : { },
+      "variant" : "700",
+      "font" : "Geologica",
+      "fallback" : "sans-serif",
+      "font_set" : "GOOGLE",
+      "color" : "#073763"
+    },
+    "description_font" : {
+      "size" : 25,
+      "styles" : { },
+      "variant" : "700",
+      "font" : "Geologica",
+      "fallback" : "sans-serif",
+      "font_set" : "GOOGLE",
+      "color" : "#CC0201"
+    },
+    "button_text_font" : {
+      "size" : 16,
+      "styles" : { },
+      "variant" : "500",
+      "font" : "Geologica",
+      "fallback" : "sans-serif",
+      "font_set" : "GOOGLE",
+      "color" : "#073763"
+    },
+    "button_bg" : {
+      "color" : "#0600FF",
+      "opacity" : 100
+    },
+    "button_bg_hover" : {
+      "color" : "#FF0000",
+      "opacity" : 100
+    },
+    "section_bg" : {
+      "color" : "#D0E0E3",
+      "opacity" : 100
+    },
+    "border_color" : {
+      "color" : "#666666",
+      "opacity" : 100
+    },
+    "section_border" : 1,
+    "button_border_radius" : 5
+  }
+}, {
+  "id" : "8d90a3fd-232d-3ffa-fef0-5c1e3de23233",
+  "name" : "content",
+  "label" : "Content",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "5d43c2c4-4ce0-a43c-c746-4025c0418b04",
+    "name" : "heading",
+    "label" : "Heading",
+    "required" : false,
+    "locked" : false,
+    "allow_new_line" : false,
+    "type" : "text",
+    "display_width" : null,
+    "default" : "Ready to grow your business?"
+  }, {
+    "id" : "4e0d95de-795b-186b-ee46-ff4bdb5aa597",
+    "name" : "description",
+    "label" : "Description",
+    "required" : false,
+    "locked" : false,
+    "type" : "richtext",
+    "display_width" : null,
+    "default" : "Build a better digital experience for your customers"
+  }, {
+    "id" : "914ffde3-089b-365a-32d3-ca8fb14900fd",
+    "name" : "button_text",
+    "label" : "Button Text",
+    "required" : false,
+    "locked" : false,
+    "allow_new_line" : false,
+    "type" : "text",
+    "display_width" : null,
+    "default" : "Get Started"
+  }, {
+    "id" : "c3c716dd-a80f-d854-5f91-c2d1a09ac1b5",
+    "name" : "button_link",
+    "label" : "Button Link",
+    "required" : false,
+    "locked" : false,
+    "supported_types" : [ "EXTERNAL", "CONTENT", "FILE", "EMAIL_ADDRESS", "BLOG", "PHONE_NUMBER", "PAYMENT" ],
+    "show_advanced_rel_options" : false,
+    "type" : "link",
+    "display_width" : null,
+    "default" : {
+      "url" : {
+        "content_id" : null,
+        "href" : "https://go1digital.com/",
+        "type" : "EXTERNAL"
+      },
+      "open_in_new_tab" : true,
+      "no_follow" : false
+    }
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "group_occurrence_meta" : null,
+  "type" : "group",
+  "display_width" : null,
+  "default" : {
+    "heading" : "Ready to grow your business?",
+    "description" : "Build a better digital experience for your customers",
+    "button_text" : "Get Started",
+    "button_link" : {
+      "url" : {
+        "content_id" : null,
+        "href" : "https://go1digital.com/",
+        "type" : "EXTERNAL"
+      },
+      "open_in_new_tab" : true,
+      "no_follow" : false
+    }
+  }
+} ]

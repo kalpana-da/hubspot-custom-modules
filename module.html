@@ -1,0 +1,89 @@
+<section class="cta-section">
+  <div class="cta-content">
+        {% if module.content.heading %}
+          <h2 class="cta-heading">{{ module.content.heading }}</h2>
+        {% endif %}
+
+        {% if module.content.description %}
+          <div class="cta-description">
+            {{ module.content.description }}
+          </div>
+        {% endif %}
+         {% if module.content.button_link and module.content.button_text %}
+         <a class="cta-button" href="{{ module.content.button_link.url.href | default('https://go1digital.com') }}">
+         {{ module.content.button_text }}
+         </a>
+        {% endif %}
+   </div>
+</section>
+
+{% require_css %}
+<style>
+
+{% scope_css %}
+
+.cta-section {
+  width: 100%;
+  box-sizing: border-box;
+
+  background-color: {{ module.cte_style.section_bg.color|default("#e8f3fe") }};
+
+  border: {{ module.cte_style.section_border|default(2) }}px solid
+    {{ module.cte_style.border_color.color|default("#cccccc") }};
+
+  padding: 60px 20px;
+  text-align: center;
+}
+
+
+.cta-content {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+.cta-heading {
+  margin: 0 0 20px;
+
+  {{ module.cte_style.heading_font.css }}
+
+  line-height: 1.2;
+}
+
+
+.cta-description {
+  margin: 0 auto 30px;
+
+  {{ module.cte_style.description_font.css }}
+
+  line-height: 1.6;
+}
+
+
+.cta-button {
+  display: inline-block;
+
+  padding: 14px 28px;
+
+  background-color: {{ module.cte_style.button_bg.color|default("#0c5394") }};
+
+  {{ module.cte_style.button_text_font.css }}
+
+  text-decoration: none;
+
+  border-radius: {{ module.cte_style.button_border_radius }}px;
+
+  transition: background-color 0.3s ease;
+}
+
+
+.cta-button:hover {
+  background-color: {{ module.cte_style.button_bg_hover.color|default("#083b69") }};
+}
+
+
+{% end_scope_css %}
+
+</style>
+{% end_require_css %}

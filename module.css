@@ -1,0 +1,71 @@
+
+/* =====================================
+   TABLET
+===================================== */
+
+@media (max-width: 768px) {
+
+  .cta-section {
+    padding: 50px 20px;
+  }
+
+  .cta-heading {
+    font-size: 34px;
+  }
+
+  .cta-description {
+    font-size: 17px;
+  }
+
+}
+
+/* =====================================
+   MOBILE
+===================================== */
+
+@media (max-width: 600px) {
+
+  .cta-section {
+    padding: 40px 15px;
+  }
+
+  .cta-heading {
+    font-size: 28px;
+  }
+
+  .cta-description {
+    font-size: 16px;
+  }
+
+  .cta-button {
+    padding: 12px 24px;
+
+    font-size: 15px;
+  }
+
+}
+
+
+/* =====================================
+   SMALL MOBILE
+===================================== */
+
+@media (max-width: 400px) {
+
+  .cta-section {
+    padding: 35px 12px;
+  }
+
+  .cta-heading {
+    font-size: 24px;
+  }
+
+  .cta-description {
+    font-size: 15px;
+  }
+
+  .cta-button {
+    padding: 11px 20px;
+  }
+
+}
